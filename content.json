@@ -3,7 +3,7 @@
     [
       "overview",
       "1. Biggest changes at a glance",
-      "The Part 2 overhaul moves character progression toward equipment slots rather than individual equipment pieces. This is an unofficial English summary of the Korean developer notice.",
+      "The Korean November 25 pre-announcement describes a forthcoming overhaul, not an update already applied to Western servers. Character power moves toward equipment slots and roster-wide systems. November 25 transfer rules take precedence over earlier livestream reporting.",
       [
         [
           "Equipment honing",
@@ -50,32 +50,117 @@
           "Now have item levels"
         ]
       ],
-      []
+      [
+        [
+          "Other Korean announcements reviewed",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "November 20 livestream",
+              "Developers discussed making combat power more prominent, narrowing class gaps and reducing support dependence. These are design goals, not confirmed Western changes."
+            ],
+            [
+              "November 25 live maintenance",
+              "Shadow Raid and UI bug fixes; no new major class balance pass listed."
+            ],
+            [
+              "December 2 KR shop notice",
+              "Mari’s Secret Shop and specified growth, welcome, crystal, card XP and blessing products end sales; specified dye reagents and 28-day Azena’s Blessing are temporarily suspended. This is not a Part 2 launch-date announcement."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "equipment",
       "2. New equipment layout",
-      "Four new equipment types are introduced: Vambrace, Belt, Holy Relic and Seal. Accessories become part of the main equipment progression system. Holy Relic and Seal are collectively called Treasures (보구), a working translation.",
+      "16 slots: two weapons, six armor slots, two Treasures and six accessories. New equipment is not destructible, sellable or tradable. New gear and accessories grant weapon power, vitality, physical/magical defense and main stats. Item-level replacement and slot Honing are separate.",
       [
         [
-          "Weapon and armor",
-          "8 slots"
+          "Weapon (2)",
+          "Weapon, Vambrace"
         ],
         [
-          "Accessories",
-          "8 slots"
+          "Armor (6)",
+          "Helmet, Shoulders, Chestpiece, Pants, Gloves, Belt"
         ],
         [
-          "New slots",
-          "Vambrace, Belt, Holy Relic, Seal"
+          "Treasures (2)",
+          "Holy Relic, Seal"
+        ],
+        [
+          "Accessories (6)",
+          "Necklace, two Earrings, two Rings, Bracelet"
         ]
       ],
-      []
+      [
+        [
+          "Where new item levels come from",
+          [
+            "Old item (highest applicable level)",
+            "New slots"
+          ],
+          [
+            [
+              "Weapon",
+              "Weapon, Vambrace, Belt, Holy Relic, Seal, Bracelet"
+            ],
+            [
+              "Helmet",
+              "Helmet, Necklace"
+            ],
+            [
+              "Shoulders",
+              "Shoulders, one Earring"
+            ],
+            [
+              "Chestpiece",
+              "Chestpiece, one Earring"
+            ],
+            [
+              "Pants",
+              "Pants, one Ring"
+            ],
+            [
+              "Gloves",
+              "Gloves, one Ring"
+            ]
+          ]
+        ],
+        [
+          "Slot progression",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Existing Honing",
+              "Transfers to the corresponding slot, including existing Vambrace Honing."
+            ],
+            [
+              "Belt",
+              "Item level derives from weapon, but Honing starts separately."
+            ],
+            [
+              "Artisan’s Energy",
+              "Same value retained in corresponding slot."
+            ],
+            [
+              "Normal and Sidereal weapons",
+              "Higher-level weapon determines replacement criteria; see Section 5 exception."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "conversion",
       "3. Equipment item-level conversion",
-      "Existing equipment converts automatically. Some high-end pieces receive additional item levels. The examples apply to individual weapons and armor pieces, not the character average. Sidereal weapons have separate rules.",
+      "The November 25 standard gear table uses exclusive lower and inclusive upper endpoints. The calculator and full table use the same 40 published ranges. Individual gear only, not character average or Sidereal weapons.",
       [
         [
           1675,
@@ -83,8 +168,43 @@
           0
         ],
         [
+          1680,
+          1680,
+          0
+        ],
+        [
+          1685,
+          1685,
+          0
+        ],
+        [
+          1690,
+          1690,
+          0
+        ],
+        [
+          1695,
+          1695,
+          0
+        ],
+        [
           1700,
           1700,
+          0
+        ],
+        [
+          1705,
+          1705,
+          0
+        ],
+        [
+          1710,
+          1710,
+          0
+        ],
+        [
+          1715,
+          1715,
           0
         ],
         [
@@ -93,13 +213,48 @@
           0
         ],
         [
+          1725,
+          1725,
+          0
+        ],
+        [
           1730,
           1730,
           0
         ],
         [
+          1735,
+          1735,
+          0
+        ],
+        [
+          1740,
+          1740,
+          0
+        ],
+        [
+          1745,
+          1745,
+          0
+        ],
+        [
           1750,
           1750,
+          0
+        ],
+        [
+          1755,
+          1755,
+          0
+        ],
+        [
+          1760,
+          1760,
+          0
+        ],
+        [
+          1765,
+          1765,
           0
         ],
         [
@@ -138,20 +293,313 @@
           15
         ]
       ],
-      []
+      [
+        [
+          "Complete standard gear transfer ranges",
+          [
+            "Above",
+            "Up to (inclusive)",
+            "New rarity",
+            "Polish level",
+            "New item level"
+          ],
+          [
+            [
+              50,
+              100,
+              "T1 Uncommon",
+              0,
+              100
+            ],
+            [
+              100,
+              150,
+              "T1 Rare",
+              0,
+              150
+            ],
+            [
+              150,
+              200,
+              "T1 Epic",
+              0,
+              200
+            ],
+            [
+              200,
+              250,
+              "T1 Legendary",
+              0,
+              250
+            ],
+            [
+              250,
+              600,
+              "T2 Common",
+              0,
+              600
+            ],
+            [
+              600,
+              700,
+              "T2 Uncommon",
+              0,
+              700
+            ],
+            [
+              700,
+              800,
+              "T2 Rare",
+              0,
+              800
+            ],
+            [
+              800,
+              900,
+              "T2 Epic",
+              0,
+              900
+            ],
+            [
+              900,
+              1000,
+              "T2 Legendary",
+              0,
+              1000
+            ],
+            [
+              1000,
+              1200,
+              "T3 Common",
+              0,
+              1200
+            ],
+            [
+              1200,
+              1300,
+              "T3 Uncommon",
+              0,
+              1300
+            ],
+            [
+              1300,
+              1400,
+              "T3 Rare",
+              0,
+              1400
+            ],
+            [
+              1400,
+              1500,
+              "T3 Epic",
+              0,
+              1500
+            ],
+            [
+              1500,
+              1600,
+              "T3 Legendary",
+              0,
+              1600
+            ],
+            [
+              1600,
+              1675,
+              "T4 Uncommon",
+              0,
+              1675
+            ],
+            [
+              1675,
+              1680,
+              "T4 Uncommon",
+              1,
+              1680
+            ],
+            [
+              1680,
+              1685,
+              "T4 Uncommon",
+              2,
+              1685
+            ],
+            [
+              1685,
+              1690,
+              "T4 Uncommon",
+              3,
+              1690
+            ],
+            [
+              1690,
+              1695,
+              "T4 Uncommon",
+              4,
+              1695
+            ],
+            [
+              1695,
+              1700,
+              "T4 Rare",
+              0,
+              1700
+            ],
+            [
+              1700,
+              1705,
+              "T4 Rare",
+              1,
+              1705
+            ],
+            [
+              1705,
+              1710,
+              "T4 Rare",
+              2,
+              1710
+            ],
+            [
+              1710,
+              1715,
+              "T4 Rare",
+              3,
+              1715
+            ],
+            [
+              1715,
+              1720,
+              "T4 Rare",
+              4,
+              1720
+            ],
+            [
+              1720,
+              1725,
+              "T4 Epic",
+              0,
+              1725
+            ],
+            [
+              1725,
+              1730,
+              "T4 Epic",
+              1,
+              1730
+            ],
+            [
+              1730,
+              1735,
+              "T4 Epic",
+              2,
+              1735
+            ],
+            [
+              1735,
+              1740,
+              "T4 Epic",
+              3,
+              1740
+            ],
+            [
+              1740,
+              1745,
+              "T4 Epic",
+              4,
+              1745
+            ],
+            [
+              1745,
+              1750,
+              "T4 Legendary",
+              0,
+              1750
+            ],
+            [
+              1750,
+              1755,
+              "T4 Legendary",
+              1,
+              1755
+            ],
+            [
+              1755,
+              1760,
+              "T4 Legendary",
+              2,
+              1760
+            ],
+            [
+              1760,
+              1765,
+              "T4 Legendary",
+              3,
+              1765
+            ],
+            [
+              1765,
+              1770,
+              "T4 Legendary",
+              4,
+              1770
+            ],
+            [
+              1770,
+              1775,
+              "T4 Relic",
+              2,
+              1785
+            ],
+            [
+              1775,
+              1780,
+              "T4 Relic",
+              3,
+              1790
+            ],
+            [
+              1780,
+              1785,
+              "T4 Relic",
+              4,
+              1795
+            ],
+            [
+              1785,
+              1790,
+              "T4 Ancient",
+              0,
+              1800
+            ],
+            [
+              1790,
+              1795,
+              "T4 Ancient",
+              2,
+              1810
+            ],
+            [
+              1795,
+              1800,
+              "T4 Ancient",
+              3,
+              1815
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "materials",
       "4. Honing materials and quality compensation",
-      "The Quality system is removed entirely: gear and accessories no longer receive Quality, and the Quality Upgrade system is discontinued. Existing Quality Upgrade materials are removed and replaced with Part 2 Growth Material Exchange Tokens. Additional tokens are awarded for each weapon and armor slot according to the highest Quality piece held by the character for that slot; Sidereal weapons are excluded. Existing Artisan’s Energy carries over to its corresponding slot, according to the earlier summary. Exact token payout amounts have not been supplied.",
+      "The Quality system is removed entirely: gear and accessories no longer receive Quality, and the Quality Upgrade system is discontinued. Existing Quality Upgrade materials are removed and replaced with Part 2 Growth Material Exchange Tokens. Additional tokens are awarded for each weapon and armor slot according to the highest Quality piece held by the character for that slot; Sidereal weapons are excluded. Existing Artisan’s Energy carries over to its corresponding slot, as specified in the November 25 notice. Exact token payout amounts have not been supplied.",
       [
         [
-          "T3 honing materials",
-          "Removed"
+          "T3 honing and growth materials (except Honor Shards and pouches)",
+          "Removed; exchange eligible materials at NPC beforehand"
         ],
         [
-          "Honor Shards",
-          "Silver"
+          "Honor Shards and Honor Shard pouches",
+          "Replaced with Silver"
         ],
         [
           "T4 Fusion Materials",
@@ -188,6 +636,10 @@
         [
           "Quality upgrade materials",
           "Part 2 Growth Material Exchange Token"
+        ],
+        [
+          "T4 Circulation Leapstones / Transition Leapstones",
+          "Part 2 Growth Material Exchange Tokens"
         ]
       ],
       [
@@ -220,7 +672,7 @@
             ],
             [
               "Token amounts",
-              "Exact payout schedule not provided in the supplied excerpt."
+              "Exact quantities not stated in reviewed notice text."
             ]
           ]
         ]
@@ -229,62 +681,262 @@
     [
       "sidereal",
       "5. Sidereal weapons",
-      "Sidereal weapons have separate item-level conversion and material refund rules. Refunded materials are described as character-bound. Selected examples only.",
+      "Sidereal Evolution and Sidereal Conversion are removed. Replacement Ella stage and item level depend on the old combination; later growth uses Polish to raise item level and weapon-slot Honing. Refunds are character-bound and reflect the difference between old expenditure and new progression costs. When both normal and Sidereal weapons are held, use the higher item level for replacement criteria. At Sidereal item level 1800 or above, the other weapon-derived slots (Vambrace, Belt, Holy Relic, Seal, Bracelet) use a normal Stage 25 weapon as reference. Some replacement weapon item levels are lower; weapon-slot Honing is a separate measure. The table follows the Korean reproduction, whose merged cells are expanded here.",
       [
         [
-          "+8, Ella 3",
+          "+0 / no Ella",
+          1100,
+          "Ella 1",
+          1100
+        ],
+        [
+          "+1 / no Ella",
+          1200,
+          "Ella 1",
+          1100
+        ],
+        [
+          "+2 / no Ella",
+          1300,
+          "Ella 1",
+          1100
+        ],
+        [
+          "+3 / no Ella",
+          1400,
+          "Ella 1",
+          1100
+        ],
+        [
+          "+4 / no Ella",
+          1500,
+          "Ella 1",
+          1100
+        ],
+        [
+          "+5 / no Ella",
+          1600,
+          "Ella 1",
+          1100
+        ],
+        [
+          "+6 / no Ella",
+          1625,
+          "Ella 2",
+          1625
+        ],
+        [
+          "+7 / no Ella",
+          1635,
+          "Ella 2",
+          1625
+        ],
+        [
+          "+6 / Ella 1",
+          1650,
+          "Ella 2",
+          1625
+        ],
+        [
+          "+7 / Ella 1",
+          1665,
+          "Ella 2",
+          1625
+        ],
+        [
+          "+6 / Ella 2",
+          1675,
+          "Ella 2",
+          1625
+        ],
+        [
+          "+8 / no Ella",
+          1645,
+          "Ella 2",
+          1625
+        ],
+        [
+          "+7 / Ella 2",
+          1695,
+          "Ella 3",
+          1735
+        ],
+        [
+          "+7 / Ella 3",
+          1785,
+          "Ella 3",
+          1735
+        ],
+        [
+          "+8 / Ella 1",
+          1680,
+          "Ella 3",
+          1735
+        ],
+        [
+          "+8 / Ella 2",
+          1715,
+          "Ella 3",
+          1735
+        ],
+        [
+          "+8 / Ella 3",
           1775,
-          1785
+          "Ella 3",
+          1735
         ],
         [
-          "+9, Ella 2",
+          "+9 / Ella 2",
           1745,
-          1785
+          "Ella 3",
+          1735
         ],
         [
-          "+9, Ella 3",
+          "+9 / Ella 3",
           1800,
+          "Ella 4",
           1840
         ],
         [
-          "+10, Ella 3",
+          "+10 / Ella 3",
           1830,
+          "Ella 4 / Polish 5",
           1865
         ]
       ],
       [
         [
-          "Selected material refunds",
+          "Published material refunds",
           [
             "Existing Sidereal",
-            "Sidereal Energy",
+            "Sidereal Energy (character-bound)",
             "Romantic Material Kits"
           ],
           [
             [
-              "+8, Ella 2",
+              "+0 / no Ella",
+              0,
+              "0"
+            ],
+            [
+              "+1 / no Ella",
+              1,
+              "10"
+            ],
+            [
+              "+2 / no Ella",
+              3,
+              "310"
+            ],
+            [
+              "+3 / no Ella",
+              8,
+              "810"
+            ],
+            [
+              "+4 / no Ella",
+              18,
+              "1,810"
+            ],
+            [
+              "+5 / no Ella",
+              28,
+              "3,310"
+            ],
+            [
+              "+6 / no Ella",
+              20,
+              "3,000"
+            ],
+            [
+              "+7 / no Ella",
+              40,
+              "7,000"
+            ],
+            [
+              "+6 / Ella 1",
+              40,
+              "11,500"
+            ],
+            [
+              "+7 / Ella 1",
+              60,
+              "15,500"
+            ],
+            [
+              "+6 / Ella 2",
+              60,
+              "20,000"
+            ],
+            [
+              "+8 / no Ella",
+              70,
+              "12,000"
+            ],
+            [
+              "+7 / Ella 2",
+              20,
+              "12,000"
+            ],
+            [
+              "+7 / Ella 3",
+              20,
+              "14,500"
+            ],
+            [
+              "+8 / Ella 1",
+              30,
+              "8,500"
+            ],
+            [
+              "+8 / Ella 2",
               50,
               "17,000"
             ],
             [
-              "+8, Ella 3",
+              "+8 / Ella 3",
               50,
               "19,500"
             ],
             [
-              "+9, Ella 2",
+              "+9 / Ella 2",
               80,
               "24,000"
             ],
             [
-              "+9, Ella 3",
+              "+9 / Ella 3",
               20,
               "10,500"
             ],
             [
-              "+10, Ella 3",
+              "+10 / Ella 3",
               0,
-              0
+              "0"
+            ]
+          ]
+        ],
+        [
+          "Selected weapon-slot Honing stages (November 25 reporting)",
+          [
+            "Existing weapon",
+            "Weapon-slot Honing"
+          ],
+          [
+            [
+              "+8 / Ella 3",
+              "Stage 20"
+            ],
+            [
+              "+9 / Ella 2",
+              "Stage 22"
+            ],
+            [
+              "+9 / Ella 3",
+              "Stage 25"
+            ],
+            [
+              "+10 / Ella 3",
+              "Stage 25"
             ]
           ]
         ]
@@ -293,7 +945,7 @@
     [
       "accessories",
       "6. Accessories and bracelets",
-      "Qualifying accessories receive Mana Infusion Scrolls in six grades and retain their existing trade limits. H/M/L means High/Mid/Low roll. For Ancient accessories, quality must be at least 67 and effects must be eligible; the third effect only matters for H/H/H or H/H/M combinations. Qualifying Relic support necklaces and rings with H/H also receive grade 5. For bracelets, the highest-performing eligible rolled or partially rolled T4 bracelet on each character converts to a Seal Mana Infusion Scroll (grade 1–21, with grade 1 the strongest). The game evaluates DPS and support effect combinations and selects the better result, except DPS classes cannot transfer a bracelet containing only support options. Relic bracelets are assessed using Ancient-equivalent values. All other T4 bracelets, including unrolled ones, convert to dismantling materials exchangeable for silver. T3 bracelets are removed without compensation. The published November 25 notice gives effect tiers, not a complete scoring formula or exact grade cutoffs. Even within one tier, effects and roll strengths can differ.",
+      "Qualifying accessories receive Mana Infusion Scrolls in six grades and retain their existing trade limits. H/M/L means High/Mid/Low roll. For Ancient accessories, quality must be at least 67 and effects must be eligible; the third effect only matters for H/H/H or H/H/M combinations. Qualifying Relic support necklaces and rings with H/H also receive grade 5. For bracelets, the highest-performing eligible rolled or partially rolled T4 bracelet on each character converts to a Seal Mana Infusion Scroll (grade 1–21, with grade 1 the strongest). The game evaluates DPS and support effect combinations and selects the better result, except DPS classes cannot transfer a bracelet containing only support options. Relic bracelets are assessed using Ancient-equivalent values. All other T4 bracelets, including unrolled ones, convert to dismantling materials exchangeable for silver. T3 bracelets are removed without compensation. The published November 25 notice gives effect tiers, not a complete scoring formula or exact grade cutoffs. Even within one tier, effects and roll strengths can differ. Accessory Polish and bracelet effect assignment/rarity upgrade end. Scrolls match the accessory slot and remaining trade count; partially polished accessories follow the same valid-option rules. Ineligible T4 accessories become Radiant Gem Fragments according to Polish level, exchangeable for Silver. Tier 3 and lower accessories are removed without replacement.",
       [
         [
           "H/H/H",
@@ -323,10 +975,50 @@
         [
           "M/M or lower",
           "Grade 6",
-          "Grade 6"
+          "Grade 6 (H/M or lower)"
         ]
       ],
       [
+        [
+          "Valid accessory options by slot",
+          [
+            "Role / slot",
+            "First two valid options",
+            "Third valid option"
+          ],
+          [
+            [
+              "DPS Necklace",
+              "Additional Damage %; Damage to Enemies %",
+              "Attack Power +; Weapon Power +"
+            ],
+            [
+              "DPS Earring",
+              "Attack Power %; Weapon Power %",
+              "Attack Power +; Weapon Power +"
+            ],
+            [
+              "DPS Ring",
+              "Crit Rate %; Crit Damage %",
+              "Attack Power +; Weapon Power +"
+            ],
+            [
+              "Support Necklace",
+              "Brand Power %; identity gauge gain %",
+              "Weapon Power +; Max HP +"
+            ],
+            [
+              "Support Earring",
+              "Weapon Power %; Weapon Power +",
+              "Max HP +; party shield %; party healing %"
+            ],
+            [
+              "Support Ring",
+              "Ally Attack Power Enhancement Effect %; Ally Damage Enhancement Effect %",
+              "Weapon Power +; Max HP +"
+            ]
+          ]
+        ],
         [
           "Bracelet conversion: DPS roll tiers",
           [
@@ -423,7 +1115,7 @@
     [
       "stones",
       "7. Engravings and ability stones",
-      "Ability stones are removed and replaced with Engraving Slot Upgrades. Relic becomes the base engraving rarity. The conversion uses effective activation points, not raw faceting numbers. Both positive engravings must qualify for the character’s permitted DPS or support combinations. Negative effects do not affect conversion. A 4+4 stone also grants extra items. The valid engraving lists and transfer criteria below are transcribed from the supplied English reference image. The activation-point totals are not the raw faceting numbers, and the reference does not identify the additional item awarded for 4+4. Check the applicable engraving list before investing in a stone; an otherwise high-point stone is not automatically eligible.",
+      "All engravings start at Relic rank 0; Legendary books are no longer used. One fully faceted stone with the highest eligible activation-point total determines Engraving Slot Upgrades. Minimum total is 4. DPS characters need two DPS engravings; support characters may use two support or two DPS engravings. Awakening qualifies for both. Mixed-role pairs do not qualify solely because each is on a list. Point distribution matters; negative effects do not. Points are effective activation points, not raw faceting numbers. The supplied transfer table does not identify the extra 4+4 item.",
       [
         [
           "Ability stones",
@@ -492,41 +1184,86 @@
               "5 engraving slots set to level 7, plus an additional item"
             ]
           ]
+        ],
+        [
+          "Remaining Ability Stones and other items",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Unused faceted stone, valid pair, total ≥5",
+              "Accessory-slot growth materials according to point total."
+            ],
+            [
+              "Unused faceted stone, valid pair, total 4",
+              "Transcendence Powder."
+            ],
+            [
+              "Unfaceted stone or invalid engraving pair",
+              "Transcendence Powder according to rarity; activation points do not affect invalid-pair payout."
+            ],
+            [
+              "Soaring Stone Engraving Designation Kit",
+              "Ancient Holy Transcendence Powder."
+            ],
+            [
+              "Transcendence Powder",
+              "Will be exchangeable for Silver through a shop."
+            ]
+          ]
         ]
       ]
     ],
     [
       "gems",
       "8. Gems",
-      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Sacred Radiance Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Sacred Radiance gem, then two same-level gems make the next level. Maximum level is not specified. Important exception: qualifying T4 level 8 Radiance Gems obtained through previous paid growth events/products or Paradise content are converted into a selection box instead of the standard same-level conversion. Choose one new non-tradable T4 level 8 gem or one new tradable T4 level 7 gem. Choosing the tradable level 7 option allows you to trade it or use it for gem fusion. This exception applies only to gems from the specified acquisition routes, not every level 8 gem.",
+      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Sacred Radiance Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Sacred Radiance gem, then two same-level gems make the next level. Maximum level is not specified. Important exception: qualifying T4 level 8 Radiance Gems obtained through previous paid growth events/products or Paradise content are converted into a selection box instead of the standard same-level conversion. Choose one new non-tradable T4 level 8 gem or one new tradable T4 level 7 gem. Choosing the tradable level 7 option allows you to trade it or use it for gem fusion. This exception applies only to gems from the specified acquisition routes, not every level 8 gem. Gems are kept in Material Storage and can be assigned to desired skills. Previous equipping conditions and presets are removed, with preset expansion costs refunded. Old gems are unequipped; replacements arrive in shared storage, and standard replacement preserves binding status. Gems below Tier 3 are removed without replacement.",
       [
         [
-          "T3 Level 1–2",
-          "Deleted"
+          "Below T3",
+          "Removed without replacement"
         ],
         [
-          "T3 Level 3",
-          "T4 Level 1"
+          "T3 Lv. 1–2",
+          "Removed without replacement"
         ],
         [
-          "T3 Level 5",
-          "T4 Level 3"
+          "T3 Lv. 3",
+          "T4 Radiance Gem Lv. 1"
         ],
         [
-          "T3 Level 7",
-          "T4 Level 5"
+          "T3 Lv. 4",
+          "T4 Radiance Gem Lv. 2"
         ],
         [
-          "T3 Level 9",
-          "T4 Level 7"
+          "T3 Lv. 5",
+          "T4 Radiance Gem Lv. 3"
         ],
         [
-          "T3 Level 10",
-          "T4 Level 8"
+          "T3 Lv. 6",
+          "T4 Radiance Gem Lv. 4"
         ],
         [
-          "T4 Level 1–10",
-          "Same level (except qualifying gems listed below)"
+          "T3 Lv. 7",
+          "T4 Radiance Gem Lv. 5"
+        ],
+        [
+          "T3 Lv. 8",
+          "T4 Radiance Gem Lv. 6"
+        ],
+        [
+          "T3 Lv. 9",
+          "T4 Radiance Gem Lv. 7"
+        ],
+        [
+          "T3 Lv. 10",
+          "T4 Radiance Gem Lv. 8"
+        ],
+        [
+          "T4 Lv. 1–10",
+          "Same-level Radiance Gem (special exceptions below)"
         ]
       ],
       [
@@ -555,7 +1292,7 @@
     [
       "combat",
       "9. Combat, Ark Passive and cards",
-      "Ark Passive becomes a combat-style and stat allocation system, available at Combat Level 50. Prowess replaces Domination, Endurance and Expertise, and increases Damage to Enemies and Ally Attack Power Enhancement Effect according to its value. The Karma and Skill Rune systems are removed. Card effects become always-active Signature Effects.",
+      "Ark Passive becomes a combat-style and stat allocation system, available at Combat Level 50. Prowess replaces Domination, Endurance and Expertise, and increases Damage to Enemies and Ally Attack Power Enhancement Effect according to its value. The Karma and Skill Rune systems are removed. Card effects become always-active Signature Effects. November 18 multi-crit is a separate live-server balance change, not a guarantee of final Part 2 balance.",
       [
         [
           "Evolution",
@@ -1127,7 +1864,7 @@
     [
       "checklist",
       "12. What to do before Part 2 launches",
-      "Use this checklist for each character and your roster before the Part 2 maintenance. The November 25 Korean notice recommends using or exchanging items that would otherwise disappear or lose their current use. The bracelet priorities below are practical advice, not a guaranteed scroll grade. Verify Western implementation and timing before spending gold or making irreversible decisions. Progress is saved locally in this browser.",
+      "Use this checklist for each character and your roster before the Part 2 maintenance. The November 25 Korean notice recommends using or exchanging items that would otherwise disappear or lose their current use. The bracelet priorities below are practical advice, not a guaranteed scroll grade. Verify Western implementation and timing before spending gold or making irreversible decisions. Progress is saved locally in this browser. Optional preparation: finish desired achievements for content being removed and review Market listings; do not assume all listed items will be returned.",
       [],
       []
     ],
@@ -1146,7 +1883,7 @@
         ],
         [
           "1775+ players",
-          "Potential item-level increases"
+          "Higher standard item levels per eligible slot; separate Sidereal rules"
         ],
         [
           "Sidereal owners",
@@ -1154,7 +1891,7 @@
         ],
         [
           "High-quality accessory owners",
-          "Infusion Scroll compensation"
+          "Mana Infusion Scroll compensation for eligible options and Quality ≥67"
         ],
         [
           "Trade Skill players",
@@ -1173,17 +1910,17 @@
     ]
   ],
   "tasks": [
-    "Exchange eligible leftover T3 honing materials (destruction/guardian stones, leapstones, etc.) at the Honing Material Exchange NPC for T4 materials before maintenance. Honor Shards and shard pouches convert to silver instead.",
+    "Exchange eligible leftover T3 honing materials (destruction/guardian stones, leapstones, etc.) at the Honing Material Exchange NPC for T4 materials before maintenance. Honor Shards and shard pouches are replaced with Silver instead.",
     "Fuse leftover T3 damage and cooldown gems at Lv. 1–2 up to at least Lv. 3 before maintenance; otherwise they are deleted without replacement.",
     "Check every character's T4 bracelets. Prioritize Ancient bracelets with any two of Crit / Spec / Swift + 3 open roll lines (DPS), or Spec + Swift + 3 open lines (support). Roll promising unrolled bracelets; compare against your current best using the Section 6 tier tables. Relic and partially rolled bracelets may also qualify. Keep your strongest eligible bracelet until conversion; only one scroll per character.",
-    "Use Aura of Resonance Recovery Elixirs and consume existing Aura of Resonance through eligible content before maintenance. Remaining aura and recovery potions are deleted, not compensated.",
-    "Use Rest Bonus Recovery Elixirs and consume existing rest bonus by running eligible daily content before maintenance. Old rest bonus and recovery potions do not carry over.",
-    "Spend all Sand of Trials by running the Haal’s Hourglass content before maintenance; unused sand is deleted without replacement.",
-    "Guild officers: distribute the guild's remaining guild Bloodstones to members before maintenance. Undistributed guild Bloodstones disappear; character-held Sylmael Bloodstones convert to silver at an announced rate.",
+    "Use Aura of Resonance Recovery Elixirs and consume existing Aura of Resonance through eligible content before maintenance. Remaining aura and Recovery Elixirs are deleted, not compensated.",
+    "Use Rest Bonus Recovery Elixirs and consume existing rest bonus by running eligible daily content before maintenance. Old rest bonus and Recovery Elixirs do not carry over.",
+    "Spend all Sand of Trials by running Haal’s Hourglass content before maintenance; unused sand is deleted without replacement.",
+    "Guild officers: distribute the guild's remaining guild Bloodstones to members before maintenance. Undistributed guild Bloodstones disappear; character-held Sylmael Bloodstones convert to silver at a set ratio (exact rate not provided).",
     "Apply any unused Jumping Growth / Powerpass style support to the intended character before maintenance; the style-support feature ends."
   ],
   "source": "https://lostark.game.onstove.com/News/Notice/Views/13608",
-  "status": "Unverified draft based on the earlier English summary. The official Korean notice could not be retrieved for fresh verification. Terminology and conversion figures are provisional; Western implementation is not confirmed.",
+  "status": "Reviewed 25 November 2026 against accessible Korean reproductions of notice 13608, November 20 livestream reporting, supplied translated excerpts and official October/November balance PDFs. Direct STOVE access remains unavailable. Working translations, unpublished rates and Western implementation remain unconfirmed.",
   "headers": {
     "conversion": [
       "Old item level",
@@ -1192,8 +1929,9 @@
     ],
     "sidereal": [
       "Existing Sidereal",
-      "Old ilvl",
-      "New ilvl"
+      "Old item level",
+      "New Ella / Polish",
+      "New item level"
     ],
     "accessories": [
       "Valid effects",
@@ -1210,6 +1948,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Audited all guide sections against accessible notice reproductions and supplied sources. Corrected Sidereal replacement levels, added full refunds and standard gear ranges, slot inheritance, accessory valid options, unused stone compensation, gem preset rules and November 20 support fixes. Added source links and review date.",
     "25 Nov 2026 · Removed the public terminology glossary while retaining terminology choices; expanded Quality compensation, combat, Trade Skills, sailing, content, Stronghold, pet, trading and other system details from supplied developer-note excerpts.",
     "25 Nov 2026 · Standardized English terminology using the supplied Korean–English glossary, renamed provisional item and slot labels, and added a searchable terminology reference. Gameplay figures unchanged.",
     "25 Nov 2026 · Added the DPS and support valid-engraving lists and all seven Ability Stone transfer outcomes in Section 7, transcribed from the supplied English reference image.",
@@ -1273,6 +2012,14 @@
       [
         "Community summary cross-check",
         "https://www.inven.co.kr/board/lostark/6271/4316656"
+      ],
+      [
+        "November 20 emergency maintenance (official original)",
+        "https://lostark.game.onstove.com/News/Notice/Views/13603"
+      ],
+      [
+        "November 20 emergency maintenance (Korean reproduction)",
+        "https://www.gamebit.co.kr/posts/patch-5578eecdfb9aa68c1db02bdd80b1bb2b"
       ]
     ],
     "systems": [
@@ -1299,6 +2046,10 @@
       [
         "November 19 follow-up (separate secondary source)",
         "Earlier reporting lists Glaivier core and Bard, Arcanist, Summoner and Artist corrections. These are separately sourced, not all contained in the November 18 PDF."
+      ],
+      [
+        "November 20 follow-up",
+        "Bard Sonic Vibration and Artist Paint: Sun Well no longer replace a longer remaining attack-power buff with a shorter one. Artist Recurrence passive’s Sun Well duration increase was fixed."
       ]
     ],
     "classes": [
@@ -1375,7 +2126,7 @@
       [
         "Bard",
         "Support",
-        "Brand durations: Sound Shock 7→14s; Stigma 5→12s; Note Bundle (음표 뭉치) 5→12s; Rhapsody of Light 5→12s; Sonatina 10→18s; Harp of Rhythm 5→12s. Sonic Vibration attack-power buff: old 2s refresh replaced by a duration tied to zone creation; first hit grants 6s, then duration decreases by 0.5s each 0.5s. Brand amplification remains 10%. Enlightenment brand 8→10s from earlier reporting; value obscured by page break. (pp. 9–10). Separate Nov 19 gauge correction reported by secondary source."
+        "Brand durations: Sound Shock 7→14s; Stigma 5→12s; Note Bundle (음표 뭉치) 5→12s; Rhapsody of Light 5→12s; Sonatina 10→18s; Harp of Rhythm 5→12s. Sonic Vibration attack-power buff: old 2s refresh replaced by a duration tied to zone creation; first hit grants 6s, then duration decreases by 0.5s each 0.5s. Brand amplification remains 10%. Enlightenment brand 8→10s from earlier reporting; value obscured by page break. (pp. 9–10). Separate Nov 19 gauge correction reported by secondary source. November 20: shorter Sonic Vibration buffs no longer replace longer Heavenly Tune buffs."
       ],
       [
         "Sorceress",
@@ -1395,7 +2146,7 @@
       [
         "Artist",
         "Mixed",
-        "Brand durations: Ink Shower (먹물세례) 6→12s; Drawing Orchids (난치기) 12→18s; Butterfly Dream (호접몽) new duration 18s (old 10s from earlier reporting, obscured by page break). Ink Rise (먹오름) crit tripod 95→80% in PvE / 40% in PvP. Paint: Sun Well attack-power buff changes from 2s to up to 6s tied to zone creation, decreasing by 0.5s each 0.5s after the first hit. Enlightenment brand passive 6→7s within 12m; 10% amplification retained. (pp. 10–11). Separate Nov 19 reporting describes Moon’s Shadow effect restoration."
+        "Brand durations: Ink Shower (먹물세례) 6→12s; Drawing Orchids (난치기) 12→18s; Butterfly Dream (호접몽) new duration 18s (old 10s from earlier reporting, obscured by page break). Ink Rise (먹오름) crit tripod 95→80% in PvE / 40% in PvP. Paint: Sun Well attack-power buff changes from 2s to up to 6s tied to zone creation, decreasing by 0.5s each 0.5s after the first hit. Enlightenment brand passive 6→7s within 12m; 10% amplification retained. (pp. 10–11). Separate Nov 19 reporting describes Moon’s Shadow effect restoration. November 20: shorter Sun Well buffs no longer overwrite longer Sunsketch buffs; Recurrence’s Sun Well duration effect fixed."
       ],
       [
         "Aeromancer",
@@ -1408,7 +2159,7 @@
         "All Minute Hand skills, including Ark Passive and Super Awakening skills, and Dimension Slash Awakening damage −5%. Ark Grid — Distorted Timeline Sun core 17P: Dimension Rift damage bonus 10/13.5% → 3/6.5%; 5s cooldown reduction per Destiny activation unchanged. (p. 11; English names provisional)"
       ]
     ],
-    "notes": "PDF page references refer to the 15-page official notice supplied by a reader, printed November 25, 2026. All 21 visible class headings are included. A few values and follow-up corrections remain secondary-source supported and are identified as such. Some skill names are retained in Korean or translated provisionally. Percentages describe individual coefficients, not total build DPS. The November 18 changes appear in combined class history; no skill/passive coefficients are added to cumulative whole-build damage totals."
+    "notes": "PDF page references refer to the 15-page official notice supplied by a reader, printed November 25, 2026. All 21 visible class headings are included. A few values and follow-up corrections remain secondary-source supported and are identified as such. Some skill names are retained in Korean or translated provisionally. Percentages describe individual coefficients, not total build DPS. The November 18 changes appear in combined class history; no skill/passive coefficients are added to cumulative whole-build damage totals. November 19 and 20 fixes grouped with November 18. November 25 maintenance lists bug fixes, not another major balance pass."
   },
   "balanceArchive": [
     {
@@ -1439,6 +2190,10 @@
         [
           "November 19 follow-up (separate secondary source)",
           "Earlier reporting lists Glaivier core and Bard, Arcanist, Summoner and Artist corrections. These are separately sourced, not all contained in the November 18 PDF."
+        ],
+        [
+          "November 20 follow-up",
+          "Bard Sonic Vibration and Artist Paint: Sun Well no longer replace a longer remaining attack-power buff with a shorter one. Artist Recurrence passive’s Sun Well duration increase was fixed."
         ]
       ],
       "classes": [
@@ -1515,7 +2270,7 @@
         [
           "Bard",
           "Support",
-          "Brand durations: Sound Shock 7→14s; Stigma 5→12s; Note Bundle (음표 뭉치) 5→12s; Rhapsody of Light 5→12s; Sonatina 10→18s; Harp of Rhythm 5→12s. Sonic Vibration attack-power buff: old 2s refresh replaced by a duration tied to zone creation; first hit grants 6s, then duration decreases by 0.5s each 0.5s. Brand amplification remains 10%. Enlightenment brand 8→10s from earlier reporting; value obscured by page break. (pp. 9–10). Separate Nov 19 gauge correction reported by secondary source."
+          "Brand durations: Sound Shock 7→14s; Stigma 5→12s; Note Bundle (음표 뭉치) 5→12s; Rhapsody of Light 5→12s; Sonatina 10→18s; Harp of Rhythm 5→12s. Sonic Vibration attack-power buff: old 2s refresh replaced by a duration tied to zone creation; first hit grants 6s, then duration decreases by 0.5s each 0.5s. Brand amplification remains 10%. Enlightenment brand 8→10s from earlier reporting; value obscured by page break. (pp. 9–10). Separate Nov 19 gauge correction reported by secondary source. November 20: shorter Sonic Vibration buffs no longer replace longer Heavenly Tune buffs."
         ],
         [
           "Sorceress",
@@ -1535,7 +2290,7 @@
         [
           "Artist",
           "Mixed",
-          "Brand durations: Ink Shower (먹물세례) 6→12s; Drawing Orchids (난치기) 12→18s; Butterfly Dream (호접몽) new duration 18s (old 10s from earlier reporting, obscured by page break). Ink Rise (먹오름) crit tripod 95→80% in PvE / 40% in PvP. Paint: Sun Well attack-power buff changes from 2s to up to 6s tied to zone creation, decreasing by 0.5s each 0.5s after the first hit. Enlightenment brand passive 6→7s within 12m; 10% amplification retained. (pp. 10–11). Separate Nov 19 reporting describes Moon’s Shadow effect restoration."
+          "Brand durations: Ink Shower (먹물세례) 6→12s; Drawing Orchids (난치기) 12→18s; Butterfly Dream (호접몽) new duration 18s (old 10s from earlier reporting, obscured by page break). Ink Rise (먹오름) crit tripod 95→80% in PvE / 40% in PvP. Paint: Sun Well attack-power buff changes from 2s to up to 6s tied to zone creation, decreasing by 0.5s each 0.5s after the first hit. Enlightenment brand passive 6→7s within 12m; 10% amplification retained. (pp. 10–11). Separate Nov 19 reporting describes Moon’s Shadow effect restoration. November 20: shorter Sun Well buffs no longer overwrite longer Sunsketch buffs; Recurrence’s Sun Well duration effect fixed."
         ],
         [
           "Aeromancer",
@@ -1588,9 +2343,17 @@
         [
           "Community summary cross-check",
           "https://www.inven.co.kr/board/lostark/6271/4316656"
+        ],
+        [
+          "November 20 emergency maintenance (official original)",
+          "https://lostark.game.onstove.com/News/Notice/Views/13603"
+        ],
+        [
+          "November 20 emergency maintenance (Korean reproduction)",
+          "https://www.gamebit.co.kr/posts/patch-5578eecdfb9aa68c1db02bdd80b1bb2b"
         ]
       ],
-      "notes": "PDF page references refer to the 15-page official notice supplied by a reader, printed November 25, 2026. All 21 visible class headings are included. A few values and follow-up corrections remain secondary-source supported and are identified as such. Some skill names are retained in Korean or translated provisionally. Percentages describe individual coefficients, not total build DPS. The November 18 changes appear in combined class history; no skill/passive coefficients are added to cumulative whole-build damage totals.",
+      "notes": "PDF page references refer to the 15-page official notice supplied by a reader, printed November 25, 2026. All 21 visible class headings are included. A few values and follow-up corrections remain secondary-source supported and are identified as such. Some skill names are retained in Korean or translated provisionally. Percentages describe individual coefficients, not total build DPS. The November 18 changes appear in combined class history; no skill/passive coefficients are added to cumulative whole-build damage totals. November 19 and 20 fixes grouped with November 18. November 25 maintenance lists bug fixes, not another major balance pass.",
       "latest": true
     },
     {
@@ -1968,7 +2731,7 @@
       "notes": "Not a complete skill-by-skill translation. Direction labels refer to selected changes, not total build DPS."
     }
   ],
-  "balanceArchiveNote": "The two most recent substantial Korean balance updates in this guide, newest first: November 18 and October 3, 2026. Both official Korean notice PDFs have been reviewed; some obscured details remain cross-referenced to secondary sources. Smaller intervening adjustments may be missing. The combined view covers these two patches only. Korean changes may already be implemented in the West.",
+  "balanceArchiveNote": "Two latest substantial Korean balance passes identified: November 18 (including Nov 19–20 corrections) and October 3. November 25 maintenance did not list a major class balance pass. Both patch PDFs reviewed; some obscured lines use secondary sources. Smaller intervening changes may be missing. Korean changes may already be implemented in the West.",
   "balanceTotals": {
     "flat": [
       [
@@ -2281,5 +3044,318 @@
   "braceletSource": {
     "label": "Korean notice repost (November 25, 2026) · published DPS/support roll tiers and preparation guidance",
     "url": "https://gamebit.co.kr/posts/patch-a59448052e808755af268d543fdce93a"
-  }
+  },
+  "reviewed": "25 November 2026",
+  "guideSources": [
+    [
+      "Official November 25 Part 2 notice (original link)",
+      "https://lostark.game.onstove.com/News/Notice/Views/13608"
+    ],
+    [
+      "Korean notice reproduction (Inven)",
+      "https://m.inven.co.kr/board/lostark/4820/9735"
+    ],
+    [
+      "Korean notice reproduction (GAMEBIT)",
+      "https://www.gamebit.co.kr/posts/patch-a59448052e808755af268d543fdce93a"
+    ],
+    [
+      "November 25 transfer-table reporting",
+      "https://www.inven.co.kr/webzine/news/?news=323798"
+    ],
+    [
+      "November 20 livestream reporting",
+      "https://www.inven.co.kr/webzine/news/?news=323664"
+    ],
+    [
+      "November 25 maintenance notice",
+      "https://m.inven.co.kr/board/lostark/4820/9733?my=post"
+    ],
+    [
+      "November 25 shop announcement",
+      "https://m.inven.co.kr/board/lostark/4820/9734?iskin=lostark&vtype=mobile"
+    ]
+  ],
+  "gearRanges": [
+    [
+      50,
+      100,
+      100,
+      "T1 Uncommon",
+      0
+    ],
+    [
+      100,
+      150,
+      150,
+      "T1 Rare",
+      0
+    ],
+    [
+      150,
+      200,
+      200,
+      "T1 Epic",
+      0
+    ],
+    [
+      200,
+      250,
+      250,
+      "T1 Legendary",
+      0
+    ],
+    [
+      250,
+      600,
+      600,
+      "T2 Common",
+      0
+    ],
+    [
+      600,
+      700,
+      700,
+      "T2 Uncommon",
+      0
+    ],
+    [
+      700,
+      800,
+      800,
+      "T2 Rare",
+      0
+    ],
+    [
+      800,
+      900,
+      900,
+      "T2 Epic",
+      0
+    ],
+    [
+      900,
+      1000,
+      1000,
+      "T2 Legendary",
+      0
+    ],
+    [
+      1000,
+      1200,
+      1200,
+      "T3 Common",
+      0
+    ],
+    [
+      1200,
+      1300,
+      1300,
+      "T3 Uncommon",
+      0
+    ],
+    [
+      1300,
+      1400,
+      1400,
+      "T3 Rare",
+      0
+    ],
+    [
+      1400,
+      1500,
+      1500,
+      "T3 Epic",
+      0
+    ],
+    [
+      1500,
+      1600,
+      1600,
+      "T3 Legendary",
+      0
+    ],
+    [
+      1600,
+      1675,
+      1675,
+      "T4 Uncommon",
+      0
+    ],
+    [
+      1675,
+      1680,
+      1680,
+      "T4 Uncommon",
+      1
+    ],
+    [
+      1680,
+      1685,
+      1685,
+      "T4 Uncommon",
+      2
+    ],
+    [
+      1685,
+      1690,
+      1690,
+      "T4 Uncommon",
+      3
+    ],
+    [
+      1690,
+      1695,
+      1695,
+      "T4 Uncommon",
+      4
+    ],
+    [
+      1695,
+      1700,
+      1700,
+      "T4 Rare",
+      0
+    ],
+    [
+      1700,
+      1705,
+      1705,
+      "T4 Rare",
+      1
+    ],
+    [
+      1705,
+      1710,
+      1710,
+      "T4 Rare",
+      2
+    ],
+    [
+      1710,
+      1715,
+      1715,
+      "T4 Rare",
+      3
+    ],
+    [
+      1715,
+      1720,
+      1720,
+      "T4 Rare",
+      4
+    ],
+    [
+      1720,
+      1725,
+      1725,
+      "T4 Epic",
+      0
+    ],
+    [
+      1725,
+      1730,
+      1730,
+      "T4 Epic",
+      1
+    ],
+    [
+      1730,
+      1735,
+      1735,
+      "T4 Epic",
+      2
+    ],
+    [
+      1735,
+      1740,
+      1740,
+      "T4 Epic",
+      3
+    ],
+    [
+      1740,
+      1745,
+      1745,
+      "T4 Epic",
+      4
+    ],
+    [
+      1745,
+      1750,
+      1750,
+      "T4 Legendary",
+      0
+    ],
+    [
+      1750,
+      1755,
+      1755,
+      "T4 Legendary",
+      1
+    ],
+    [
+      1755,
+      1760,
+      1760,
+      "T4 Legendary",
+      2
+    ],
+    [
+      1760,
+      1765,
+      1765,
+      "T4 Legendary",
+      3
+    ],
+    [
+      1765,
+      1770,
+      1770,
+      "T4 Legendary",
+      4
+    ],
+    [
+      1770,
+      1775,
+      1785,
+      "T4 Relic",
+      2
+    ],
+    [
+      1775,
+      1780,
+      1790,
+      "T4 Relic",
+      3
+    ],
+    [
+      1780,
+      1785,
+      1795,
+      "T4 Relic",
+      4
+    ],
+    [
+      1785,
+      1790,
+      1800,
+      "T4 Ancient",
+      0
+    ],
+    [
+      1790,
+      1795,
+      1810,
+      "T4 Ancient",
+      2
+    ],
+    [
+      1795,
+      1800,
+      1815,
+      "T4 Ancient",
+      3
+    ]
+  ]
 }
