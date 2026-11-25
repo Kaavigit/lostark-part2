@@ -617,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Improved combined balance table with directional labels, style-specific passive/skill details, partial direct totals and coverage for classes without comparable numerical changes.",
     "25 Nov 2026 · Verified 19 October 3 combat-style buffs against official Korean notice 13561 PDF; marked two obscured rows as secondary-source only, added raid compensation and updated cumulative source labels.",
     "25 Nov 2026 · Rechecked November 18 balance data against the supplied official Korean notice PDF (pages 1–11). Added page references, corrected scope of several passives, Cull card, support mana changes, Glaivier core changes and Dimensionalist core nerf; obscured lines and separate follow-up sources marked.",
     "25 Nov 2026 · Expanded November 18 balance reference from 10 to 21 listed classes, including Specialist changes and November 19 corrections. Combined class history updated automatically; source limitations documented.",
@@ -1548,6 +1549,137 @@
         "October verified in official Korean PDF p. 2; other changes may apply"
       ]
     ],
-    "notes": "Only compatible direct PvE damage multipliers are compounded: (1 + change/100) × … − 1. A dash means no comparable value recorded, not zero change. October: 19 values verified against the official Korean PDF; two explicitly marked values remain Western-table cross-references. July values retain their earlier source limitations. Skill, passive, crit and support changes remain in class history. Totals are scoped coefficients, not predicted full-build DPS."
+    "notes": "Direct percentages are compounded only where scopes are compatible. A qualitative buff, nerf, mixed or support change is not zero and is not included in the direct total. Class-level labels do not imply every combat style benefited; “Other style / scope” means the listed change does not establish a buff to that row's build. “Not listed” means no change recorded in this summary, not proof of no change. October: 19 values verified against the official Korean PDF; two remain Western-table cross-references. July values retain earlier source limitations. Totals are partial recorded coefficients, not predicted full-build DPS."
+  },
+  "balanceStyleChanges": {
+    "2026-11-18": {
+      "Aeromancer": {
+        "Drizzle": {
+          "label": "Buff · passive",
+          "detail": "35% → 42% weather skill bonus at max rank; ≈ +5.19% to affected skills if multiplicative.",
+          "kind": "buff",
+          "types": [
+            "Buff"
+          ]
+        },
+        "Wind Fury": {
+          "label": "Buff · skill",
+          "detail": "200% → 260% Space Cutting bonus at max rank; +20% to that skill if multiplicative.",
+          "kind": "buff",
+          "types": [
+            "Buff"
+          ]
+        }
+      },
+      "Destroyer": {
+        "Gravity Training": {
+          "label": "Buff · passive",
+          "detail": "Hypergravity basic attacks and Vortex Gravity: 24% → 28% bonus at max rank.",
+          "kind": "buff",
+          "types": [
+            "Buff"
+          ]
+        },
+        "Rage Hammer": {
+          "label": "Other style / scope",
+          "detail": "Gravity Training passive buff; Rage Hammer-specific change not listed.",
+          "kind": "unknown",
+          "types": []
+        }
+      },
+      "Sorceress": {
+        "Reflux": {
+          "label": "Buff · passive",
+          "detail": "Non-Awakening skill damage bonus 47% → 52% at max rank.",
+          "kind": "buff",
+          "types": [
+            "Buff"
+          ]
+        },
+        "Igniter": {
+          "label": "Other style / scope",
+          "detail": "Reflux passive buff; Igniter-specific change not listed.",
+          "kind": "unknown",
+          "types": []
+        }
+      },
+      "Valkyrie": {
+        "Shining Knight": {
+          "label": "Other style / scope",
+          "detail": "Support brand and buff adjustments; DPS-style impact not established.",
+          "kind": "unknown",
+          "types": []
+        }
+      },
+      "Glaivier": {
+        "Control": {
+          "label": "Mixed · class",
+          "detail": "Focus-skill crit scaling rework; Control-specific impact not quantified.",
+          "kind": "mixed",
+          "types": [
+            "Mixed"
+          ]
+        }
+      },
+      "Gunslinger": {
+        "Peacemaker": {
+          "label": "Mixed · passive / skill",
+          "detail": "Stance skill damage bonus 4% → 7%; Rose Blossom buff; Death Fire crit adjustment.",
+          "kind": "mixed",
+          "types": [
+            "Mixed",
+            "Buff"
+          ]
+        }
+      },
+      "Artillerist": {
+        "Barrage Enhancement": {
+          "label": "Buff · passive / mixed class",
+          "detail": "A.C.T. and Saturation Attack passives buffed; Napalm Shot crit adjustment; exact build impact unknown.",
+          "kind": "mixed",
+          "types": [
+            "Buff",
+            "Mixed"
+          ]
+        },
+        "Firepower Enhancement": {
+          "label": "Buff · passive / mixed class",
+          "detail": "A.C.T. and Saturation Attack passives buffed; Napalm Shot crit adjustment; exact build impact unknown.",
+          "kind": "mixed",
+          "types": [
+            "Buff",
+            "Mixed"
+          ]
+        }
+      },
+      "Dimensionalist": {
+        "Class-level / affected skills": {
+          "label": "Nerf · skills / core",
+          "detail": "Minute Hand skills and Dimension Slash −5%; Distorted Timeline bonus reduced.",
+          "kind": "nerf",
+          "types": [
+            "Nerf"
+          ]
+        }
+      },
+      "Machinist": {
+        "Evolutionary Legacy": {
+          "label": "Buff (class)",
+          "detail": "Core Enchant damage bonus 15% → 17% from secondary source; style-specific scope needs verification.",
+          "kind": "buff",
+          "types": [
+            "Buff"
+          ]
+        },
+        "Arthetinean Skill": {
+          "label": "Buff (class)",
+          "detail": "Core Enchant damage bonus 15% → 17% from secondary source; style-specific scope needs verification.",
+          "kind": "buff",
+          "types": [
+            "Buff"
+          ]
+        }
+      }
+    }
   }
 }
