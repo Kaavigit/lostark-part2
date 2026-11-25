@@ -617,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Expanded KR balance reference to three substantial patches (Nov 18, Oct 3, Jul 22), with cumulative class history and scoped damage comparisons; coverage limitations noted.",
     "25 Nov 2026 · Added a separate KR Balance Patches section covering selected November 18 class changes and multi-crit mechanics, with sources.",
     "25 Nov 2026 · Added the special selection-box conversion for T4 level 8 gems obtained from paid growth products and Paradise content, based on the supplied developer-notice excerpt.",
     "25 Nov 2026 · Added information about daily Korean developer-note monitoring and timely English guide updates after verification and review.",
@@ -708,11 +709,648 @@
         "Fatal Step-related Hunger passive damage bonus 20/40/60% → 24/45/66%."
       ],
       [
-        "Chronomancer / Dimensionalist (KR class)",
+        "Dimensionalist",
         "Nerf",
         "Minute-hand skills (including Ark Passive and Hyper Awakening skills) and the Dimension Slash Awakening: damage −5%."
       ]
     ],
     "notes": "The percentages describe individual skill or passive coefficients, not total build DPS. English names for KR-only classes and passives may vary. November 25 maintenance did not list a new major balance pass."
+  },
+  "balanceArchive": [
+    {
+      "date": "2026-11-18",
+      "title": "November 18 · Multi-crit and support adjustments",
+      "description": "Latest major Korean live-server class balance update located as of 25 November. Selected changes in English, not a complete skill-by-skill translation. Western implementation and timing are not confirmed. The original notice could not be retrieved directly; the summary uses Korean reposts and reporting.",
+      "systems": [
+        [
+          "Multi-crit",
+          "Crit rate over 100% can trigger an additional critical damage increment. On-crit effects still trigger once per hit."
+        ],
+        [
+          "High-crit effects",
+          "Selected tripods and Ark Grid effects adjusted to accommodate multi-crit."
+        ],
+        [
+          "Blunt Thorn (rank 1 / 2)",
+          "Evolution damage 7.5% / 15% → 9.5% / 19%; excess-crit conversion coefficient 125% / 150% → 120% / 140%; previous maximum bonus caps removed."
+        ]
+      ],
+      "classes": [
+        [
+          "Bard",
+          "Support",
+          "Sonic Vibration attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+        ],
+        [
+          "Artist",
+          "Support",
+          "Paint: Sun Well attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+        ],
+        [
+          "Paladin",
+          "Support",
+          "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+        ],
+        [
+          "Valkyrie",
+          "Support",
+          "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+        ],
+        [
+          "Berserker",
+          "Buff",
+          "Berserker’s Technique Enlightenment damage bonus at max rank: 3.4% → 7%."
+        ],
+        [
+          "Arcanist",
+          "Buff",
+          "Empress-related Enlightenment Ruin skill damage bonus at max rank: 20% → 25%."
+        ],
+        [
+          "Sorceress",
+          "Buff",
+          "Reflux-related Enlightenment bonus to non-Awakening skill damage: 24/35/47% → 28/39/52%."
+        ],
+        [
+          "Deathblade",
+          "Mixed",
+          "Upper Slash tornado tripod crit bonus 50/100% → 40/80%; Blade Burst-related Enlightenment damage bonus 7/14/21% → 8/16/24%."
+        ],
+        [
+          "Reaper",
+          "Buff",
+          "Fatal Step-related Hunger passive damage bonus 20/40/60% → 24/45/66%."
+        ],
+        [
+          "Dimensionalist",
+          "Nerf",
+          "Minute-hand skills (including Ark Passive and Hyper Awakening skills) and the Dimension Slash Awakening: damage −5%."
+        ]
+      ],
+      "sources": [
+        [
+          "Official Korean patch notice",
+          "https://lostark.game.onstove.com/News/Notice/Views/13598"
+        ],
+        [
+          "Korean patch-note repost (Inven)",
+          "https://www.inven.co.kr/board/lostark/4820/9727"
+        ],
+        [
+          "English balance coverage (Inven Global)",
+          "https://www.invenglobal.com/articles/28741/chronomancer-nerfed-and-supports-improved-in-nov-18-balance-update"
+        ],
+        [
+          "November 25 maintenance notes (Korean repost)",
+          "https://m.inven.co.kr/board/lostark/4820/9733?vtype=mobile"
+        ]
+      ],
+      "notes": "The percentages describe individual skill or passive coefficients, not total build DPS. English names for KR-only classes and passives may vary. November 25 maintenance did not list a new major balance pass.",
+      "latest": true
+    },
+    {
+      "date": "2026-10-03",
+      "title": "October 3 · Emergency PvE balance pass",
+      "description": "KR emergency update following the Mordum Extreme difficulty controversy. Selected combat styles received PvE damage buffs. The October Korean notice confirms the adjustment; exact style values below are cross-referenced against the Western Echoes of Thunder release, which lists the corresponding 21 style buffs. KR numerical table was not directly accessible for line-by-line verification.",
+      "systems": [
+        [
+          "Mordum Extreme Nightmare",
+          "Boss HP lowered; exact reduction not included here."
+        ]
+      ],
+      "classes": [
+        [
+          "Destroyer",
+          "Buff",
+          "Rage Hammer: PvE damage +4%"
+        ],
+        [
+          "Destroyer",
+          "Buff",
+          "Gravity Training: PvE damage +2%"
+        ],
+        [
+          "Slayer",
+          "Buff",
+          "Punisher: PvE damage +2%"
+        ],
+        [
+          "Valkyrie",
+          "Buff",
+          "Shining Knight: PvE damage +3%"
+        ],
+        [
+          "Glaivier",
+          "Buff",
+          "Control: PvE damage +4%"
+        ],
+        [
+          "Deadeye",
+          "Buff",
+          "Pistoleer: PvE damage +6%"
+        ],
+        [
+          "Artillerist",
+          "Buff",
+          "Barrage Enhancement: PvE damage +5%"
+        ],
+        [
+          "Artillerist",
+          "Buff",
+          "Firepower Enhancement: PvE damage +5%"
+        ],
+        [
+          "Sharpshooter",
+          "Buff",
+          "Death Strike: PvE damage +2%"
+        ],
+        [
+          "Machinist",
+          "Buff",
+          "Evolutionary Legacy: PvE damage +2%"
+        ],
+        [
+          "Machinist",
+          "Buff",
+          "Arthetinean Skill: PvE damage +5%"
+        ],
+        [
+          "Gunslinger",
+          "Buff",
+          "Peacemaker: PvE damage +4%"
+        ],
+        [
+          "Sorceress",
+          "Buff",
+          "Igniter: PvE damage +3%"
+        ],
+        [
+          "Sorceress",
+          "Buff",
+          "Reflux: PvE damage +2%"
+        ],
+        [
+          "Shadowhunter",
+          "Buff",
+          "Demonic Impulse: PvE damage +4%"
+        ],
+        [
+          "Shadowhunter",
+          "Buff",
+          "Perfect Suppression: PvE damage +4%"
+        ],
+        [
+          "Souleater",
+          "Buff",
+          "Night's Edge: PvE damage +3%"
+        ],
+        [
+          "Aeromancer",
+          "Buff",
+          "Wind Fury: PvE damage +3%"
+        ],
+        [
+          "Aeromancer",
+          "Buff",
+          "Drizzle: PvE damage +5%"
+        ],
+        [
+          "Wildsoul",
+          "Buff",
+          "Ferality: PvE damage +4%"
+        ],
+        [
+          "Wildsoul",
+          "Buff",
+          "Phantom Beast Awakening: PvE damage +5%"
+        ]
+      ],
+      "flat": [
+        [
+          "Destroyer",
+          "Rage Hammer",
+          4
+        ],
+        [
+          "Destroyer",
+          "Gravity Training",
+          2
+        ],
+        [
+          "Slayer",
+          "Punisher",
+          2
+        ],
+        [
+          "Valkyrie",
+          "Shining Knight",
+          3
+        ],
+        [
+          "Glaivier",
+          "Control",
+          4
+        ],
+        [
+          "Deadeye",
+          "Pistoleer",
+          6
+        ],
+        [
+          "Artillerist",
+          "Barrage Enhancement",
+          5
+        ],
+        [
+          "Artillerist",
+          "Firepower Enhancement",
+          5
+        ],
+        [
+          "Sharpshooter",
+          "Death Strike",
+          2
+        ],
+        [
+          "Machinist",
+          "Evolutionary Legacy",
+          2
+        ],
+        [
+          "Machinist",
+          "Arthetinean Skill",
+          5
+        ],
+        [
+          "Gunslinger",
+          "Peacemaker",
+          4
+        ],
+        [
+          "Sorceress",
+          "Igniter",
+          3
+        ],
+        [
+          "Sorceress",
+          "Reflux",
+          2
+        ],
+        [
+          "Shadowhunter",
+          "Demonic Impulse",
+          4
+        ],
+        [
+          "Shadowhunter",
+          "Perfect Suppression",
+          4
+        ],
+        [
+          "Souleater",
+          "Night's Edge",
+          3
+        ],
+        [
+          "Aeromancer",
+          "Wind Fury",
+          3
+        ],
+        [
+          "Aeromancer",
+          "Drizzle",
+          5
+        ],
+        [
+          "Wildsoul",
+          "Ferality",
+          4
+        ],
+        [
+          "Wildsoul",
+          "Phantom Beast Awakening",
+          5
+        ]
+      ],
+      "sources": [
+        [
+          "KR emergency maintenance notice (Inven repost)",
+          "https://www.inven.co.kr/board/lostark/4820/9681"
+        ],
+        [
+          "KR emergency patch reporting",
+          "https://www.kakao.gg/en/games/lostark/lost-ark-balance-patch-fatigue-readjustment-costs"
+        ],
+        [
+          "Western Echoes of Thunder balance table (numerical cross-reference)",
+          "https://www.playlostark.com/en-us/game/releases/echoes-of-thunder"
+        ]
+      ],
+      "notes": "Numbers for this pass use the corresponding Western published table; not a claim that this is a separate additional Western buff. Do not count it twice."
+    },
+    {
+      "date": "2026-07-22",
+      "title": "July 22 · Major class balance adjustment",
+      "description": "Earlier substantial KR class balance update located in available sources. Selected changes only; smaller intervening patches have not been exhaustively checked.",
+      "systems": [
+        [
+          "Balance focus",
+          "PvE damage, stagger, passive/grid effects, combat stability."
+        ]
+      ],
+      "classes": [
+        [
+          "Gunlancer",
+          "Buff",
+          "Non-basic-attack PvE skill damage +5.7%."
+        ],
+        [
+          "Glaivier",
+          "Buff",
+          "Broad PvE damage increase."
+        ],
+        [
+          "Gunslinger",
+          "Buff",
+          "PvE damage increase; Target Down protection improved."
+        ],
+        [
+          "Sorceress",
+          "Buff",
+          "PvE skill damage +4.5%; selected casting skill protection improved."
+        ],
+        [
+          "Sharpshooter",
+          "Buff",
+          "PvE damage increase; Moving Slash counter and skill handling improvements."
+        ],
+        [
+          "Berserker",
+          "Buff",
+          "Selected Enlightenment and Ark Grid effects improved."
+        ],
+        [
+          "Destroyer",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Slayer",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Valkyrie",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Striker",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Breaker",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Artillerist",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Arcanist",
+          "Buff",
+          "Selected passive and grid effects improved."
+        ],
+        [
+          "Deathblade",
+          "Buff",
+          "Burst specialization scaling and Chaos Power improved."
+        ],
+        [
+          "Deadeye",
+          "Buff",
+          "Selected weapon-related grid effects and skill protection improved."
+        ],
+        [
+          "Summoner",
+          "Mixed",
+          "Kelsion duration shortened; damage, stagger and energy generation increased; selected passives improved."
+        ],
+        [
+          "Soulfist",
+          "Mixed",
+          "Martial arts skill PvE damage −28.6%, including Hyper Awakening Skills; selected passives reduced and other grid effects improved."
+        ],
+        [
+          "Dimensionalist",
+          "Mixed",
+          "Pre-casting mechanics adjusted, Acceleration Enhancement damage bonus removed, Spatial Dominance reduced; selected grid and utility improvements."
+        ]
+      ],
+      "sources": [
+        [
+          "KR patch notes repost",
+          "https://www.inven.co.kr/board/lostark/4820/9596"
+        ],
+        [
+          "Inven Global coverage",
+          "https://www.invenglobal.com/articles/24022/lost-ark-follow-up-adjustments-soulfist-and-dimensionalist-nerfed"
+        ],
+        [
+          "Sorceress patch history (community cross-check)",
+          "https://www.inven.co.kr/board/lostark/5770/121041?p=10"
+        ],
+        [
+          "Community calculations (additional reference)",
+          "https://thejunglewalrus.github.io/kr-balance-digest-jul22-2026/"
+        ]
+      ],
+      "notes": "Not a complete skill-by-skill translation. Direction labels refer to selected changes, not total build DPS."
+    }
+  ],
+  "balanceArchiveNote": "Three substantial KR balance updates identified in accessible sources, newest first. Smaller intervening adjustments may be missing; this is not a verified exhaustive last-three patch list. Combined view includes the listed changes only. Korean changes are not necessarily pending for the West; some have already been incorporated.",
+  "balanceTotals": {
+    "flat": [
+      [
+        "Gunlancer",
+        "All non-basic skills",
+        5.7,
+        null,
+        null,
+        "July only; scope-specific"
+      ],
+      [
+        "Destroyer",
+        "Rage Hammer",
+        null,
+        4,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Destroyer",
+        "Gravity Training",
+        null,
+        2,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Slayer",
+        "Punisher",
+        null,
+        2,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Valkyrie",
+        "Shining Knight",
+        null,
+        3,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Glaivier",
+        "Control",
+        null,
+        4,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Deadeye",
+        "Pistoleer",
+        null,
+        6,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Artillerist",
+        "Barrage Enhancement",
+        null,
+        5,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Artillerist",
+        "Firepower Enhancement",
+        null,
+        5,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Sharpshooter",
+        "Death Strike",
+        null,
+        2,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Machinist",
+        "Evolutionary Legacy",
+        null,
+        2,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Machinist",
+        "Arthetinean Skill",
+        null,
+        5,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Gunslinger",
+        "Peacemaker",
+        null,
+        4,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Sorceress",
+        "Igniter",
+        4.5,
+        3,
+        null,
+        "July skill damage × October style damage; November Reflux passive tracked separately"
+      ],
+      [
+        "Sorceress",
+        "Reflux",
+        4.5,
+        2,
+        null,
+        "July skill damage × October style damage; November Reflux passive tracked separately"
+      ],
+      [
+        "Shadowhunter",
+        "Demonic Impulse",
+        null,
+        4,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Shadowhunter",
+        "Perfect Suppression",
+        null,
+        4,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Souleater",
+        "Night's Edge",
+        null,
+        3,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Aeromancer",
+        "Wind Fury",
+        null,
+        3,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Aeromancer",
+        "Drizzle",
+        null,
+        5,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Wildsoul",
+        "Ferality",
+        null,
+        4,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ],
+      [
+        "Wildsoul",
+        "Phantom Beast Awakening",
+        null,
+        5,
+        null,
+        "October value cross-referenced to Western table; other changes may apply"
+      ]
+    ],
+    "notes": "Only compatible direct PvE damage multipliers are compounded: (1 + change/100) × … − 1. A dash means no comparable numeric value recorded, not zero change. Skill, passive, crit and support changes remain in the class-by-class history. Totals are scoped coefficients, not predicted full-build DPS."
   }
 }
