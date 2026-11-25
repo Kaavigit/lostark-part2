@@ -3,7 +3,7 @@
     [
       "overview",
       "1. Biggest changes at a glance",
-      "The Part II overhaul moves character progression toward equipment slots rather than individual equipment pieces. This is an unofficial English summary of the Korean developer notice.",
+      "The Part 2 overhaul moves character progression toward equipment slots rather than individual equipment pieces. This is an unofficial English summary of the Korean developer notice.",
       [
         [
           "Equipment honing",
@@ -51,7 +51,7 @@
     [
       "equipment",
       "2. New equipment layout",
-      "Four new equipment types are introduced: Bracer, Belt, Artifact and Seal. Accessories become part of the main equipment progression system.",
+      "Four new equipment types are introduced: Vambrace, Belt, Holy Relic and Seal. Accessories become part of the main equipment progression system. Holy Relic and Seal are collectively called Treasures (보구), a working translation.",
       [
         [
           "Weapon and armor",
@@ -63,7 +63,7 @@
         ],
         [
           "New slots",
-          "Bracer, Belt, Artifact, Seal"
+          "Vambrace, Belt, Holy Relic, Seal"
         ]
       ],
       []
@@ -167,23 +167,23 @@
         ],
         [
           "T4 Leapstones",
-          "Exchange tokens"
+          "Part 2 Growth Material Exchange Token"
         ],
         [
           "Destiny Shards",
-          "Exchange tokens"
+          "Part 2 Growth Material Exchange Token"
         ],
         [
           "Metallurgy books",
-          "Exchange tokens"
+          "Part 2 Growth Material Exchange Token"
         ],
         [
           "Tailoring books",
-          "Exchange tokens"
+          "Part 2 Growth Material Exchange Token"
         ],
         [
           "Quality upgrade materials",
-          "Exchange tokens"
+          "Part 2 Growth Material Exchange Token"
         ]
       ],
       []
@@ -255,7 +255,7 @@
     [
       "accessories",
       "6. Accessories and bracelets",
-      "Qualifying accessories receive Magic Infusion Scrolls in six grades and retain their existing trade limits. H/M/L means high/medium/low roll. For Ancient accessories, quality must be at least 67 and effects must be eligible; the third effect only matters for H/H/H or H/H/M combinations. Qualifying Relic support necklaces and rings with H/H also receive grade 5. For bracelets, the highest-performing eligible rolled or partially rolled T4 bracelet on each character converts to a Seal Infusion Scroll (grade 1–21, with grade 1 the strongest). The game evaluates DPS and support effect combinations and selects the better result, except DPS classes cannot transfer a bracelet containing only support options. Relic bracelets are assessed using Ancient-equivalent values. All other T4 bracelets, including unrolled ones, convert to dismantling materials exchangeable for silver. T3 bracelets are removed without compensation. The published November 25 notice gives effect tiers, not a complete scoring formula or exact grade cutoffs. Even within one tier, effects and roll strengths can differ.",
+      "Qualifying accessories receive Mana Infusion Scrolls in six grades and retain their existing trade limits. H/M/L means High/Mid/Low roll. For Ancient accessories, quality must be at least 67 and effects must be eligible; the third effect only matters for H/H/H or H/H/M combinations. Qualifying Relic support necklaces and rings with H/H also receive grade 5. For bracelets, the highest-performing eligible rolled or partially rolled T4 bracelet on each character converts to a Seal Mana Infusion Scroll (grade 1–21, with grade 1 the strongest). The game evaluates DPS and support effect combinations and selects the better result, except DPS classes cannot transfer a bracelet containing only support options. Relic bracelets are assessed using Ancient-equivalent values. All other T4 bracelets, including unrolled ones, convert to dismantling materials exchangeable for silver. T3 bracelets are removed without compensation. The published November 25 notice gives effect tiers, not a complete scoring formula or exact grade cutoffs. Even within one tier, effects and roll strengths can differ.",
       [
         [
           "H/H/H",
@@ -318,7 +318,7 @@
             ],
             [
               "Tier 4",
-              "Enemy defense reduction + ally attack-power buff effectiveness; enemy crit resistance reduction + ally attack-power buff effectiveness; enemy crit-damage resistance reduction + ally attack-power buff effectiveness; damage bonus for shielded/protected allies + ally attack-power buff effectiveness."
+              "Enemy defense reduction + Ally Attack Power Enhancement Effect; enemy crit resistance reduction + Ally Attack Power Enhancement Effect; enemy crit-damage resistance reduction + Ally Attack Power Enhancement Effect; damage bonus for shielded/protected allies + Ally Attack Power Enhancement Effect."
             ],
             [
               "Tier 5",
@@ -335,11 +335,11 @@
           [
             [
               "Tier 1",
-              "Enemy defense reduction + ally attack-power buff effectiveness; enemy crit resistance reduction + ally attack-power buff effectiveness; enemy crit-damage resistance reduction + ally attack-power buff effectiveness; damage bonus for shielded/protected allies + ally attack-power buff effectiveness."
+              "Enemy defense reduction + Ally Attack Power Enhancement Effect; enemy crit resistance reduction + Ally Attack Power Enhancement Effect; enemy crit-damage resistance reduction + Ally Attack Power Enhancement Effect; damage bonus for shielded/protected allies + Ally Attack Power Enhancement Effect."
             ],
             [
               "Tier 2",
-              "Specialization, Swiftness, ally damage-buff effectiveness, ally attack-power-buff effectiveness."
+              "Specialization, Swiftness, Ally Damage Enhancement Effect, Ally Attack Power Enhancement Effect."
             ],
             [
               "Tier 3+",
@@ -356,7 +356,7 @@
           ]
         ],
         [
-          "Which bracelets should I roll before Part II?",
+          "Which bracelets should I roll before Part 2?",
           [
             "Priority",
             "Practical recommendation"
@@ -385,7 +385,7 @@
     [
       "stones",
       "7. Engravings and ability stones",
-      "Ability stones are removed and replaced with engraving-slot upgrades. Relic becomes the base engraving rarity. The conversion uses effective activation points, not raw faceting numbers. Both positive engravings must qualify for the character’s permitted DPS or support combinations. Negative effects do not affect conversion. A 4+4 stone also grants extra items. The valid engraving lists and transfer criteria below are transcribed from the supplied English reference image. The activation-point totals are not the raw faceting numbers, and the reference does not identify the additional item awarded for 4+4. Check the applicable engraving list before investing in a stone; an otherwise high-point stone is not automatically eligible.",
+      "Ability stones are removed and replaced with Engraving Slot Upgrades. Relic becomes the base engraving rarity. The conversion uses effective activation points, not raw faceting numbers. Both positive engravings must qualify for the character’s permitted DPS or support combinations. Negative effects do not affect conversion. A 4+4 stone also grants extra items. The valid engraving lists and transfer criteria below are transcribed from the supplied English reference image. The activation-point totals are not the raw faceting numbers, and the reference does not identify the additional item awarded for 4+4. Check the applicable engraving list before investing in a stone; an otherwise high-point stone is not automatically eligible.",
       [
         [
           "Ability stones",
@@ -460,7 +460,7 @@
     [
       "gems",
       "8. Gems",
-      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Celestial Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Celestial gem, then two same-level gems make the next level. Maximum level is not specified. Important exception: qualifying T4 level 8 Gems of Brilliance obtained through previous paid growth events/products or Paradise content are converted into a selection box instead of the standard same-level conversion. Choose one new non-tradable T4 level 8 gem or one new tradable T4 level 7 gem. Choosing the tradable level 7 option allows you to trade it or use it for gem fusion. This exception applies only to gems from the specified acquisition routes, not every level 8 gem.",
+      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Sacred Radiance Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Sacred Radiance gem, then two same-level gems make the next level. Maximum level is not specified. Important exception: qualifying T4 level 8 Radiance Gems obtained through previous paid growth events/products or Paradise content are converted into a selection box instead of the standard same-level conversion. Choose one new non-tradable T4 level 8 gem or one new tradable T4 level 7 gem. Choosing the tradable level 7 option allows you to trade it or use it for gem fusion. This exception applies only to gems from the specified acquisition routes, not every level 8 gem.",
       [
         [
           "T3 Level 1–2",
@@ -501,14 +501,14 @@
           ],
           [
             [
-              "T4 Lv. 8 Gem of Brilliance from paid growth products (previous paid events)",
-              "New non-tradable T4 Lv. 8 Gem of Brilliance",
-              "New tradable T4 Lv. 7 Gem of Brilliance (can be fused)"
+              "T4 Lv. 8 Radiance Gem from paid growth products (previous paid events)",
+              "New non-tradable T4 Lv. 8 Radiance Gem",
+              "New tradable T4 Lv. 7 Radiance Gem (can be fused)"
             ],
             [
-              "T4 Lv. 8 Gem of Brilliance from Paradise content",
-              "New non-tradable T4 Lv. 8 Gem of Brilliance",
-              "New tradable T4 Lv. 7 Gem of Brilliance (can be fused)"
+              "T4 Lv. 8 Radiance Gem from Paradise content",
+              "New non-tradable T4 Lv. 8 Radiance Gem",
+              "New tradable T4 Lv. 7 Radiance Gem (can be fused)"
             ]
           ]
         ]
@@ -517,7 +517,7 @@
     [
       "combat",
       "9. Combat, Ark Passive and cards",
-      "Proficiency increases damage and allied attack-power buffs. Combat stats become freely assignable through Ark Passive, which unlocks at combat level 50. Cards no longer need to be manually equipped; similar effects do not stack and the strongest applies.",
+      "Prowess increases damage and allied attack-power buffs. Combat stats become freely assignable through Ark Passive, which unlocks at combat level 50. Cards no longer need to be manually equipped; similar effects do not stack and the strongest applies.",
       [
         [
           "Evolution",
@@ -552,7 +552,7 @@
           "Removed"
         ],
         [
-          "Proficiency",
+          "Prowess",
           "New combat stat"
         ],
         [
@@ -565,14 +565,14 @@
     [
       "raids",
       "10. Raids, gold and daily content",
-      "After all six designated characters have earned their weekly gold rewards, additional characters can earn character-bound gold from endgame content.",
+      "After all six designated characters have earned their weekly gold rewards, additional characters can earn Character-bound Gold from end content.",
       [
         [
           "Shadow Raids",
           "Endgame"
         ],
         [
-          "Horizon Cathedral",
+          "Cathedral of the Horizon",
           "Endgame"
         ],
         [
@@ -588,7 +588,7 @@
           "Gold removed"
         ],
         [
-          "Kayangel / Ivory Tower",
+          "Kayangel / Ivory Tower of Chaos",
           "Gold removed"
         ],
         [
@@ -617,18 +617,18 @@
     [
       "life",
       "11. Horizontal progression and economy",
-      "Life skills, sailing, stronghold, pets, and the player economy are being simplified. Direct player-to-player item trading uses a trust system, with additional Pheon fees possible for insufficient trust.",
+      "Trade Skills, sailing, stronghold, pets, and the player economy are being simplified. Direct player-to-player item trading uses a trust system, with additional Pheon fees possible for insufficient trust.",
       [
         [
-          "Life skills",
+          "Trade Skills",
           "Six levels merged into one"
         ],
         [
-          "Life skill materials",
-          "Unified into Life Crystals"
+          "Trade Skill materials",
+          "Unified into Crystals of Life"
         ],
         [
-          "Life skill tools",
+          "Trade Skill tools",
           "Removed; qualifying tools compensated"
         ],
         [
@@ -660,7 +660,7 @@
           "Removed"
         ],
         [
-          "Marketplace",
+          "Market",
           "Retained; includes gems"
         ],
         [
@@ -680,8 +680,8 @@
     ],
     [
       "checklist",
-      "12. What to do before Part II launches",
-      "Use this checklist for each character and your roster before the Part II maintenance. The November 25 Korean notice recommends using or exchanging items that would otherwise disappear or lose their current use. The bracelet priorities below are practical advice, not a guaranteed scroll grade. Verify Western implementation and timing before spending gold or making irreversible decisions. Progress is saved locally in this browser.",
+      "12. What to do before Part 2 launches",
+      "Use this checklist for each character and your roster before the Part 2 maintenance. The November 25 Korean notice recommends using or exchanging items that would otherwise disappear or lose their current use. The bracelet priorities below are practical advice, not a guaranteed scroll grade. Verify Western implementation and timing before spending gold or making irreversible decisions. Progress is saved locally in this browser.",
       [],
       []
     ],
@@ -711,7 +711,7 @@
           "Infusion Scroll compensation"
         ],
         [
-          "Life skill players",
+          "Trade Skill players",
           "Simplified gathering economy"
         ],
         [
@@ -732,7 +732,7 @@
     "Check every character's T4 bracelets. Prioritize Ancient bracelets with any two of Crit / Spec / Swift + 3 open roll lines (DPS), or Spec + Swift + 3 open lines (support). Roll promising unrolled bracelets; compare against your current best using the Section 6 tier tables. Relic and partially rolled bracelets may also qualify. Keep your strongest eligible bracelet until conversion; only one scroll per character.",
     "Use Aura of Resonance recovery potions and consume existing Aura of Resonance through eligible content before maintenance. Remaining aura and recovery potions are deleted, not compensated.",
     "Use Rest Bonus recovery potions and consume existing rest bonus by running eligible daily content before maintenance. Old rest bonus and recovery potions do not carry over.",
-    "Spend all Sands of Trial by running the Hourglass of Hall content before maintenance; unused sand is deleted without replacement.",
+    "Spend all Sand of Trials by running the Haal’s Haal’s Hourglass content before maintenance; unused sand is deleted without replacement.",
     "Guild officers: distribute the guild's remaining guild Bloodstones to members before maintenance. Undistributed guild Bloodstones disappear; character-held Sylmael Bloodstones convert to silver at an announced rate.",
     "Apply any unused Jumping Growth / Powerpass style support to the intended character before maintenance; the style-support feature ends."
   ],
@@ -764,19 +764,20 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Standardized English terminology using the supplied Korean–English glossary, renamed provisional item and slot labels, and added a searchable terminology reference. Gameplay figures unchanged.",
     "25 Nov 2026 · Added the DPS and support valid-engraving lists and all seven Ability Stone transfer outcomes in Section 7, transcribed from the supplied English reference image.",
     "25 Nov 2026 · Expanded preparation checklist, added DPS and support bracelet effect tiers and three-open-line rolling priorities, and clarified that exact Seal Scroll grade scoring is not published in the accessible notice.",
     "25 Nov 2026 · Simplified the two-patch combat-style comparison by removing the recorded direct total and other changes / coverage columns. Retained patch-specific changes and source caveats.",
     "25 Nov 2026 · Simplified the balance guide to two most recent listed major patches and recalculated the combined view using only those dates. July patch retained in underlying archive but not displayed or counted.",
     "25 Nov 2026 · Improved combined balance table with directional labels, style-specific passive/skill details, partial direct totals and coverage for classes without comparable numerical changes.",
     "25 Nov 2026 · Verified 19 October 3 combat-style buffs against official Korean notice 13561 PDF; marked two obscured rows as secondary-source only, added raid compensation and updated cumulative source labels.",
-    "25 Nov 2026 · Rechecked November 18 balance data against the supplied official Korean notice PDF (pages 1–11). Added page references, corrected scope of several passives, Cull card, support mana changes, Glaivier core changes and Dimensionalist core nerf; obscured lines and separate follow-up sources marked.",
+    "25 Nov 2026 · Rechecked November 18 balance data against the supplied official Korean notice PDF (pages 1–11). Added page references, corrected scope of several passives, Cull card, support mana changes, Glaivier core changes and Chronomancer core nerf; obscured lines and separate follow-up sources marked.",
     "25 Nov 2026 · Expanded November 18 balance reference from 10 to 21 listed classes, including Specialist changes and November 19 corrections. Combined class history updated automatically; source limitations documented.",
     "25 Nov 2026 · Expanded KR balance reference to three substantial patches (Nov 18, Oct 3, Jul 22), with cumulative class history and scoped damage comparisons; coverage limitations noted.",
     "25 Nov 2026 · Added a separate KR Balance Patches section covering selected November 18 class changes and multi-crit mechanics, with sources.",
     "25 Nov 2026 · Added the special selection-box conversion for T4 level 8 gems obtained from paid growth products and Paradise content, based on the supplied developer-notice excerpt.",
     "25 Nov 2026 · Added information about daily Korean developer-note monitoring and timely English guide updates after verification and review.",
-    "25 Nov 2026 · Renamed to Lost Ark Part II – Update Guide and clarified its purpose as an unofficial English-translated reference for Western players.",
+    "25 Nov 2026 · Renamed to Lost Ark Part 2 – Update Guide and clarified its purpose as an unofficial English-translated reference for Western players.",
     "25 Nov 2026 · Restored all 13 original English summary sections and matching visual tools; improved editorial layout.",
     "25 Nov 2026 · Added interactive diagrams and calculators.",
     "25 Nov 2026 · Initial website draft."
@@ -955,9 +956,9 @@
         "Enlightenment — Clear Day (Drizzle): weather skill damage while Sun Shower is active 11/23/35% → 14/28/42%. Space Cutting (공간 가르기, Wind Fury): skill damage bonus 0/100/200% → 0/130/260%; X-key use in both normal and Sun Shower states retained. (p. 11)"
       ],
       [
-        "Dimensionalist",
+        "Chronomancer",
         "Nerf",
-        "All Minute Hand skills, including Ark Passive and Hyper Awakening skills, and Dimension Slash Awakening damage −5%. Ark Grid — Distorted Timeline Sun core 17P: Dimension Rift damage bonus 10/13.5% → 3/6.5%; 5s cooldown reduction per Destiny activation unchanged. (p. 11; English names provisional)"
+        "All Minute Hand skills, including Ark Passive and Super Awakening skills, and Dimension Slash Awakening damage −5%. Ark Grid — Distorted Timeline Sun core 17P: Dimension Rift damage bonus 10/13.5% → 3/6.5%; 5s cooldown reduction per Destiny activation unchanged. (p. 11; English names provisional)"
       ]
     ],
     "notes": "PDF page references refer to the 15-page official notice supplied by a reader, printed November 25, 2026. All 21 visible class headings are included. A few values and follow-up corrections remain secondary-source supported and are identified as such. Some skill names are retained in Korean or translated provisionally. Percentages describe individual coefficients, not total build DPS. The November 18 changes appear in combined class history; no skill/passive coefficients are added to cumulative whole-build damage totals."
@@ -1095,9 +1096,9 @@
           "Enlightenment — Clear Day (Drizzle): weather skill damage while Sun Shower is active 11/23/35% → 14/28/42%. Space Cutting (공간 가르기, Wind Fury): skill damage bonus 0/100/200% → 0/130/260%; X-key use in both normal and Sun Shower states retained. (p. 11)"
         ],
         [
-          "Dimensionalist",
+          "Chronomancer",
           "Nerf",
-          "All Minute Hand skills, including Ark Passive and Hyper Awakening skills, and Dimension Slash Awakening damage −5%. Ark Grid — Distorted Timeline Sun core 17P: Dimension Rift damage bonus 10/13.5% → 3/6.5%; 5s cooldown reduction per Destiny activation unchanged. (p. 11; English names provisional)"
+          "All Minute Hand skills, including Ark Passive and Super Awakening skills, and Dimension Slash Awakening damage −5%. Ark Grid — Distorted Timeline Sun core 17P: Dimension Rift damage bonus 10/13.5% → 3/6.5%; 5s cooldown reduction per Destiny activation unchanged. (p. 11; English names provisional)"
         ]
       ],
       "sources": [
@@ -1156,7 +1157,7 @@
         ],
         [
           "Clear compensation",
-          "Rosters with a recorded Extreme Nightmare clear before the October 3 emergency maintenance received a gold-bar item in the universal storage of the character with the clear. Using it grants 500,000 character-bound gold. (PDF p. 2)"
+          "Rosters with a recorded Extreme Nightmare clear before the October 3 emergency maintenance received a gold-bar item in the universal storage of the character with the clear. Using it grants 500,000 Character-bound Gold. (PDF p. 2)"
         ],
         [
           "Entry compensation",
@@ -1491,10 +1492,10 @@
         [
           "Soulfist",
           "Mixed",
-          "Martial arts skill PvE damage −28.6%, including Hyper Awakening Skills; selected passives reduced and other grid effects improved."
+          "Martial arts skill PvE damage −28.6%, including Super Awakening Skills; selected passives reduced and other grid effects improved."
         ],
         [
-          "Dimensionalist",
+          "Chronomancer",
           "Mixed",
           "Pre-casting mechanics adjusted, Acceleration Enhancement damage bonus removed, Spatial Dominance reduced; selected grid and utility improvements."
         ]
@@ -1800,7 +1801,7 @@
           ]
         }
       },
-      "Dimensionalist": {
+      "Chronomancer": {
         "Class-level / affected skills": {
           "label": "Nerf · skills / core",
           "detail": "Minute Hand skills and Dimension Slash −5%; Distorted Timeline bonus reduced.",
@@ -1833,5 +1834,846 @@
   "braceletSource": {
     "label": "Korean notice repost (November 25, 2026) · published DPS/support roll tiers and preparation guidance",
     "url": "https://gamebit.co.kr/posts/patch-a59448052e808755af268d543fdce93a"
-  }
+  },
+  "glossaryNote": "Terminology supplied by a reader for consistency across the English guide. Working = no confirmed Western client name; literal/unchecked = descriptive translation or unverified client spelling. Established = identified as official or established in the supplied glossary, not independently verified here. The glossary is a language reference, not an announcement of additional gameplay changes or Western release plans.",
+  "glossary": [
+    {
+      "category": "General & equipment",
+      "terms": [
+        [
+          "2부",
+          "Part 2",
+          "Established",
+          "Smilegate's overhaul name"
+        ],
+        [
+          "교체 지급",
+          "Replaced with / given as replacement",
+          "Literal",
+          "Old item removed, new item issued in its place"
+        ],
+        [
+          "이관",
+          "Transfer",
+          "Literal",
+          ""
+        ],
+        [
+          "2부 성장 재료 교환용 토큰",
+          "Part 2 Growth Material Exchange Token",
+          "Working",
+          "New item"
+        ],
+        [
+          "완갑",
+          "Vambrace",
+          "Working",
+          "New slot"
+        ],
+        [
+          "허리띠",
+          "Belt",
+          "Working",
+          "New slot"
+        ],
+        [
+          "성물",
+          "Holy Relic",
+          "Working",
+          "New slot"
+        ],
+        [
+          "인장",
+          "Seal",
+          "Working",
+          "New slot"
+        ],
+        [
+          "보구",
+          "Treasures",
+          "Working",
+          "Holy Relic + Seal group"
+        ],
+        [
+          "재련",
+          "Honing",
+          "Established",
+          ""
+        ],
+        [
+          "상급 재련",
+          "Advanced Honing",
+          "Established",
+          ""
+        ],
+        [
+          "특수 재련",
+          "Special Honing",
+          "Established",
+          ""
+        ],
+        [
+          "재련 단계",
+          "Honing stage",
+          "Established",
+          "25단계 = Stage 25"
+        ],
+        [
+          "연마",
+          "Polish",
+          "Working",
+          "Existing accessory polishing; working name for new gear system"
+        ],
+        [
+          "연마 단계",
+          "Polish level",
+          "Working",
+          ""
+        ],
+        [
+          "등급",
+          "Rarity / grade",
+          "Literal",
+          "Gear rarity; scroll grade"
+        ],
+        [
+          "일반 / 고급 / 희귀 / 영웅 / 전설 / 유물 / 고대",
+          "Common / Uncommon / Rare / Epic / Legendary / Relic / Ancient",
+          "Established",
+          ""
+        ],
+        [
+          "초과 / 이하",
+          "Above / Up to",
+          "Literal",
+          "Lower bound exclusive; upper bound inclusive"
+        ]
+      ]
+    },
+    {
+      "category": "Materials & Sidereal",
+      "terms": [
+        [
+          "명예의 파편",
+          "Honor Shards",
+          "Established",
+          ""
+        ],
+        [
+          "운명의 파편",
+          "Destiny Shards",
+          "Established",
+          ""
+        ],
+        [
+          "돌파석",
+          "Leapstone",
+          "Established",
+          ""
+        ],
+        [
+          "융화 재료",
+          "Fusion Material",
+          "Established",
+          ""
+        ],
+        [
+          "야금술 / 재봉술",
+          "Metallurgy / Tailoring",
+          "Established",
+          ""
+        ],
+        [
+          "숨결",
+          "Breath",
+          "Established",
+          ""
+        ],
+        [
+          "장인의 기운",
+          "Artisan’s Energy",
+          "Established",
+          ""
+        ],
+        [
+          "실링",
+          "Silver",
+          "Established",
+          ""
+        ],
+        [
+          "순환 돌파석",
+          "Circulation Leapstone",
+          "Working",
+          ""
+        ],
+        [
+          "전이 돌파석",
+          "Transition Leapstone",
+          "Working",
+          ""
+        ],
+        [
+          "에스더 무기",
+          "Sidereal weapon",
+          "Established",
+          ""
+        ],
+        [
+          "에스더의 기운",
+          "Sidereal Energy",
+          "Established",
+          ""
+        ],
+        [
+          "엘라 부여 단계",
+          "Ella infusion stage",
+          "Working",
+          ""
+        ],
+        [
+          "에스더 변환",
+          "Sidereal Conversion",
+          "Working",
+          ""
+        ],
+        [
+          "로맨틱 재료 키트",
+          "Romantic Material Kit",
+          "Working",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "Accessories, engravings & gems",
+      "terms": [
+        [
+          "마력 주입 주문서",
+          "Mana Infusion Scroll",
+          "Working",
+          ""
+        ],
+        [
+          "인장 마력 주입 주문서",
+          "Seal Mana Infusion Scroll",
+          "Working",
+          ""
+        ],
+        [
+          "유효 옵션",
+          "Valid options",
+          "Literal",
+          ""
+        ],
+        [
+          "상 / 중 / 하",
+          "High / Mid / Low",
+          "Literal",
+          "Accessory roll grades"
+        ],
+        [
+          "딜러 / 서포터",
+          "DPS / Support",
+          "Established",
+          ""
+        ],
+        [
+          "영롱한 보석 파편",
+          "Radiant Gem Fragment",
+          "Working",
+          ""
+        ],
+        [
+          "초월의 가루",
+          "Transcendence Powder",
+          "Working",
+          ""
+        ],
+        [
+          "거룩한 초월의 가루",
+          "Holy Transcendence Powder",
+          "Working",
+          ""
+        ],
+        [
+          "낙인력",
+          "Brand Power",
+          "Established",
+          ""
+        ],
+        [
+          "아군 공격력 강화 효과",
+          "Ally Attack Power Enhancement Effect",
+          "Established",
+          ""
+        ],
+        [
+          "아군 피해량 강화 효과",
+          "Ally Damage Enhancement Effect",
+          "Established",
+          ""
+        ],
+        [
+          "무력화",
+          "Stagger",
+          "Established",
+          ""
+        ],
+        [
+          "세공",
+          "Faceting",
+          "Established",
+          ""
+        ],
+        [
+          "활성화 포인트",
+          "Activation points",
+          "Established",
+          ""
+        ],
+        [
+          "각인 슬롯 업그레이드",
+          "Engraving Slot Upgrade",
+          "Working",
+          ""
+        ],
+        [
+          "속전속결 / 구슬동자 / 전문의",
+          "All-Out Attack / Drops of Ether / Expert",
+          "Established",
+          "Western engraving names"
+        ],
+        [
+          "비상의 돌 각인 지정 키트",
+          "Soaring Stone Engraving Designation Kit",
+          "Working",
+          ""
+        ],
+        [
+          "멸화 / 홍염",
+          "Annihilation / Crimson Flame",
+          "Established",
+          "Tier 3 gems"
+        ],
+        [
+          "겁화 / 작열",
+          "Doomfire / Blazing",
+          "Established",
+          "Tier 4 gems"
+        ],
+        [
+          "광휘의 보석",
+          "Radiance Gem",
+          "Working",
+          ""
+        ],
+        [
+          "성휘의 보석",
+          "Sacred Radiance Gem",
+          "Working",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "Combat & storage",
+      "terms": [
+        [
+          "원정대",
+          "Roster",
+          "Established",
+          ""
+        ],
+        [
+          "재료 저장소",
+          "Material Storage",
+          "Established",
+          ""
+        ],
+        [
+          "통합 보관함",
+          "Shared storage",
+          "Literal",
+          ""
+        ],
+        [
+          "제압 / 인내 / 숙련",
+          "Domination / Endurance / Expertise",
+          "Established",
+          ""
+        ],
+        [
+          "치명 / 특화 / 신속",
+          "Crit / Specialization / Swiftness",
+          "Established",
+          ""
+        ],
+        [
+          "기량",
+          "Prowess",
+          "Working",
+          "New stat"
+        ],
+        [
+          "전투 스타일",
+          "Combat style",
+          "Literal",
+          ""
+        ],
+        [
+          "진화 / 깨달음 / 도약",
+          "Evolution / Enlightenment / Leap",
+          "Established",
+          ""
+        ],
+        [
+          "카르마",
+          "Karma",
+          "Established",
+          ""
+        ],
+        [
+          "초각성 스킬",
+          "Super Awakening skill",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "스킬 룬",
+          "Skill Rune",
+          "Established",
+          ""
+        ],
+        [
+          "환수사",
+          "Wildsoul",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "차원술사",
+          "Chronomancer",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "가디언나이트",
+          "Guardian Knight",
+          "Supplied choice",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "Trade Skills & sailing",
+      "terms": [
+        [
+          "생활",
+          "Trade Skill",
+          "Established",
+          ""
+        ],
+        [
+          "식물채집 / 벌목 / 채광 / 수렵 / 낚시 / 고고학",
+          "Foraging / Logging / Mining / Hunting / Fishing / Excavating",
+          "Established",
+          ""
+        ],
+        [
+          "생명의 기운",
+          "Life Energy",
+          "Established",
+          ""
+        ],
+        [
+          "생명의 결정",
+          "Crystal of Life",
+          "Working",
+          ""
+        ],
+        [
+          "선원",
+          "Crew member",
+          "Established",
+          ""
+        ],
+        [
+          "선원지원서",
+          "Crew Application Form",
+          "Established",
+          ""
+        ],
+        [
+          "위험 해역",
+          "Hazardous Waters",
+          "Established",
+          ""
+        ],
+        [
+          "수초 해역",
+          "Kelp Beds",
+          "Established",
+          ""
+        ],
+        [
+          "해적 주화",
+          "Pirate Coin",
+          "Established",
+          ""
+        ],
+        [
+          "대양의 주화",
+          "Ocean Coin",
+          "Working",
+          ""
+        ],
+        [
+          "칼스",
+          "Cals",
+          "Working",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "Raids & activities",
+      "terms": [
+        [
+          "엔드 콘텐츠",
+          "End content",
+          "Literal",
+          ""
+        ],
+        [
+          "보상 더보기",
+          "Extra rewards",
+          "Literal",
+          ""
+        ],
+        [
+          "전리품 경매",
+          "Loot Auction",
+          "Established",
+          ""
+        ],
+        [
+          "캐릭터 귀속 골드",
+          "Character-bound Gold",
+          "Established",
+          ""
+        ],
+        [
+          "고통의 마녀, 세르카",
+          "Witch of Agony, Serca",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "죽음의 계율자, 벨가르딘",
+          "Precept-Keeper of Death, Belgardin",
+          "Working",
+          "Epithet"
+        ],
+        [
+          "지평의 성당",
+          "Cathedral of the Horizon",
+          "Working",
+          ""
+        ],
+        [
+          "발탄 ~ 카멘",
+          "Valtan – Thaemine",
+          "Established",
+          ""
+        ],
+        [
+          "서막 ~ 종막",
+          "Overture – Denouement",
+          "Established",
+          ""
+        ],
+        [
+          "카양겔",
+          "Kayangel",
+          "Established",
+          ""
+        ],
+        [
+          "혼돈의 상아탑",
+          "Ivory Tower of Chaos",
+          "Established",
+          ""
+        ],
+        [
+          "고대 유적 엘베리아 ~ 오레하의 우물",
+          "Ancient Elveria – Oreha’s Well",
+          "Established",
+          ""
+        ],
+        [
+          "명예 보상 / 명예 요소",
+          "Honor rewards / honor items",
+          "Literal",
+          "Prestige rewards such as titles"
+        ],
+        [
+          "혼돈의 균열",
+          "Chaos Rift",
+          "Established",
+          ""
+        ],
+        [
+          "할의 모래시계",
+          "Haal’s Hourglass",
+          "Established",
+          ""
+        ],
+        [
+          "에브니 큐브",
+          "Ebony Cube",
+          "Established",
+          ""
+        ],
+        [
+          "태초의 섬",
+          "Origin Island",
+          "Established",
+          ""
+        ],
+        [
+          "공명의 기운",
+          "Aura of Resonance",
+          "Established",
+          ""
+        ],
+        [
+          "휴식 보너스",
+          "Rest Bonus",
+          "Established",
+          ""
+        ],
+        [
+          "시련의 모래",
+          "Sand of Trials",
+          "Working",
+          ""
+        ],
+        [
+          "금제 / 해금",
+          "Forbidden / Unlock",
+          "Supplied choice",
+          "Cube tickets"
+        ]
+      ]
+    },
+    {
+      "category": "Stronghold, economy & roster",
+      "terms": [
+        [
+          "원정대 영지",
+          "Roster Stronghold",
+          "Established",
+          ""
+        ],
+        [
+          "연구소",
+          "Lab",
+          "Established",
+          ""
+        ],
+        [
+          "파견 의뢰소",
+          "Dispatch Station",
+          "Established",
+          ""
+        ],
+        [
+          "펫 쉼터",
+          "Pet Ranch",
+          "Established",
+          ""
+        ],
+        [
+          "쿠키 공방",
+          "Cookie Workshop",
+          "Literal/unchecked",
+          ""
+        ],
+        [
+          "젤리 쿠키",
+          "Jelly Cookies",
+          "Literal/unchecked",
+          ""
+        ],
+        [
+          "펫 숙련도",
+          "Pet Proficiency",
+          "Literal/unchecked",
+          ""
+        ],
+        [
+          "펫 성장의 증표",
+          "Pet Growth Token",
+          "Literal/unchecked",
+          ""
+        ],
+        [
+          "훈련소",
+          "Training Camp",
+          "Literal/unchecked",
+          ""
+        ],
+        [
+          "모험의 인장",
+          "Adventurer’s Seal",
+          "Established",
+          ""
+        ],
+        [
+          "대표 효과",
+          "Signature Effect",
+          "Working",
+          "New card effect type"
+        ],
+        [
+          "신뢰도",
+          "Trust",
+          "Established",
+          ""
+        ],
+        [
+          "페온",
+          "Pheon",
+          "Established",
+          ""
+        ],
+        [
+          "거래소",
+          "Market",
+          "Established",
+          ""
+        ],
+        [
+          "경매장",
+          "Auction House",
+          "Established",
+          ""
+        ],
+        [
+          "실마엘 혈석",
+          "Sylmael Bloodstone",
+          "Established",
+          ""
+        ],
+        [
+          "유산 업적",
+          "Legacy achievement",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "용사의 문장",
+          "Hero’s Crest",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "비밀지도",
+          "Secret Map",
+          "Established",
+          ""
+        ],
+        [
+          "휘장",
+          "Insignia",
+          "Literal",
+          ""
+        ],
+        [
+          "점핑",
+          "Jumping",
+          "Literal",
+          "Western equivalent: Powerpass"
+        ],
+        [
+          "스타일 지원",
+          "Style Support",
+          "Literal",
+          ""
+        ],
+        [
+          "PC방",
+          "PC Bang",
+          "Established",
+          ""
+        ]
+      ]
+    },
+    {
+      "category": "Packages, cosmetics & pets",
+      "terms": [
+        [
+          "변화의 시작 패키지",
+          "Start of Change Package",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "8주년 변화 / 8주년 시작",
+          "8th Anniversary Change / 8th Anniversary Start",
+          "Supplied choice",
+          "Two designs"
+        ],
+        [
+          "로열 크리스탈",
+          "Royal Crystal",
+          "Established",
+          ""
+        ],
+        [
+          "챔피언의 만찬석",
+          "Champion’s Banquet Seat",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "미니미 펫",
+          "Minime Pet",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "신입사원",
+          "New Hire",
+          "Supplied choice",
+          ""
+        ],
+        [
+          "밤이 / 봄이 / 설이 / 별이 / 율이",
+          "Bami / Bomi / Seori / Byeori / Yuri",
+          "Romanized",
+          ""
+        ],
+        [
+          "찰칵콩 / 스마일콩 / 브이콩 / 위잉콩 / 반짝콩",
+          "Chalkak-kong / Smile-kong / V-kong / Wiing-kong / Banjjak-kong",
+          "Romanized",
+          ""
+        ],
+        [
+          "8주년 무기 선택 상자",
+          "8th Anniversary Weapon Selection Chest",
+          "Supplied choice",
+          "Banner text"
+        ],
+        [
+          "신화의 사막 무기 선택 상자",
+          "Desert of Myth Weapon Selection Chest",
+          "Supplied choice",
+          "Underlying page text differs; possibly an older leftover label"
+        ]
+      ]
+    }
+  ]
 }
