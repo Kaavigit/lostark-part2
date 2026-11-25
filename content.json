@@ -617,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Simplified the balance guide to two most recent listed major patches and recalculated the combined view using only those dates. July patch retained in underlying archive but not displayed or counted.",
     "25 Nov 2026 · Improved combined balance table with directional labels, style-specific passive/skill details, partial direct totals and coverage for classes without comparable numerical changes.",
     "25 Nov 2026 · Verified 19 October 3 combat-style buffs against official Korean notice 13561 PDF; marked two obscured rows as secondary-source only, added raid compensation and updated cumulative source labels.",
     "25 Nov 2026 · Rechecked November 18 balance data against the supplied official Korean notice PDF (pages 1–11). Added page references, corrected scope of several passives, Cull card, support mana changes, Glaivier core changes and Dimensionalist core nerf; obscured lines and separate follow-up sources marked.",
@@ -1369,17 +1370,9 @@
       "notes": "Not a complete skill-by-skill translation. Direction labels refer to selected changes, not total build DPS."
     }
   ],
-  "balanceArchiveNote": "Three substantial KR balance updates identified in accessible sources, newest first. Smaller intervening adjustments may be missing; this is not a verified exhaustive last-three patch list. Combined view includes the listed changes only. Korean changes are not necessarily pending for the West; some have already been incorporated.",
+  "balanceArchiveNote": "The two most recent substantial Korean balance updates in this guide, newest first: November 18 and October 3, 2026. Both official Korean notice PDFs have been reviewed; some obscured details remain cross-referenced to secondary sources. Smaller intervening adjustments may be missing. The combined view covers these two patches only. Korean changes may already be implemented in the West.",
   "balanceTotals": {
     "flat": [
-      [
-        "Gunlancer",
-        "All non-basic skills",
-        5.7,
-        null,
-        null,
-        "July only; scope-specific"
-      ],
       [
         "Destroyer",
         "Rage Hammer",
@@ -1479,18 +1472,18 @@
       [
         "Sorceress",
         "Igniter",
-        4.5,
+        null,
         3,
         null,
-        "October verified in official Korean PDF p. 1; July +4.5% remains earlier-source data; November passive tracked separately"
+        "October verified in official Korean PDF p. 1; November changes shown separately"
       ],
       [
         "Sorceress",
         "Reflux",
-        4.5,
+        null,
         2,
         null,
-        "October verified in official Korean PDF p. 1; July +4.5% remains earlier-source data; November passive tracked separately"
+        "October verified in official Korean PDF p. 1; November changes shown separately"
       ],
       [
         "Shadowhunter",
@@ -1549,7 +1542,12 @@
         "October verified in official Korean PDF p. 2; other changes may apply"
       ]
     ],
-    "notes": "Direct percentages are compounded only where scopes are compatible. A qualitative buff, nerf, mixed or support change is not zero and is not included in the direct total. Class-level labels do not imply every combat style benefited; “Other style / scope” means the listed change does not establish a buff to that row's build. “Not listed” means no change recorded in this summary, not proof of no change. October: 19 values verified against the official Korean PDF; two remain Western-table cross-references. July values retain earlier source limitations. Totals are partial recorded coefficients, not predicted full-build DPS."
+    "notes": "The direct total covers the two displayed patches only. Direct percentages are compounded only where scopes are compatible. Qualitative buffs, nerfs, mixed or support changes are not zero and are excluded from the direct total. Class-level labels do not imply every combat style benefited. “Other style / scope” identifies changes that do not establish a buff for that row’s build. “Not listed” means no change recorded in this summary, not proof of no change. October: 19 values verified against the official Korean PDF; two remain Western-table cross-references. Totals are partial recorded coefficients, not predicted full-build DPS.",
+    "dates": [
+      "2026-07-22",
+      "2026-10-03",
+      "2026-11-18"
+    ]
   },
   "balanceStyleChanges": {
     "2026-11-18": {
