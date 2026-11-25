@@ -2,70 +2,144 @@
   "sections": [
     [
       "overview",
-      "The overhaul",
-      "Part II reorganizes character growth around equipment slots, consolidates progression systems and changes how roster investments are shared. This is an unofficial English summary of the Korean notice, not a Western release confirmation.",
+      "1. Biggest changes at a glance",
+      "The Part II overhaul moves character progression toward equipment slots rather than individual equipment pieces. This is an unofficial English summary of the Korean developer notice.",
       [
         [
-          "Equipment",
+          "Equipment honing",
+          "Slot-based honing"
+        ],
+        [
+          "Advanced Honing",
+          "Removed"
+        ],
+        [
+          "Special Honing",
+          "Removed"
+        ],
+        [
+          "Equipment quality",
+          "Removed"
+        ],
+        [
+          "Accessory quality",
+          "Removed"
+        ],
+        [
+          "Accessory polishing",
           "Slot-based progression"
         ],
         [
-          "Quality",
-          "Removed"
+          "Bracelet effect rolling",
+          "Replaced"
         ],
         [
-          "Advanced and special honing",
-          "Removed"
+          "Equipment slots",
+          "Expanded to 16"
+        ],
+        [
+          "Sidereal weapons",
+          "Progression reworked"
         ],
         [
           "Accessories",
-          "Gain item levels"
+          "Now have item levels"
         ]
-      ]
+      ],
+      []
     ],
     [
       "equipment",
-      "Equipment & honing",
-      "The previous summary describes sixteen equipment slots, including four additional types: bracer, belt, artifact and seal. Existing equipment is converted, and Artisan’s Energy carries over to the relevant slot. Quality compensation is based on the highest eligible quality per slot; Sidereal weapons are treated separately.",
+      "2. New equipment layout",
+      "Four new equipment types are introduced: Bracer, Belt, Artifact and Seal. Accessories become part of the main equipment progression system.",
       [
         [
-          "Existing item level",
-          "New item level"
+          "Weapon and armor",
+          "8 slots"
         ],
         [
-          "1770",
-          "1770"
+          "Accessories",
+          "8 slots"
         ],
         [
-          "1775",
-          "1785"
-        ],
-        [
-          "1780",
-          "1790"
-        ],
-        [
-          "1785",
-          "1795"
-        ],
-        [
-          "1790",
-          "1800"
-        ],
-        [
-          "1795",
-          "1810"
-        ],
-        [
-          "1800",
-          "1815"
+          "New slots",
+          "Bracer, Belt, Artifact, Seal"
         ]
-      ]
+      ],
+      []
+    ],
+    [
+      "conversion",
+      "3. Equipment item-level conversion",
+      "Existing equipment converts automatically. Some high-end pieces receive additional item levels. The examples apply to individual weapons and armor pieces, not the character average. Sidereal weapons have separate rules.",
+      [
+        [
+          1675,
+          1675,
+          0
+        ],
+        [
+          1700,
+          1700,
+          0
+        ],
+        [
+          1720,
+          1720,
+          0
+        ],
+        [
+          1730,
+          1730,
+          0
+        ],
+        [
+          1750,
+          1750,
+          0
+        ],
+        [
+          1770,
+          1770,
+          0
+        ],
+        [
+          1775,
+          1785,
+          10
+        ],
+        [
+          1780,
+          1790,
+          10
+        ],
+        [
+          1785,
+          1795,
+          10
+        ],
+        [
+          1790,
+          1800,
+          10
+        ],
+        [
+          1795,
+          1810,
+          15
+        ],
+        [
+          1800,
+          1815,
+          15
+        ]
+      ],
+      []
     ],
     [
       "materials",
-      "Materials & compensation",
-      "Older materials are removed or exchanged. The exact exchange rates should be checked against the official notice before spending resources.",
+      "4. Honing materials and quality compensation",
+      "Quality compensation is based on the highest eligible quality equipment owned for each weapon and armor slot. Sidereal weapons are excluded from standard quality compensation. Existing Artisan’s Energy carries over to its corresponding slot. Exact exchange rates remain unverified.",
       [
         [
           "T3 honing materials",
@@ -76,201 +150,412 @@
           "Silver"
         ],
         [
-          "T4 fusion, destruction, guardian and breath materials",
+          "T4 Fusion Materials",
           "New growth materials"
         ],
         [
-          "T4 leapstones, Destiny Shards, honing books and quality materials",
+          "T4 Destruction Stones",
+          "New growth materials"
+        ],
+        [
+          "T4 Guardian Stones",
+          "New growth materials"
+        ],
+        [
+          "T4 Breath materials",
+          "New growth materials"
+        ],
+        [
+          "T4 Leapstones",
           "Exchange tokens"
+        ],
+        [
+          "Destiny Shards",
+          "Exchange tokens"
+        ],
+        [
+          "Metallurgy books",
+          "Exchange tokens"
+        ],
+        [
+          "Tailoring books",
+          "Exchange tokens"
+        ],
+        [
+          "Quality upgrade materials",
+          "Exchange tokens"
+        ]
+      ],
+      []
+    ],
+    [
+      "sidereal",
+      "5. Sidereal weapons",
+      "Sidereal weapons have separate item-level conversion and material refund rules. Refunded materials are described as character-bound. Selected examples only.",
+      [
+        [
+          "+8, Ella 3",
+          1775,
+          1785
+        ],
+        [
+          "+9, Ella 2",
+          1745,
+          1785
+        ],
+        [
+          "+9, Ella 3",
+          1800,
+          1840
+        ],
+        [
+          "+10, Ella 3",
+          1830,
+          1865
+        ]
+      ],
+      [
+        [
+          "Selected material refunds",
+          [
+            "Existing Sidereal",
+            "Sidereal Energy",
+            "Romantic Material Kits"
+          ],
+          [
+            [
+              "+8, Ella 2",
+              50,
+              "17,000"
+            ],
+            [
+              "+8, Ella 3",
+              50,
+              "19,500"
+            ],
+            [
+              "+9, Ella 2",
+              80,
+              "24,000"
+            ],
+            [
+              "+9, Ella 3",
+              20,
+              "10,500"
+            ],
+            [
+              "+10, Ella 3",
+              0,
+              0
+            ]
+          ]
         ]
       ]
     ],
     [
       "accessories",
-      "Accessories & bracelets",
-      "Accessory quality and bracelet rolling are replaced by new progression systems. Qualifying accessories receive infusion scrolls according to their effects and quality. The strongest qualifying bracelet per character is used for seal scroll compensation; other bracelets become dismantling materials. Exact effect rankings require source verification.",
+      "6. Accessories and bracelets",
+      "Qualifying accessories receive Magic Infusion Scrolls in six grades; existing trade limits are preserved. H, M and L mean high, medium and low effect rolls. Only the best qualifying bracelet per character produces a Seal Infusion Scroll (grades 1–21). Remaining bracelets become dismantling materials; T3 bracelets are deleted. Qualifying Relic support necklaces and rings with H/H were summarized as grade 5. Exact eligibility needs verification.",
       [
         [
-          "Accessory scroll grades",
-          "1–6"
+          "H/H/H",
+          "Grade 1",
+          "Grade 2 or 3"
         ],
         [
-          "Bracelet scroll grades",
-          "1–21"
+          "H/H/M",
+          "Grade 2",
+          "Grade 4"
         ],
         [
-          "T3 bracelets",
-          "Removed"
+          "H/H",
+          "Grade 3",
+          "Grade 5"
+        ],
+        [
+          "H/M",
+          "Grade 4",
+          "Grade 6"
+        ],
+        [
+          "H/L",
+          "Grade 5",
+          "Grade 6"
+        ],
+        [
+          "M/M or lower",
+          "Grade 6",
+          "Grade 6"
         ]
-      ]
+      ],
+      []
     ],
     [
-      "sidereal",
-      "Sidereal weapons",
-      "Existing Sidereal weapons have separate conversion and refund rules. Refunded materials were described as character-bound in the earlier summary.",
+      "stones",
+      "7. Engravings and ability stones",
+      "Ability stones are removed and replaced with engraving-slot upgrades. Relic becomes the base engraving rarity. The conversion uses effective activation points, not raw faceting numbers. Both positive engravings must qualify for the character’s permitted DPS or support combinations. Negative effects do not affect conversion. A 4+4 stone also grants extra items.",
       [
         [
-          "Existing weapon",
-          "Old → new item level"
+          "Ability stones",
+          "Removed"
         ],
         [
-          "+8 Ella 3",
-          "1775 → 1785"
+          "Engraving slots",
+          "Upgraded through conversion"
         ],
         [
-          "+9 Ella 2",
-          "1745 → 1785"
-        ],
-        [
-          "+9 Ella 3",
-          "1800 → 1840"
-        ],
-        [
-          "+10 Ella 3",
-          "1830 → 1865"
+          "Relic",
+          "Base engraving rarity"
         ]
-      ]
+      ],
+      []
     ],
     [
       "gems",
-      "Gems & engravings",
-      "Tradable gems are described as roster-shared, with simultaneous use across characters; character-bound gems remain restricted. A new higher tier of gem is introduced. Ability stones are replaced by engraving-slot upgrades, with compensation dependent on qualifying positive effects.",
+      "8. Gems",
+      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Celestial Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Celestial gem, then two same-level gems make the next level. Maximum level is not specified.",
       [
         [
-          "T3 Lv. 1–2",
-          "Removed"
+          "T3 Level 1–2",
+          "Deleted"
         ],
         [
-          "T3 Lv. 3",
-          "T4 Lv. 1"
+          "T3 Level 3",
+          "T4 Level 1"
         ],
         [
-          "T3 Lv. 7",
-          "T4 Lv. 5"
+          "T3 Level 5",
+          "T4 Level 3"
         ],
         [
-          "T3 Lv. 10",
-          "T4 Lv. 8"
+          "T3 Level 7",
+          "T4 Level 5"
         ],
         [
-          "T4 Lv. 1–10",
+          "T3 Level 9",
+          "T4 Level 7"
+        ],
+        [
+          "T3 Level 10",
+          "T4 Level 8"
+        ],
+        [
+          "T4 Level 1–10",
           "Same level"
         ]
-      ]
+      ],
+      []
     ],
     [
       "combat",
-      "Combat & Ark Passive",
-      "Evolution and Leap are removed, Enlightenment becomes a combat-style system, and Karma is removed with qualifying compensation. Skill runes and several older combat stats are removed. A new proficiency stat is described as affecting damage and allied attack-power buffs. Card sets become passive effects, with similar effects not stacking.",
+      "9. Combat, Ark Passive and cards",
+      "Proficiency increases damage and allied attack-power buffs. Combat stats become freely assignable through Ark Passive, which unlocks at combat level 50. Cards no longer need to be manually equipped; similar effects do not stack and the strongest applies.",
       [
         [
-          "Domination / Endurance / Expertise",
+          "Evolution",
+          "Removed"
+        ],
+        [
+          "Enlightenment",
+          "Becomes combat-style system"
+        ],
+        [
+          "Leap",
+          "Removed"
+        ],
+        [
+          "Karma",
+          "Removed; qualifying progress compensated"
+        ],
+        [
+          "Skill runes",
+          "Removed"
+        ],
+        [
+          "Domination",
+          "Removed"
+        ],
+        [
+          "Endurance",
+          "Removed"
+        ],
+        [
+          "Expertise",
           "Removed"
         ],
         [
           "Proficiency",
-          "New stat"
+          "New combat stat"
         ],
         [
-          "Cards",
-          "Passive effects"
+          "Card sets",
+          "Permanent passive effects"
         ]
-      ]
+      ],
+      []
     ],
     [
       "raids",
-      "Raids & daily content",
-      "After six designated gold earners complete their weekly rewards, additional characters are described as eligible for character-bound gold from endgame content. Older raid gold and daily activities are restructured.",
+      "10. Raids, gold and daily content",
+      "After all six designated characters have earned their weekly gold rewards, additional characters can earn character-bound gold from endgame content.",
       [
         [
-          "Shadow Raids / Horizon Cathedral",
-          "New endgame"
+          "Shadow Raids",
+          "Endgame"
         ],
         [
-          "Legion / Kazeros / Epic raids, Kayangel, Ivory Tower",
+          "Horizon Cathedral",
+          "Endgame"
+        ],
+        [
+          "Legion Raids",
           "Gold removed"
         ],
         [
-          "Chaos Dungeon / Kurzan Front / Chaos Gate / Ebony Cube",
+          "Kazeros Raids",
+          "Gold removed"
+        ],
+        [
+          "Epic Raids",
+          "Gold removed"
+        ],
+        [
+          "Kayangel / Ivory Tower",
+          "Gold removed"
+        ],
+        [
+          "Chaos Dungeon",
+          "Removed"
+        ],
+        [
+          "Kurzan Front",
+          "Removed"
+        ],
+        [
+          "Chaos Gate",
+          "Removed"
+        ],
+        [
+          "Ebony Cube",
           "Removed"
         ],
         [
           "Guardian Raids",
-          "Reworked"
+          "New content system"
         ]
-      ]
+      ],
+      []
     ],
     [
       "life",
-      "Life skills",
-      "The six gathering disciplines are consolidated into a shared progression level. Gathering materials are unified, and separate life skill tools are removed with qualifying investments compensated.",
+      "11. Horizontal progression and economy",
+      "Life skills, sailing, stronghold, pets, and the player economy are being simplified. Direct player-to-player item trading uses a trust system, with additional Pheon fees possible for insufficient trust.",
       [
         [
-          "Foraging, Logging, Mining, Hunting, Fishing, Excavating",
-          "Unified life skill level"
+          "Life skills",
+          "Six levels merged into one"
         ],
         [
-          "Gathering materials",
-          "Life Crystals"
+          "Life skill materials",
+          "Unified into Life Crystals"
         ],
         [
           "Life skill tools",
-          "Removed; qualifying compensation"
-        ]
-      ]
-    ],
-    [
-      "sailing",
-      "Sailing & exploration",
-      "Duplicate crew rarities are consolidated. Pirate Coins are converted to Ocean Coins. Sailing co-op gold rewards are removed. Secret maps are removed with qualifying compensation; compass and charm effects are replaced by card effects.",
-      [
-        [
-          "Pirate Coins",
-          "Ocean Coins"
+          "Removed; qualifying tools compensated"
         ],
         [
-          "Crew rarities",
-          "Consolidated"
+          "Sailing crews",
+          "Duplicate rarities consolidated"
+        ],
+        [
+          "Pirate Coins",
+          "Converted to Ocean Coins"
         ],
         [
           "Sailing co-op",
-          "Gold removed"
-        ]
-      ]
-    ],
-    [
-      "stronghold",
-      "Stronghold & pets",
-      "Stronghold research is replaced by stronghold-level progression. Pet proficiency and the Pet Ranch are removed.",
-      [
-        [
-          "Research",
-          "Stronghold level"
+          "Gold rewards removed"
         ],
         [
-          "Pet proficiency / Pet Ranch",
+          "Stronghold research",
+          "Replaced by Stronghold level"
+        ],
+        [
+          "Pet proficiency",
           "Removed"
-        ]
-      ]
-    ],
-    [
-      "economy",
-      "Economy & marketplace",
-      "The auction house is removed while the marketplace is retained, including gems. Direct trading uses a trust system, with possible additional Pheon fees for insufficient trust. Guild Bloodstones are removed.",
-      [
+        ],
+        [
+          "Pet Ranch",
+          "Removed"
+        ],
         [
           "Auction House",
           "Removed"
         ],
         [
           "Marketplace",
-          "Retained"
+          "Retained; includes gems"
         ],
         [
           "Guild Bloodstones",
           "Removed"
+        ],
+        [
+          "Secret maps",
+          "Removed; qualifying maps compensated"
+        ],
+        [
+          "Compass and charms",
+          "Replaced by card effects"
         ]
-      ]
+      ],
+      []
+    ],
+    [
+      "checklist",
+      "12. What to do before Part II launches",
+      "These eight preparation actions are carried over from the earlier English summary. Verify each against the official notice before spending materials or making irreversible decisions. Checklist progress is stored on your own device.",
+      [],
+      []
+    ],
+    [
+      "impact",
+      "13. What this means for players",
+      "Interpretation, not an official promise. The overall direction appears to be consolidating character power into slots and reducing the cost and complexity of maintaining alts.",
+      [
+        [
+          "Large roster players",
+          "Shared gems and additional bound gold"
+        ],
+        [
+          "Single-main players",
+          "Simpler progression"
+        ],
+        [
+          "1775+ players",
+          "Potential item-level increases"
+        ],
+        [
+          "Sidereal owners",
+          "Separate progression conversion"
+        ],
+        [
+          "High-quality accessory owners",
+          "Infusion Scroll compensation"
+        ],
+        [
+          "Life skill players",
+          "Simplified gathering economy"
+        ],
+        [
+          "Returning players",
+          "Fewer overlapping progression systems"
+        ],
+        [
+          "High-end gem investors",
+          "New potentially expensive gem progression ceiling"
+        ]
+      ],
+      []
     ]
   ],
   "tasks": [
@@ -284,5 +569,35 @@
     "Claim unused Powerpass style support"
   ],
   "source": "https://lostark.game.onstove.com/News/Notice/Views/13608",
-  "status": "Draft: previous English summary; original Korean notice could not be retrieved during this publishing session."
+  "status": "Unverified draft based on the earlier English summary. The official Korean notice could not be retrieved for fresh verification. Terminology and conversion figures are provisional; Western implementation is not confirmed.",
+  "headers": {
+    "conversion": [
+      "Old item level",
+      "New item level",
+      "Increase"
+    ],
+    "sidereal": [
+      "Existing Sidereal",
+      "Old ilvl",
+      "New ilvl"
+    ],
+    "accessories": [
+      "Valid effects",
+      "Ancient DPS / support necklace and rings",
+      "Ancient support earrings"
+    ],
+    "gems": [
+      "Current gem",
+      "New gem"
+    ],
+    "impact": [
+      "Type of player",
+      "Likely impact"
+    ]
+  },
+  "history": [
+    "25 Nov 2026 · Restored all 13 original English summary sections and matching visual tools; improved editorial layout.",
+    "25 Nov 2026 · Added interactive diagrams and calculators.",
+    "25 Nov 2026 · Initial website draft."
+  ]
 }
