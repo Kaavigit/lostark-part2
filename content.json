@@ -617,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Expanded November 18 balance reference from 10 to 21 listed classes, including Specialist changes and November 19 corrections. Combined class history updated automatically; source limitations documented.",
     "25 Nov 2026 · Expanded KR balance reference to three substantial patches (Nov 18, Oct 3, Jul 22), with cumulative class history and scoped damage comparisons; coverage limitations noted.",
     "25 Nov 2026 · Added a separate KR Balance Patches section covering selected November 18 class changes and multi-crit mechanics, with sources.",
     "25 Nov 2026 · Added the special selection-box conversion for T4 level 8 gems obtained from paid growth products and Paradise content, based on the supplied developer-notice excerpt.",
@@ -629,7 +630,7 @@
   "balance": {
     "date": "18 November 2026",
     "checked": "25 November 2026",
-    "description": "Latest major Korean live-server class balance update located as of 25 November. Selected changes in English, not a complete skill-by-skill translation. Western implementation and timing are not confirmed. The original notice could not be retrieved directly; the summary uses Korean reposts and reporting.",
+    "description": "Expanded English reference for the November 18 KR live-server patch, including November 19 corrections. Based on accessible Korean patch-note reposts, reporting and class-specific cross-checks. Maxroll’s November 2026 guide is linked for additional detail but could not be directly accessed for a line-by-line comparison. Selected changes; not a guaranteed exhaustive translation. Western release timing and implementation may differ.",
     "sources": [
       [
         "Official Korean patch notice",
@@ -646,6 +647,30 @@
       [
         "November 25 maintenance notes (Korean repost)",
         "https://m.inven.co.kr/board/lostark/4820/9733?vtype=mobile"
+      ],
+      [
+        "Maxroll November 2026 balance guide (further reading; not directly accessible during review)",
+        "https://maxroll.gg/lost-ark/news/kr-balance-patch-november-2026#specialist-header"
+      ],
+      [
+        "Korean patch repost – Specialist changes",
+        "https://m.inven.co.kr/board/lostark/4820/9727?vtype=mobile"
+      ],
+      [
+        "Korean patch repost – Scrapper and Glaivier",
+        "https://www.inven.co.kr/board/lostark/4820/9727?keyword=%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EB%82%B4%EC%97%AD&name=subject"
+      ],
+      [
+        "November 19 correction notice (GAMEBIT repost)",
+        "https://gamebit.co.kr/posts/patch-edfd416354a8d9fe796ecdb4f59251c0"
+      ],
+      [
+        "Community comparison of datamined vs live changes (cross-check)",
+        "https://www.inven.co.kr/board/lostark/6271/4317152?iskin=mini"
+      ],
+      [
+        "Community summary cross-check",
+        "https://www.inven.co.kr/board/lostark/6271/4316656"
       ]
     ],
     "systems": [
@@ -660,67 +685,134 @@
       [
         "Blunt Thorn (rank 1 / 2)",
         "Evolution damage 7.5% / 15% → 9.5% / 19%; excess-crit conversion coefficient 125% / 150% → 120% / 140%; previous maximum bonus caps removed."
+      ],
+      [
+        "Multi-crit exceptions",
+        "Blunt Thorn keeps its 80% crit limit and converts excess crit to Evolution damage instead; multi-crit also does not occur in Paradise content."
+      ],
+      [
+        "Combat analysis",
+        "Character details display crit rates over 100%; combat analysis now tracks multi-crit hit rate and share of damage."
+      ],
+      [
+        "November 19 follow-up",
+        "Corrected omitted Glaivier core change and unintended Bard gauge generation, Arcanist/Summoner synergy durations, Emperor passive damage and Artist passive effects. Summoner’s unintended duration increases are not counted as permanent buffs."
       ]
     ],
     "classes": [
       [
-        "Bard",
-        "Support",
-        "Sonic Vibration attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+        "Berserker",
+        "Buff",
+        "Berserker’s Technique Enlightenment damage bonus: 0/1.7/3.4% → 0/3.5/7%."
       ],
       [
-        "Artist",
-        "Support",
-        "Paint: Sun Well attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+        "Destroyer",
+        "Buff",
+        "Gravity Training: damage bonus for Hypergravity basic attacks and Vortex Gravity 7/14/24% → 10/17/28%."
       ],
       [
         "Paladin",
         "Support",
-        "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+        "Brand durations: Light Shock 8 → 16s; Sword of Justice 10 → 18s; Holy Explosion 15 → 24s; Godsent Law 12 → 20s. Enlightenment brand 8 → 10s; Sword Prayer core brand 5 → 10s. Wrath of God cooldown 27 → 30s; Heavenly Blessings 36 → 30s. Mana costs 557/657 → 592 each."
+      ],
+      [
+        "Slayer",
+        "Buff",
+        "Enlightenment: Berserk crit damage 17/34/51% → 19/38/57%; Unstoppable Fury base damage and extra enhanced-Berserk damage each 4/8/12% → 4/8/13%."
       ],
       [
         "Valkyrie",
         "Support",
-        "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+        "Brand durations on 진리의 선고 and 진리의 륜: 5 → 12s and 10 → 16s. Main attack-buff cooldowns 27/36 → 30/30s; mana costs 557/657 → 592 each. Enlightenment brand 7 → 8s."
       ],
       [
-        "Berserker",
+        "Scrapper",
+        "Mixed",
+        "Taijutsu stamina-skill bonus 40/55/70% → 40/56/73%; Shock Training shock-skill bonus 11/22/33% → 12/24/37%. Two skill tripods (파쇄의 강타, 진 용출권) crit bonus 100 → 80%. Shockwave Sun core 17P: affected skill’s damage bonus 47/50% → 100/104%, removing its +100% crit bonus."
+      ],
+      [
+        "Glaivier",
+        "Mixed",
+        "Focus-skill tripods reworked: several guaranteed-crit or high-crit effects become guaranteed crit with +0.6% damage per 1% crit rate. Spear of Destruction variants retain their crit-damage bonus. Thrust of Destruction weak-point detection damage 25/50% → 60/96%; charge variant loses +40% crit. Spiraling Spear (사두룡격) crit tripod 15/40% becomes 30/40.8% damage reduction while casting. Nov 19 correction: Evolution’s End Star core 17P also uses guaranteed crit and +0.6% damage per 1% crit rate; −30% skill damage and Focus damage 0/1% retained."
+      ],
+      [
+        "Breaker",
         "Buff",
-        "Berserker’s Technique Enlightenment damage bonus at max rank: 3.4% → 7%."
+        "Asura-related Enlightenment passive (무아지경): damage bonus at ranks 2/3, 8/16% → 9/18% (community cross-check)."
+      ],
+      [
+        "Deadeye",
+        "Mixed",
+        "Execution and Cruel Tracker crit tripods: 100% → 80% crit bonus (community cross-check)."
+      ],
+      [
+        "Artillerist",
+        "Mixed",
+        "Napalm Shot crit tripod: 100% → 80%. Enlightenment A.C.T. summon damage bonus 6/12/18% → 7/14/21%; saturation-attack passive 4/10/16% → 5/12/19%, with extra skill-specific 0/30/60% retained."
+      ],
+      [
+        "Sharpshooter",
+        "Mixed",
+        "Evasive Fire crit tripod: +100% → +80% crit rate; +44% crit damage retained."
+      ],
+      [
+        "Machinist",
+        "Buff",
+        "Core Enchant Enlightenment: damage bonus 5/10/15% → 5/11/17%. Crit rate and battery effects unchanged."
+      ],
+      [
+        "Gunslinger",
+        "Mixed",
+        "Peacemaker handgun, shotgun and rifle skill damage bonus each 4% → 7%. Rose Blossom maximum stack damage bonus 40/80/120% → 50/100/150%. Death Fire crit tripod 83% → 80%."
       ],
       [
         "Arcanist",
-        "Buff",
-        "Empress-related Enlightenment Ruin skill damage bonus at max rank: 20% → 25%."
+        "Mixed",
+        "Empress-related Ruin damage bonus 6/13/20% → 10/17/25%. Spineflower high-crit tripod capped at 80% (community cross-check). November 19 fixed unintended synergy durations and excessive Mercy of the Emperor rank 5 damage; intended bonus is 6%, not the datamined 27%."
+      ],
+      [
+        "Bard",
+        "Support",
+        "Sonic Vibration buff applies up to 6s from zone creation rather than a 2s refresh. Brand durations: Sound Shock 7 → 14s; Stigma, Note Bundle, Harp and Rhapsody 5 → 12s each; Sonatina 10 → 18s; Enlightenment brand 8 → 10s (community cross-check). Nov 19 fixed unintended excess identity/Hyper Awakening gauge generation."
       ],
       [
         "Sorceress",
         "Buff",
-        "Reflux-related Enlightenment bonus to non-Awakening skill damage: 24/35/47% → 28/39/52%."
+        "Reflux Enlightenment non-Awakening skill damage bonus 24/35/47% → 28/39/52%."
       ],
       [
         "Deathblade",
         "Mixed",
-        "Upper Slash tornado tripod crit bonus 50/100% → 40/80%; Blade Burst-related Enlightenment damage bonus 7/14/21% → 8/16/24%."
+        "Upper Slash tornado crit bonus 50/100% → 40/80%; Blade Burst-related Enlightenment damage bonus 7/14/21% → 8/16/24%."
       ],
       [
         "Reaper",
         "Buff",
-        "Fatal Step-related Hunger passive damage bonus 20/40/60% → 24/45/66%."
+        "Fatal Step/Hunger-related passive damage bonus for dagger, shadow and swoop skills plus poison/bleed effects 20/40/60% → 24/45/66%."
+      ],
+      [
+        "Artist",
+        "Mixed",
+        "Ink-brand durations: 먹물세례 6 → 12s; 난치기 12 → 18s; 호접몽 10 → 18s; Enlightenment brand 6 → 7s. Paint: Sun Well attack-power buff now lasts up to 6s from zone creation (formerly 2s). 먹오름 crit tripod 95% → 80% in PvE, 40% in PvP. Nov 19 restored missing Moon’s Shadow rank 1–4 effects."
+      ],
+      [
+        "Aeromancer",
+        "Buff",
+        "Drizzle: Clear Day Enlightenment weather-skill damage while Sun Shower is active 11/23/35% → 14/28/42%. Wind Fury: space-cutting Enlightenment skill (공간 가르기) damage bonus 0/100/200% → 0/130/260%."
       ],
       [
         "Dimensionalist",
         "Nerf",
-        "Minute-hand skills (including Ark Passive and Hyper Awakening skills) and the Dimension Slash Awakening: damage −5%."
+        "All Minute Hand skills, including Ark Passive and Hyper Awakening skills, and Dimension Slash Awakening damage −5%."
       ]
     ],
-    "notes": "The percentages describe individual skill or passive coefficients, not total build DPS. English names for KR-only classes and passives may vary. November 25 maintenance did not list a new major balance pass."
+    "notes": "Percentages are individual coefficients, not overall build DPS. Some new KR skill/passive names are provisional or retained in Korean. Rows identified as community cross-checks have weaker source support. November 19 fixes are included with November 18 rather than counted as a separate major patch. No November 18 numerical modifiers have been added to the direct PvE cumulative totals, since they affect specific passives, skills, crit or mechanics; the combined class history includes them."
   },
   "balanceArchive": [
     {
       "date": "2026-11-18",
       "title": "November 18 · Multi-crit and support adjustments",
-      "description": "Latest major Korean live-server class balance update located as of 25 November. Selected changes in English, not a complete skill-by-skill translation. Western implementation and timing are not confirmed. The original notice could not be retrieved directly; the summary uses Korean reposts and reporting.",
+      "description": "Expanded English reference for the November 18 KR live-server patch, including November 19 corrections. Based on accessible Korean patch-note reposts, reporting and class-specific cross-checks. Maxroll’s November 2026 guide is linked for additional detail but could not be directly accessed for a line-by-line comparison. Selected changes; not a guaranteed exhaustive translation. Western release timing and implementation may differ.",
       "systems": [
         [
           "Multi-crit",
@@ -733,58 +825,125 @@
         [
           "Blunt Thorn (rank 1 / 2)",
           "Evolution damage 7.5% / 15% → 9.5% / 19%; excess-crit conversion coefficient 125% / 150% → 120% / 140%; previous maximum bonus caps removed."
+        ],
+        [
+          "Multi-crit exceptions",
+          "Blunt Thorn keeps its 80% crit limit and converts excess crit to Evolution damage instead; multi-crit also does not occur in Paradise content."
+        ],
+        [
+          "Combat analysis",
+          "Character details display crit rates over 100%; combat analysis now tracks multi-crit hit rate and share of damage."
+        ],
+        [
+          "November 19 follow-up",
+          "Corrected omitted Glaivier core change and unintended Bard gauge generation, Arcanist/Summoner synergy durations, Emperor passive damage and Artist passive effects. Summoner’s unintended duration increases are not counted as permanent buffs."
         ]
       ],
       "classes": [
         [
-          "Bard",
-          "Support",
-          "Sonic Vibration attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+          "Berserker",
+          "Buff",
+          "Berserker’s Technique Enlightenment damage bonus: 0/1.7/3.4% → 0/3.5/7%."
         ],
         [
-          "Artist",
-          "Support",
-          "Paint: Sun Well attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+          "Destroyer",
+          "Buff",
+          "Gravity Training: damage bonus for Hypergravity basic attacks and Vortex Gravity 7/14/24% → 10/17/28%."
         ],
         [
           "Paladin",
           "Support",
-          "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+          "Brand durations: Light Shock 8 → 16s; Sword of Justice 10 → 18s; Holy Explosion 15 → 24s; Godsent Law 12 → 20s. Enlightenment brand 8 → 10s; Sword Prayer core brand 5 → 10s. Wrath of God cooldown 27 → 30s; Heavenly Blessings 36 → 30s. Mana costs 557/657 → 592 each."
+        ],
+        [
+          "Slayer",
+          "Buff",
+          "Enlightenment: Berserk crit damage 17/34/51% → 19/38/57%; Unstoppable Fury base damage and extra enhanced-Berserk damage each 4/8/12% → 4/8/13%."
         ],
         [
           "Valkyrie",
           "Support",
-          "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+          "Brand durations on 진리의 선고 and 진리의 륜: 5 → 12s and 10 → 16s. Main attack-buff cooldowns 27/36 → 30/30s; mana costs 557/657 → 592 each. Enlightenment brand 7 → 8s."
         ],
         [
-          "Berserker",
+          "Scrapper",
+          "Mixed",
+          "Taijutsu stamina-skill bonus 40/55/70% → 40/56/73%; Shock Training shock-skill bonus 11/22/33% → 12/24/37%. Two skill tripods (파쇄의 강타, 진 용출권) crit bonus 100 → 80%. Shockwave Sun core 17P: affected skill’s damage bonus 47/50% → 100/104%, removing its +100% crit bonus."
+        ],
+        [
+          "Glaivier",
+          "Mixed",
+          "Focus-skill tripods reworked: several guaranteed-crit or high-crit effects become guaranteed crit with +0.6% damage per 1% crit rate. Spear of Destruction variants retain their crit-damage bonus. Thrust of Destruction weak-point detection damage 25/50% → 60/96%; charge variant loses +40% crit. Spiraling Spear (사두룡격) crit tripod 15/40% becomes 30/40.8% damage reduction while casting. Nov 19 correction: Evolution’s End Star core 17P also uses guaranteed crit and +0.6% damage per 1% crit rate; −30% skill damage and Focus damage 0/1% retained."
+        ],
+        [
+          "Breaker",
           "Buff",
-          "Berserker’s Technique Enlightenment damage bonus at max rank: 3.4% → 7%."
+          "Asura-related Enlightenment passive (무아지경): damage bonus at ranks 2/3, 8/16% → 9/18% (community cross-check)."
+        ],
+        [
+          "Deadeye",
+          "Mixed",
+          "Execution and Cruel Tracker crit tripods: 100% → 80% crit bonus (community cross-check)."
+        ],
+        [
+          "Artillerist",
+          "Mixed",
+          "Napalm Shot crit tripod: 100% → 80%. Enlightenment A.C.T. summon damage bonus 6/12/18% → 7/14/21%; saturation-attack passive 4/10/16% → 5/12/19%, with extra skill-specific 0/30/60% retained."
+        ],
+        [
+          "Sharpshooter",
+          "Mixed",
+          "Evasive Fire crit tripod: +100% → +80% crit rate; +44% crit damage retained."
+        ],
+        [
+          "Machinist",
+          "Buff",
+          "Core Enchant Enlightenment: damage bonus 5/10/15% → 5/11/17%. Crit rate and battery effects unchanged."
+        ],
+        [
+          "Gunslinger",
+          "Mixed",
+          "Peacemaker handgun, shotgun and rifle skill damage bonus each 4% → 7%. Rose Blossom maximum stack damage bonus 40/80/120% → 50/100/150%. Death Fire crit tripod 83% → 80%."
         ],
         [
           "Arcanist",
-          "Buff",
-          "Empress-related Enlightenment Ruin skill damage bonus at max rank: 20% → 25%."
+          "Mixed",
+          "Empress-related Ruin damage bonus 6/13/20% → 10/17/25%. Spineflower high-crit tripod capped at 80% (community cross-check). November 19 fixed unintended synergy durations and excessive Mercy of the Emperor rank 5 damage; intended bonus is 6%, not the datamined 27%."
+        ],
+        [
+          "Bard",
+          "Support",
+          "Sonic Vibration buff applies up to 6s from zone creation rather than a 2s refresh. Brand durations: Sound Shock 7 → 14s; Stigma, Note Bundle, Harp and Rhapsody 5 → 12s each; Sonatina 10 → 18s; Enlightenment brand 8 → 10s (community cross-check). Nov 19 fixed unintended excess identity/Hyper Awakening gauge generation."
         ],
         [
           "Sorceress",
           "Buff",
-          "Reflux-related Enlightenment bonus to non-Awakening skill damage: 24/35/47% → 28/39/52%."
+          "Reflux Enlightenment non-Awakening skill damage bonus 24/35/47% → 28/39/52%."
         ],
         [
           "Deathblade",
           "Mixed",
-          "Upper Slash tornado tripod crit bonus 50/100% → 40/80%; Blade Burst-related Enlightenment damage bonus 7/14/21% → 8/16/24%."
+          "Upper Slash tornado crit bonus 50/100% → 40/80%; Blade Burst-related Enlightenment damage bonus 7/14/21% → 8/16/24%."
         ],
         [
           "Reaper",
           "Buff",
-          "Fatal Step-related Hunger passive damage bonus 20/40/60% → 24/45/66%."
+          "Fatal Step/Hunger-related passive damage bonus for dagger, shadow and swoop skills plus poison/bleed effects 20/40/60% → 24/45/66%."
+        ],
+        [
+          "Artist",
+          "Mixed",
+          "Ink-brand durations: 먹물세례 6 → 12s; 난치기 12 → 18s; 호접몽 10 → 18s; Enlightenment brand 6 → 7s. Paint: Sun Well attack-power buff now lasts up to 6s from zone creation (formerly 2s). 먹오름 crit tripod 95% → 80% in PvE, 40% in PvP. Nov 19 restored missing Moon’s Shadow rank 1–4 effects."
+        ],
+        [
+          "Aeromancer",
+          "Buff",
+          "Drizzle: Clear Day Enlightenment weather-skill damage while Sun Shower is active 11/23/35% → 14/28/42%. Wind Fury: space-cutting Enlightenment skill (공간 가르기) damage bonus 0/100/200% → 0/130/260%."
         ],
         [
           "Dimensionalist",
           "Nerf",
-          "Minute-hand skills (including Ark Passive and Hyper Awakening skills) and the Dimension Slash Awakening: damage −5%."
+          "All Minute Hand skills, including Ark Passive and Hyper Awakening skills, and Dimension Slash Awakening damage −5%."
         ]
       ],
       "sources": [
@@ -803,9 +962,33 @@
         [
           "November 25 maintenance notes (Korean repost)",
           "https://m.inven.co.kr/board/lostark/4820/9733?vtype=mobile"
+        ],
+        [
+          "Maxroll November 2026 balance guide (further reading; not directly accessible during review)",
+          "https://maxroll.gg/lost-ark/news/kr-balance-patch-november-2026#specialist-header"
+        ],
+        [
+          "Korean patch repost – Specialist changes",
+          "https://m.inven.co.kr/board/lostark/4820/9727?vtype=mobile"
+        ],
+        [
+          "Korean patch repost – Scrapper and Glaivier",
+          "https://www.inven.co.kr/board/lostark/4820/9727?keyword=%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8+%EB%82%B4%EC%97%AD&name=subject"
+        ],
+        [
+          "November 19 correction notice (GAMEBIT repost)",
+          "https://gamebit.co.kr/posts/patch-edfd416354a8d9fe796ecdb4f59251c0"
+        ],
+        [
+          "Community comparison of datamined vs live changes (cross-check)",
+          "https://www.inven.co.kr/board/lostark/6271/4317152?iskin=mini"
+        ],
+        [
+          "Community summary cross-check",
+          "https://www.inven.co.kr/board/lostark/6271/4316656"
         ]
       ],
-      "notes": "The percentages describe individual skill or passive coefficients, not total build DPS. English names for KR-only classes and passives may vary. November 25 maintenance did not list a new major balance pass.",
+      "notes": "Percentages are individual coefficients, not overall build DPS. Some new KR skill/passive names are provisional or retained in Korean. Rows identified as community cross-checks have weaker source support. November 19 fixes are included with November 18 rather than counted as a separate major patch. No November 18 numerical modifiers have been added to the direct PvE cumulative totals, since they affect specific passives, skills, crit or mechanics; the combined class history includes them.",
       "latest": true
     },
     {
