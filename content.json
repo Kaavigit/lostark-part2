@@ -617,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Verified 19 October 3 combat-style buffs against official Korean notice 13561 PDF; marked two obscured rows as secondary-source only, added raid compensation and updated cumulative source labels.",
     "25 Nov 2026 · Rechecked November 18 balance data against the supplied official Korean notice PDF (pages 1–11). Added page references, corrected scope of several passives, Cull card, support mana changes, Glaivier core changes and Dimensionalist core nerf; obscured lines and separate follow-up sources marked.",
     "25 Nov 2026 · Expanded November 18 balance reference from 10 to 21 listed classes, including Specialist changes and November 19 corrections. Combined class history updated automatically; source limitations documented.",
     "25 Nov 2026 · Expanded KR balance reference to three substantial patches (Nov 18, Oct 3, Jul 22), with cumulative class history and scoped damage comparisons; coverage limitations noted.",
@@ -995,118 +996,126 @@
     {
       "date": "2026-10-03",
       "title": "October 3 · Emergency PvE balance pass",
-      "description": "KR emergency update following the Mordum Extreme difficulty controversy. Selected combat styles received PvE damage buffs. The October Korean notice confirms the adjustment; exact style values below are cross-referenced against the Western Echoes of Thunder release, which lists the corresponding 21 style buffs. KR numerical table was not directly accessible for line-by-line verification.",
+      "description": "Official Korean emergency maintenance notice, October 3, 2026 (notice 13561). The supplied three-page print PDF directly confirms 19 combat-style PvE damage buffs. Two rows between pages 1 and 2 are not visible in the printout; the previously listed Perfect Suppression and Night’s Edge values remain secondary-source cross-references, not directly PDF-verified. Maintenance ended at 06:50 Korean time.",
       "systems": [
         [
           "Mordum Extreme Nightmare",
-          "Boss HP lowered; exact reduction not included here."
+          "HP reduced for the Act 3 Kazeros Raid boss Mordum on Extreme Nightmare difficulty. The notice does not specify the reduction percentage. (PDF p. 1)"
+        ],
+        [
+          "Clear compensation",
+          "Rosters with a recorded Extreme Nightmare clear before the October 3 emergency maintenance received a gold-bar item in the universal storage of the character with the clear. Using it grants 500,000 character-bound gold. (PDF p. 2)"
+        ],
+        [
+          "Entry compensation",
+          "Rosters that entered Act 3 Extreme Nightmare at least once between September 23 and the publication of the Director’s Letter on October 2 at 19:05 received 30 Splendid Battle Item Selection Chests in universal storage. (PDF p. 2; item name provisional)"
         ]
       ],
       "classes": [
         [
           "Destroyer",
           "Buff",
-          "Rage Hammer: PvE damage +4%"
+          "Rage Hammer: PvE damage +4% (official Korean PDF, p. 1)"
         ],
         [
           "Destroyer",
           "Buff",
-          "Gravity Training: PvE damage +2%"
+          "Gravity Training: PvE damage +2% (official Korean PDF, p. 1)"
         ],
         [
           "Slayer",
           "Buff",
-          "Punisher: PvE damage +2%"
+          "Punisher: PvE damage +2% (official Korean PDF, p. 1)"
         ],
         [
           "Valkyrie",
           "Buff",
-          "Shining Knight: PvE damage +3%"
+          "Shining Knight: PvE damage +3% (official Korean PDF, p. 1)"
         ],
         [
           "Glaivier",
           "Buff",
-          "Control: PvE damage +4%"
+          "Control: PvE damage +4% (official Korean PDF, p. 1)"
         ],
         [
           "Deadeye",
           "Buff",
-          "Pistoleer: PvE damage +6%"
+          "Pistoleer: PvE damage +6% (official Korean PDF, p. 1)"
         ],
         [
           "Artillerist",
           "Buff",
-          "Barrage Enhancement: PvE damage +5%"
+          "Barrage Enhancement: PvE damage +5% (official Korean PDF, p. 1)"
         ],
         [
           "Artillerist",
           "Buff",
-          "Firepower Enhancement: PvE damage +5%"
+          "Firepower Enhancement: PvE damage +5% (official Korean PDF, p. 1)"
         ],
         [
           "Sharpshooter",
           "Buff",
-          "Death Strike: PvE damage +2%"
+          "Death Strike: PvE damage +2% (official Korean PDF, p. 1)"
         ],
         [
           "Machinist",
           "Buff",
-          "Evolutionary Legacy: PvE damage +2%"
+          "Evolutionary Legacy: PvE damage +2% (official Korean PDF, p. 1)"
         ],
         [
           "Machinist",
           "Buff",
-          "Arthetinean Skill: PvE damage +5%"
+          "Arthetinean Skill: PvE damage +5% (official Korean PDF, p. 1)"
         ],
         [
           "Gunslinger",
           "Buff",
-          "Peacemaker: PvE damage +4%"
+          "Peacemaker: PvE damage +4% (official Korean PDF, p. 1)"
         ],
         [
           "Sorceress",
           "Buff",
-          "Igniter: PvE damage +3%"
+          "Igniter: PvE damage +3% (official Korean PDF, p. 1)"
         ],
         [
           "Sorceress",
           "Buff",
-          "Reflux: PvE damage +2%"
+          "Reflux: PvE damage +2% (official Korean PDF, p. 1)"
         ],
         [
           "Shadowhunter",
           "Buff",
-          "Demonic Impulse: PvE damage +4%"
+          "Demonic Impulse: PvE damage +4% (official Korean PDF, p. 1)"
         ],
         [
           "Shadowhunter",
           "Buff",
-          "Perfect Suppression: PvE damage +4%"
+          "Perfect Suppression: PvE damage +4% (Western patch table cross-reference; row missing from Korean PDF printout)"
         ],
         [
           "Souleater",
           "Buff",
-          "Night's Edge: PvE damage +3%"
+          "Night's Edge: PvE damage +3% (Western patch table cross-reference; row missing from Korean PDF printout)"
         ],
         [
           "Aeromancer",
           "Buff",
-          "Wind Fury: PvE damage +3%"
+          "Wind Fury: PvE damage +3% (official Korean PDF, p. 2)"
         ],
         [
           "Aeromancer",
           "Buff",
-          "Drizzle: PvE damage +5%"
+          "Drizzle: PvE damage +5% (official Korean PDF, p. 2)"
         ],
         [
           "Wildsoul",
           "Buff",
-          "Ferality: PvE damage +4%"
+          "Ferality: PvE damage +4% (official Korean PDF, p. 2)"
         ],
         [
           "Wildsoul",
           "Buff",
-          "Phantom Beast Awakening: PvE damage +5%"
+          "Phantom Beast Awakening: PvE damage +5% (official Korean PDF, p. 2)"
         ]
       ],
       "flat": [
@@ -1218,6 +1227,10 @@
       ],
       "sources": [
         [
+          "Official Korean October 3 emergency maintenance notice (primary source; user-supplied PDF)",
+          "https://lostark.game.onstove.com/News/Notice/Views/13561"
+        ],
+        [
           "KR emergency maintenance notice (Inven repost)",
           "https://www.inven.co.kr/board/lostark/4820/9681"
         ],
@@ -1230,7 +1243,7 @@
           "https://www.playlostark.com/en-us/game/releases/echoes-of-thunder"
         ]
       ],
-      "notes": "Numbers for this pass use the corresponding Western published table; not a claim that this is a separate additional Western buff. Do not count it twice."
+      "notes": "19 of the 21 previously listed combat-style adjustments are directly readable and match the earlier numerical values. Perfect Suppression and Night’s Edge are not visible across the page break and remain explicitly labeled as Western-table cross-references. Korean and corresponding Western changes must not be counted twice. Compensation applies to the Korean server and the stated eligibility periods, not necessarily Western players."
     },
     {
       "date": "2026-07-22",
@@ -1372,7 +1385,7 @@
         null,
         4,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Destroyer",
@@ -1380,7 +1393,7 @@
         null,
         2,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Slayer",
@@ -1388,7 +1401,7 @@
         null,
         2,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Valkyrie",
@@ -1396,7 +1409,7 @@
         null,
         3,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Glaivier",
@@ -1404,7 +1417,7 @@
         null,
         4,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Deadeye",
@@ -1412,7 +1425,7 @@
         null,
         6,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Artillerist",
@@ -1420,7 +1433,7 @@
         null,
         5,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Artillerist",
@@ -1428,7 +1441,7 @@
         null,
         5,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Sharpshooter",
@@ -1436,7 +1449,7 @@
         null,
         2,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Machinist",
@@ -1444,7 +1457,7 @@
         null,
         2,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Machinist",
@@ -1452,7 +1465,7 @@
         null,
         5,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Gunslinger",
@@ -1460,7 +1473,7 @@
         null,
         4,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Sorceress",
@@ -1468,7 +1481,7 @@
         4.5,
         3,
         null,
-        "July skill damage × October style damage; November Reflux passive tracked separately"
+        "October verified in official Korean PDF p. 1; July +4.5% remains earlier-source data; November passive tracked separately"
       ],
       [
         "Sorceress",
@@ -1476,7 +1489,7 @@
         4.5,
         2,
         null,
-        "July skill damage × October style damage; November Reflux passive tracked separately"
+        "October verified in official Korean PDF p. 1; July +4.5% remains earlier-source data; November passive tracked separately"
       ],
       [
         "Shadowhunter",
@@ -1484,7 +1497,7 @@
         null,
         4,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 1; other changes may apply"
       ],
       [
         "Shadowhunter",
@@ -1492,7 +1505,7 @@
         null,
         4,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October: Western table cross-reference only; Korean PDF row not visible"
       ],
       [
         "Souleater",
@@ -1500,7 +1513,7 @@
         null,
         3,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October: Western table cross-reference only; Korean PDF row not visible"
       ],
       [
         "Aeromancer",
@@ -1508,7 +1521,7 @@
         null,
         3,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 2; other changes may apply"
       ],
       [
         "Aeromancer",
@@ -1516,7 +1529,7 @@
         null,
         5,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 2; other changes may apply"
       ],
       [
         "Wildsoul",
@@ -1524,7 +1537,7 @@
         null,
         4,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 2; other changes may apply"
       ],
       [
         "Wildsoul",
@@ -1532,9 +1545,9 @@
         null,
         5,
         null,
-        "October value cross-referenced to Western table; other changes may apply"
+        "October verified in official Korean PDF p. 2; other changes may apply"
       ]
     ],
-    "notes": "Only compatible direct PvE damage multipliers are compounded: (1 + change/100) × … − 1. A dash means no comparable numeric value recorded, not zero change. Skill, passive, crit and support changes remain in the class-by-class history. Totals are scoped coefficients, not predicted full-build DPS."
+    "notes": "Only compatible direct PvE damage multipliers are compounded: (1 + change/100) × … − 1. A dash means no comparable value recorded, not zero change. October: 19 values verified against the official Korean PDF; two explicitly marked values remain Western-table cross-references. July values retain their earlier source limitations. Skill, passive, crit and support changes remain in class history. Totals are scoped coefficients, not predicted full-build DPS."
   }
 }
