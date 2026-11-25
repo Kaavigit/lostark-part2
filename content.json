@@ -617,11 +617,102 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Added a separate KR Balance Patches section covering selected November 18 class changes and multi-crit mechanics, with sources.",
     "25 Nov 2026 · Added the special selection-box conversion for T4 level 8 gems obtained from paid growth products and Paradise content, based on the supplied developer-notice excerpt.",
     "25 Nov 2026 · Added information about daily Korean developer-note monitoring and timely English guide updates after verification and review.",
     "25 Nov 2026 · Renamed to Lost Ark Part II – Update Guide and clarified its purpose as an unofficial English-translated reference for Western players.",
     "25 Nov 2026 · Restored all 13 original English summary sections and matching visual tools; improved editorial layout.",
     "25 Nov 2026 · Added interactive diagrams and calculators.",
     "25 Nov 2026 · Initial website draft."
-  ]
+  ],
+  "balance": {
+    "date": "18 November 2026",
+    "checked": "25 November 2026",
+    "description": "Latest major Korean live-server class balance update located as of 25 November. Selected changes in English, not a complete skill-by-skill translation. Western implementation and timing are not confirmed. The original notice could not be retrieved directly; the summary uses Korean reposts and reporting.",
+    "sources": [
+      [
+        "Official Korean patch notice",
+        "https://lostark.game.onstove.com/News/Notice/Views/13598"
+      ],
+      [
+        "Korean patch-note repost (Inven)",
+        "https://www.inven.co.kr/board/lostark/4820/9727"
+      ],
+      [
+        "English balance coverage (Inven Global)",
+        "https://www.invenglobal.com/articles/28741/chronomancer-nerfed-and-supports-improved-in-nov-18-balance-update"
+      ],
+      [
+        "November 25 maintenance notes (Korean repost)",
+        "https://m.inven.co.kr/board/lostark/4820/9733?vtype=mobile"
+      ]
+    ],
+    "systems": [
+      [
+        "Multi-crit",
+        "Crit rate over 100% can trigger an additional critical damage increment. On-crit effects still trigger once per hit."
+      ],
+      [
+        "High-crit effects",
+        "Selected tripods and Ark Grid effects adjusted to accommodate multi-crit."
+      ],
+      [
+        "Blunt Thorn (rank 1 / 2)",
+        "Evolution damage 7.5% / 15% → 9.5% / 19%; excess-crit conversion coefficient 125% / 150% → 120% / 140%; previous maximum bonus caps removed."
+      ]
+    ],
+    "classes": [
+      [
+        "Bard",
+        "Support",
+        "Sonic Vibration attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+      ],
+      [
+        "Artist",
+        "Support",
+        "Paint: Sun Well attack-power buff lasts up to 6 seconds from zone creation; brand duration adjustments."
+      ],
+      [
+        "Paladin",
+        "Support",
+        "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+      ],
+      [
+        "Valkyrie",
+        "Support",
+        "Two main attack-buff cooldowns standardized to 30 seconds; brand duration adjustments."
+      ],
+      [
+        "Berserker",
+        "Buff",
+        "Berserker’s Technique Enlightenment damage bonus at max rank: 3.4% → 7%."
+      ],
+      [
+        "Arcanist",
+        "Buff",
+        "Empress-related Enlightenment Ruin skill damage bonus at max rank: 20% → 25%."
+      ],
+      [
+        "Sorceress",
+        "Buff",
+        "Reflux-related Enlightenment bonus to non-Awakening skill damage: 24/35/47% → 28/39/52%."
+      ],
+      [
+        "Deathblade",
+        "Mixed",
+        "Upper Slash tornado tripod crit bonus 50/100% → 40/80%; Blade Burst-related Enlightenment damage bonus 7/14/21% → 8/16/24%."
+      ],
+      [
+        "Reaper",
+        "Buff",
+        "Fatal Step-related Hunger passive damage bonus 20/40/60% → 24/45/66%."
+      ],
+      [
+        "Chronomancer / Dimensionalist (KR class)",
+        "Nerf",
+        "Minute-hand skills (including Ark Passive and Hyper Awakening skills) and the Dimension Slash Awakening: damage −5%."
+      ]
+    ],
+    "notes": "The percentages describe individual skill or passive coefficients, not total build DPS. English names for KR-only classes and passives may vary. November 25 maintenance did not list a new major balance pass."
+  }
 }
