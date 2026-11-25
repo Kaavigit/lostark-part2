@@ -255,12 +255,12 @@
     [
       "accessories",
       "6. Accessories and bracelets",
-      "Qualifying accessories receive Magic Infusion Scrolls in six grades; existing trade limits are preserved. H, M and L mean high, medium and low effect rolls. Only the best qualifying bracelet per character produces a Seal Infusion Scroll (grades 1–21). Remaining bracelets become dismantling materials; T3 bracelets are deleted. Qualifying Relic support necklaces and rings with H/H were summarized as grade 5. Exact eligibility needs verification.",
+      "Qualifying accessories receive Magic Infusion Scrolls in six grades and retain their existing trade limits. H/M/L means high/medium/low roll. For Ancient accessories, quality must be at least 67 and effects must be eligible; the third effect only matters for H/H/H or H/H/M combinations. Qualifying Relic support necklaces and rings with H/H also receive grade 5. For bracelets, the highest-performing eligible rolled or partially rolled T4 bracelet on each character converts to a Seal Infusion Scroll (grade 1–21, with grade 1 the strongest). The game evaluates DPS and support effect combinations and selects the better result, except DPS classes cannot transfer a bracelet containing only support options. Relic bracelets are assessed using Ancient-equivalent values. All other T4 bracelets, including unrolled ones, convert to dismantling materials exchangeable for silver. T3 bracelets are removed without compensation. The published November 25 notice gives effect tiers, not a complete scoring formula or exact grade cutoffs. Even within one tier, effects and roll strengths can differ.",
       [
         [
           "H/H/H",
           "Grade 1",
-          "Grade 2 or 3"
+          "Grade 2 (Max HP third effect) / Grade 3 (party shield or healing third effect)"
         ],
         [
           "H/H/M",
@@ -288,7 +288,99 @@
           "Grade 6"
         ]
       ],
-      []
+      [
+        [
+          "Bracelet conversion: DPS roll tiers",
+          [
+            "Effect tier (best first)",
+            "Eligible effect families"
+          ],
+          [
+            [
+              "Tier 1",
+              "Dual effects: crit rate + damage on crit; crit damage + damage on crit; additional damage + demon/archdemon damage; longer cooldown + damage to foes; damage to foes + damage to staggered foes."
+            ],
+            [
+              "Tier 2+",
+              "Crit, Specialization, Swiftness (combat stats)."
+            ],
+            [
+              "Tier 2",
+              "Single damage effects: non-positional skill damage, back attack damage, head attack damage, additional damage, damage to foes, crit damage, crit rate."
+            ],
+            [
+              "Tier 3+",
+              "Weapon attack power with additional bonus at ≥50% HP; weapon attack power with periodic 120-second bonus every 30 seconds."
+            ],
+            [
+              "Tier 3",
+              "Flat weapon attack power; stacking weapon attack power on hit with attack/move speed."
+            ],
+            [
+              "Tier 4",
+              "Enemy defense reduction + ally attack-power buff effectiveness; enemy crit resistance reduction + ally attack-power buff effectiveness; enemy crit-damage resistance reduction + ally attack-power buff effectiveness; damage bonus for shielded/protected allies + ally attack-power buff effectiveness."
+            ],
+            [
+              "Tier 5",
+              "Strength / Dexterity / Intelligence."
+            ]
+          ]
+        ],
+        [
+          "Bracelet conversion: support roll tiers",
+          [
+            "Effect tier (best first)",
+            "Eligible effect families"
+          ],
+          [
+            [
+              "Tier 1",
+              "Enemy defense reduction + ally attack-power buff effectiveness; enemy crit resistance reduction + ally attack-power buff effectiveness; enemy crit-damage resistance reduction + ally attack-power buff effectiveness; damage bonus for shielded/protected allies + ally attack-power buff effectiveness."
+            ],
+            [
+              "Tier 2",
+              "Specialization, Swiftness, ally damage-buff effectiveness, ally attack-power-buff effectiveness."
+            ],
+            [
+              "Tier 3+",
+              "Weapon attack power with additional bonus at ≥50% HP; weapon attack power with periodic 120-second bonus every 30 seconds."
+            ],
+            [
+              "Tier 3",
+              "Flat weapon attack power; stacking weapon attack power on hit with attack/move speed."
+            ],
+            [
+              "Tier 4",
+              "Strength / Dexterity / Intelligence."
+            ]
+          ]
+        ],
+        [
+          "Which bracelets should I roll before Part II?",
+          [
+            "Priority",
+            "Practical recommendation"
+          ],
+          [
+            [
+              "High priority · DPS",
+              "Ancient T4 bracelet with two combat-stat lines (any pair of Crit / Spec / Swift) plus three open effect lines. Roll useful high-tier effects; do not discard a strong existing bracelet."
+            ],
+            [
+              "High priority · Support",
+              "Ancient T4 bracelet with Specialization + Swiftness and three open effect lines. Favor Tier 1 support dual effects, then ally-buff effectiveness."
+            ],
+            [
+              "Also worth checking",
+              "Existing Relic or partially rolled T4 bracelets with strong stats and effects; compare before spending heavily. A strong Relic can qualify."
+            ],
+            [
+              "Do not assume",
+              "Three open lines are a practical target, not a conversion requirement or guaranteed high scroll grade. Only the best eligible bracelet per character yields a scroll. Avoid expensive speculative purchases before Western rules are announced."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "stones",
@@ -534,7 +626,7 @@
     [
       "checklist",
       "12. What to do before Part II launches",
-      "These eight preparation actions are carried over from the earlier English summary. Verify each against the official notice before spending materials or making irreversible decisions. Checklist progress is stored on your own device.",
+      "Use this checklist for each character and your roster before the Part II maintenance. The November 25 Korean notice recommends using or exchanging items that would otherwise disappear or lose their current use. The bracelet priorities below are practical advice, not a guaranteed scroll grade. Verify Western implementation and timing before spending gold or making irreversible decisions. Progress is saved locally in this browser.",
       [],
       []
     ],
@@ -580,14 +672,14 @@
     ]
   ],
   "tasks": [
-    "Exchange remaining T3 honing materials where eligible",
-    "Fuse T3 level 1–2 gems to at least level 3",
-    "Roll unrolled T4 bracelets",
-    "Use Aura of Resonance recovery potions",
-    "Use Rest Bonus recovery potions",
-    "Spend Sands of Trial",
-    "Distribute remaining guild Bloodstones",
-    "Claim unused Powerpass style support"
+    "Exchange eligible leftover T3 honing materials (destruction/guardian stones, leapstones, etc.) at the Honing Material Exchange NPC for T4 materials before maintenance. Honor Shards and shard pouches convert to silver instead.",
+    "Fuse leftover T3 damage and cooldown gems at Lv. 1–2 up to at least Lv. 3 before maintenance; otherwise they are deleted without replacement.",
+    "Check every character's T4 bracelets. Prioritize Ancient bracelets with any two of Crit / Spec / Swift + 3 open roll lines (DPS), or Spec + Swift + 3 open lines (support). Roll promising unrolled bracelets; compare against your current best using the Section 6 tier tables. Relic and partially rolled bracelets may also qualify. Keep your strongest eligible bracelet until conversion; only one scroll per character.",
+    "Use Aura of Resonance recovery potions and consume existing Aura of Resonance through eligible content before maintenance. Remaining aura and recovery potions are deleted, not compensated.",
+    "Use Rest Bonus recovery potions and consume existing rest bonus by running eligible daily content before maintenance. Old rest bonus and recovery potions do not carry over.",
+    "Spend all Sands of Trial by running the Hourglass of Hall content before maintenance; unused sand is deleted without replacement.",
+    "Guild officers: distribute the guild's remaining guild Bloodstones to members before maintenance. Undistributed guild Bloodstones disappear; character-held Sylmael Bloodstones convert to silver at an announced rate.",
+    "Apply any unused Jumping Growth / Powerpass style support to the intended character before maintenance; the style-support feature ends."
   ],
   "source": "https://lostark.game.onstove.com/News/Notice/Views/13608",
   "status": "Unverified draft based on the earlier English summary. The official Korean notice could not be retrieved for fresh verification. Terminology and conversion figures are provisional; Western implementation is not confirmed.",
@@ -617,6 +709,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Expanded preparation checklist, added DPS and support bracelet effect tiers and three-open-line rolling priorities, and clarified that exact Seal Scroll grade scoring is not published in the accessible notice.",
     "25 Nov 2026 · Simplified the two-patch combat-style comparison by removing the recorded direct total and other changes / coverage columns. Retained patch-specific changes and source caveats.",
     "25 Nov 2026 · Simplified the balance guide to two most recent listed major patches and recalculated the combined view using only those dates. July patch retained in underlying archive but not displayed or counted.",
     "25 Nov 2026 · Improved combined balance table with directional labels, style-specific passive/skill details, partial direct totals and coverage for classes without comparable numerical changes.",
@@ -1680,5 +1773,9 @@
         }
       }
     }
+  },
+  "braceletSource": {
+    "label": "Korean notice repost (November 25, 2026) · published DPS/support roll tiers and preparation guidance",
+    "url": "https://gamebit.co.kr/posts/patch-a59448052e808755af268d543fdce93a"
   }
 }
