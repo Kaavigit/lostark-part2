@@ -1,0 +1,288 @@
+{
+  "sections": [
+    [
+      "overview",
+      "The overhaul",
+      "Part II reorganizes character growth around equipment slots, consolidates progression systems and changes how roster investments are shared. This is an unofficial English summary of the Korean notice, not a Western release confirmation.",
+      [
+        [
+          "Equipment",
+          "Slot-based progression"
+        ],
+        [
+          "Quality",
+          "Removed"
+        ],
+        [
+          "Advanced and special honing",
+          "Removed"
+        ],
+        [
+          "Accessories",
+          "Gain item levels"
+        ]
+      ]
+    ],
+    [
+      "equipment",
+      "Equipment & honing",
+      "The previous summary describes sixteen equipment slots, including four additional types: bracer, belt, artifact and seal. Existing equipment is converted, and Artisan’s Energy carries over to the relevant slot. Quality compensation is based on the highest eligible quality per slot; Sidereal weapons are treated separately.",
+      [
+        [
+          "Existing item level",
+          "New item level"
+        ],
+        [
+          "1770",
+          "1770"
+        ],
+        [
+          "1775",
+          "1785"
+        ],
+        [
+          "1780",
+          "1790"
+        ],
+        [
+          "1785",
+          "1795"
+        ],
+        [
+          "1790",
+          "1800"
+        ],
+        [
+          "1795",
+          "1810"
+        ],
+        [
+          "1800",
+          "1815"
+        ]
+      ]
+    ],
+    [
+      "materials",
+      "Materials & compensation",
+      "Older materials are removed or exchanged. The exact exchange rates should be checked against the official notice before spending resources.",
+      [
+        [
+          "T3 honing materials",
+          "Removed"
+        ],
+        [
+          "Honor Shards",
+          "Silver"
+        ],
+        [
+          "T4 fusion, destruction, guardian and breath materials",
+          "New growth materials"
+        ],
+        [
+          "T4 leapstones, Destiny Shards, honing books and quality materials",
+          "Exchange tokens"
+        ]
+      ]
+    ],
+    [
+      "accessories",
+      "Accessories & bracelets",
+      "Accessory quality and bracelet rolling are replaced by new progression systems. Qualifying accessories receive infusion scrolls according to their effects and quality. The strongest qualifying bracelet per character is used for seal scroll compensation; other bracelets become dismantling materials. Exact effect rankings require source verification.",
+      [
+        [
+          "Accessory scroll grades",
+          "1–6"
+        ],
+        [
+          "Bracelet scroll grades",
+          "1–21"
+        ],
+        [
+          "T3 bracelets",
+          "Removed"
+        ]
+      ]
+    ],
+    [
+      "sidereal",
+      "Sidereal weapons",
+      "Existing Sidereal weapons have separate conversion and refund rules. Refunded materials were described as character-bound in the earlier summary.",
+      [
+        [
+          "Existing weapon",
+          "Old → new item level"
+        ],
+        [
+          "+8 Ella 3",
+          "1775 → 1785"
+        ],
+        [
+          "+9 Ella 2",
+          "1745 → 1785"
+        ],
+        [
+          "+9 Ella 3",
+          "1800 → 1840"
+        ],
+        [
+          "+10 Ella 3",
+          "1830 → 1865"
+        ]
+      ]
+    ],
+    [
+      "gems",
+      "Gems & engravings",
+      "Tradable gems are described as roster-shared, with simultaneous use across characters; character-bound gems remain restricted. A new higher tier of gem is introduced. Ability stones are replaced by engraving-slot upgrades, with compensation dependent on qualifying positive effects.",
+      [
+        [
+          "T3 Lv. 1–2",
+          "Removed"
+        ],
+        [
+          "T3 Lv. 3",
+          "T4 Lv. 1"
+        ],
+        [
+          "T3 Lv. 7",
+          "T4 Lv. 5"
+        ],
+        [
+          "T3 Lv. 10",
+          "T4 Lv. 8"
+        ],
+        [
+          "T4 Lv. 1–10",
+          "Same level"
+        ]
+      ]
+    ],
+    [
+      "combat",
+      "Combat & Ark Passive",
+      "Evolution and Leap are removed, Enlightenment becomes a combat-style system, and Karma is removed with qualifying compensation. Skill runes and several older combat stats are removed. A new proficiency stat is described as affecting damage and allied attack-power buffs. Card sets become passive effects, with similar effects not stacking.",
+      [
+        [
+          "Domination / Endurance / Expertise",
+          "Removed"
+        ],
+        [
+          "Proficiency",
+          "New stat"
+        ],
+        [
+          "Cards",
+          "Passive effects"
+        ]
+      ]
+    ],
+    [
+      "raids",
+      "Raids & daily content",
+      "After six designated gold earners complete their weekly rewards, additional characters are described as eligible for character-bound gold from endgame content. Older raid gold and daily activities are restructured.",
+      [
+        [
+          "Shadow Raids / Horizon Cathedral",
+          "New endgame"
+        ],
+        [
+          "Legion / Kazeros / Epic raids, Kayangel, Ivory Tower",
+          "Gold removed"
+        ],
+        [
+          "Chaos Dungeon / Kurzan Front / Chaos Gate / Ebony Cube",
+          "Removed"
+        ],
+        [
+          "Guardian Raids",
+          "Reworked"
+        ]
+      ]
+    ],
+    [
+      "life",
+      "Life skills",
+      "The six gathering disciplines are consolidated into a shared progression level. Gathering materials are unified, and separate life skill tools are removed with qualifying investments compensated.",
+      [
+        [
+          "Foraging, Logging, Mining, Hunting, Fishing, Excavating",
+          "Unified life skill level"
+        ],
+        [
+          "Gathering materials",
+          "Life Crystals"
+        ],
+        [
+          "Life skill tools",
+          "Removed; qualifying compensation"
+        ]
+      ]
+    ],
+    [
+      "sailing",
+      "Sailing & exploration",
+      "Duplicate crew rarities are consolidated. Pirate Coins are converted to Ocean Coins. Sailing co-op gold rewards are removed. Secret maps are removed with qualifying compensation; compass and charm effects are replaced by card effects.",
+      [
+        [
+          "Pirate Coins",
+          "Ocean Coins"
+        ],
+        [
+          "Crew rarities",
+          "Consolidated"
+        ],
+        [
+          "Sailing co-op",
+          "Gold removed"
+        ]
+      ]
+    ],
+    [
+      "stronghold",
+      "Stronghold & pets",
+      "Stronghold research is replaced by stronghold-level progression. Pet proficiency and the Pet Ranch are removed.",
+      [
+        [
+          "Research",
+          "Stronghold level"
+        ],
+        [
+          "Pet proficiency / Pet Ranch",
+          "Removed"
+        ]
+      ]
+    ],
+    [
+      "economy",
+      "Economy & marketplace",
+      "The auction house is removed while the marketplace is retained, including gems. Direct trading uses a trust system, with possible additional Pheon fees for insufficient trust. Guild Bloodstones are removed.",
+      [
+        [
+          "Auction House",
+          "Removed"
+        ],
+        [
+          "Marketplace",
+          "Retained"
+        ],
+        [
+          "Guild Bloodstones",
+          "Removed"
+        ]
+      ]
+    ]
+  ],
+  "tasks": [
+    "Exchange remaining T3 honing materials where eligible",
+    "Fuse T3 level 1–2 gems to at least level 3",
+    "Roll unrolled T4 bracelets",
+    "Use Aura of Resonance recovery potions",
+    "Use Rest Bonus recovery potions",
+    "Spend Sands of Trial",
+    "Distribute remaining guild Bloodstones",
+    "Claim unused Powerpass style support"
+  ],
+  "source": "https://lostark.game.onstove.com/News/Notice/Views/13608",
+  "status": "Draft: previous English summary; original Korean notice could not be retrieved during this publishing session."
+}
