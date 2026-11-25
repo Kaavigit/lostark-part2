@@ -313,7 +313,7 @@
     [
       "gems",
       "8. Gems",
-      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Celestial Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Celestial gem, then two same-level gems make the next level. Maximum level is not specified.",
+      "Tradable gems become roster-shared, with simultaneous use by multiple characters. Character-bound gems remain restricted. A new higher-tier gem, provisionally called Celestial Gem, is introduced above T4 level 10. Three T4 level 10 gems make the first Celestial gem, then two same-level gems make the next level. Maximum level is not specified. Important exception: qualifying T4 level 8 Gems of Brilliance obtained through previous paid growth events/products or Paradise content are converted into a selection box instead of the standard same-level conversion. Choose one new non-tradable T4 level 8 gem or one new tradable T4 level 7 gem. Choosing the tradable level 7 option allows you to trade it or use it for gem fusion. This exception applies only to gems from the specified acquisition routes, not every level 8 gem.",
       [
         [
           "T3 Level 1–2",
@@ -341,10 +341,31 @@
         ],
         [
           "T4 Level 1–10",
-          "Same level"
+          "Same level (except qualifying gems listed below)"
         ]
       ],
-      []
+      [
+        [
+          "Special conversion: paid-event and Paradise level 8 gems",
+          [
+            "Eligible existing gem",
+            "Option A (choose one)",
+            "Option B (choose one)"
+          ],
+          [
+            [
+              "T4 Lv. 8 Gem of Brilliance from paid growth products (previous paid events)",
+              "New non-tradable T4 Lv. 8 Gem of Brilliance",
+              "New tradable T4 Lv. 7 Gem of Brilliance (can be fused)"
+            ],
+            [
+              "T4 Lv. 8 Gem of Brilliance from Paradise content",
+              "New non-tradable T4 Lv. 8 Gem of Brilliance",
+              "New tradable T4 Lv. 7 Gem of Brilliance (can be fused)"
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "combat",
@@ -596,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Added the special selection-box conversion for T4 level 8 gems obtained from paid growth products and Paradise content, based on the supplied developer-notice excerpt.",
     "25 Nov 2026 · Added information about daily Korean developer-note monitoring and timely English guide updates after verification and review.",
     "25 Nov 2026 · Renamed to Lost Ark Part II – Update Guide and clarified its purpose as an unofficial English-translated reference for Western players.",
     "25 Nov 2026 · Restored all 13 original English summary sections and matching visual tools; improved editorial layout.",
