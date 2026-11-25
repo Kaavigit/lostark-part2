@@ -617,6 +617,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Simplified the two-patch combat-style comparison by removing the recorded direct total and other changes / coverage columns. Retained patch-specific changes and source caveats.",
     "25 Nov 2026 · Simplified the balance guide to two most recent listed major patches and recalculated the combined view using only those dates. July patch retained in underlying archive but not displayed or counted.",
     "25 Nov 2026 · Improved combined balance table with directional labels, style-specific passive/skill details, partial direct totals and coverage for classes without comparable numerical changes.",
     "25 Nov 2026 · Verified 19 October 3 combat-style buffs against official Korean notice 13561 PDF; marked two obscured rows as secondary-source only, added raid compensation and updated cumulative source labels.",
@@ -1542,7 +1543,7 @@
         "October verified in official Korean PDF p. 2; other changes may apply"
       ]
     ],
-    "notes": "The direct total covers the two displayed patches only. Direct percentages are compounded only where scopes are compatible. Qualitative buffs, nerfs, mixed or support changes are not zero and are excluded from the direct total. Class-level labels do not imply every combat style benefited. “Other style / scope” identifies changes that do not establish a buff for that row’s build. “Not listed” means no change recorded in this summary, not proof of no change. October: 19 values verified against the official Korean PDF; two remain Western-table cross-references. Totals are partial recorded coefficients, not predicted full-build DPS.",
+    "notes": "Percentages are direct PvE damage changes where explicitly recorded. Passive, skill, critical-rate and support changes are shown separately because their impact depends on the build. Class-level labels do not imply every combat style benefited. “Other style / scope” identifies changes that do not establish a buff for that build. “Not listed” means no change recorded in this summary, not proof of no change. October: 19 values verified against the official Korean PDF; two marked values remain secondary-source cross-references.",
     "dates": [
       "2026-07-22",
       "2026-10-03",
