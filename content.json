@@ -26,6 +26,10 @@
           "Removed"
         ],
         [
+          "Quality Upgrade system",
+          "Removed; eligible materials and gear Quality compensated with tokens"
+        ],
+        [
           "Accessory polishing",
           "Slot-based progression"
         ],
@@ -139,7 +143,7 @@
     [
       "materials",
       "4. Honing materials and quality compensation",
-      "Quality compensation is based on the highest eligible quality equipment owned for each weapon and armor slot. Sidereal weapons are excluded from standard quality compensation. Existing Artisan’s Energy carries over to its corresponding slot. Exact exchange rates remain unverified.",
+      "The Quality system is removed entirely: gear and accessories no longer receive Quality, and the Quality Upgrade system is discontinued. Existing Quality Upgrade materials are removed and replaced with Part 2 Growth Material Exchange Tokens. Additional tokens are awarded for each weapon and armor slot according to the highest Quality piece held by the character for that slot; Sidereal weapons are excluded. Existing Artisan’s Energy carries over to its corresponding slot, according to the earlier summary. Exact token payout amounts have not been supplied.",
       [
         [
           "T3 honing materials",
@@ -186,7 +190,41 @@
           "Part 2 Growth Material Exchange Token"
         ]
       ],
-      []
+      [
+        [
+          "Quality system removal and compensation",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Gear and accessories",
+              "No longer have a Quality value."
+            ],
+            [
+              "Quality Upgrade",
+              "Removed along with the Quality system."
+            ],
+            [
+              "Quality Upgrade materials",
+              "Removed and replaced with Part 2 Growth Material Exchange Tokens."
+            ],
+            [
+              "Existing weapon and armor Quality",
+              "Additional tokens based on the highest-Quality piece held for each slot, per character."
+            ],
+            [
+              "Sidereal weapons",
+              "Excluded from the Quality-based additional token payout."
+            ],
+            [
+              "Token amounts",
+              "Exact payout schedule not provided in the supplied excerpt."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "sidereal",
@@ -517,7 +555,7 @@
     [
       "combat",
       "9. Combat, Ark Passive and cards",
-      "Prowess increases damage and allied attack-power buffs. Combat stats become freely assignable through Ark Passive, which unlocks at combat level 50. Cards no longer need to be manually equipped; similar effects do not stack and the strongest applies.",
+      "Ark Passive becomes a combat-style and stat allocation system, available at Combat Level 50. Prowess replaces Domination, Endurance and Expertise, and increases Damage to Enemies and Ally Attack Power Enhancement Effect according to its value. The Karma and Skill Rune systems are removed. Card effects become always-active Signature Effects.",
       [
         [
           "Evolution",
@@ -560,27 +598,111 @@
           "Permanent passive effects"
         ]
       ],
-      []
+      [
+        [
+          "Combat stats and Ark Passive",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Domination / Endurance / Expertise",
+              "Deleted; part of existing character values transfers retroactively to Prowess."
+            ],
+            [
+              "Pet stat effects",
+              "Existing Domination, Endurance and Expertise pet effects become Prowess at the same value."
+            ],
+            [
+              "Combat Level 50",
+              "Unlock Ark Passive and receive all distributable stat points."
+            ],
+            [
+              "Stat allocation",
+              "Distribute points freely among Crit, Specialization, Swiftness and Prowess."
+            ],
+            [
+              "Combat style selection",
+              "Based on Enlightenment; nodes unlock by Combat Level. Choosing or changing style applies its default stat distribution, which can then be adjusted."
+            ],
+            [
+              "Evolution and Leap",
+              "Removed; class Enlightenment passives and skill effects adjusted accordingly."
+            ],
+            [
+              "Super Awakening skills",
+              "Existing Leap enhancements reworked as Super Awakening skill Tripods."
+            ]
+          ]
+        ],
+        [
+          "Karma and Skill Rune removal",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Karma rank and level growth items",
+              "Removed and replaced with Part 2 Growth Material Exchange Tokens."
+            ],
+            [
+              "Existing Karma progression",
+              "Each of Evolution, Enlightenment and Leap that reached Karma Level 22 or higher receives tokens based on its attained level."
+            ],
+            [
+              "Skill Runes",
+              "All owned runes removed; some effects move to gems or PvE damage increases."
+            ]
+          ]
+        ],
+        [
+          "Cards and Signature Effects",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Signature Effects",
+              "Always-active passive effects based on cards held. When identical or similar effects overlap, only the strongest is applied."
+            ],
+            [
+              "Card equipping",
+              "Removed; effects are applied automatically based on collected cards."
+            ],
+            [
+              "Card presets",
+              "Removed; currency spent unlocking presets is refunded."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "raids",
       "10. Raids, gold and daily content",
-      "After all six designated characters have earned their weekly gold rewards, additional characters can earn Character-bound Gold from end content.",
+      "The end content lineup and rewards change. After all six designated Gold earners have earned their weekly Gold rewards, additional characters can earn Character-bound Gold by clearing end content. Free extra rewards are removed.",
       [
         [
-          "Shadow Raids",
-          "Endgame"
+          "Shadow Raid: Witch of Agony, Serca / Precept-Keeper of Death, Belgardin",
+          "End content"
         ],
         [
-          "Cathedral of the Horizon",
-          "Endgame"
+          "Abyss Dungeon: Cathedral of the Horizon",
+          "End content"
         ],
         [
-          "Legion Raids",
+          "Kayangel / Ivory Tower of Chaos",
           "Gold removed"
         ],
         [
-          "Kazeros Raids",
+          "Legion Raids (Valtan – Thaemine)",
+          "Gold removed"
+        ],
+        [
+          "Kazeros Raids (Overture – Denouement)",
           "Gold removed"
         ],
         [
@@ -588,36 +710,129 @@
           "Gold removed"
         ],
         [
-          "Kayangel / Ivory Tower of Chaos",
-          "Gold removed"
+          "Chaos Rift / Guardian Raid / Haal’s Hourglass",
+          "Playable only through a new system"
         ],
         [
-          "Chaos Dungeon",
+          "Chaos Dungeon / Kurzan Front / Chaos Gate / Ebony Cube / Origin Island Battle Arena",
           "Removed"
-        ],
-        [
-          "Kurzan Front",
-          "Removed"
-        ],
-        [
-          "Chaos Gate",
-          "Removed"
-        ],
-        [
-          "Ebony Cube",
-          "Removed"
-        ],
-        [
-          "Guardian Raids",
-          "New content system"
         ]
       ],
-      []
+      [
+        [
+          "End content rewards and Gold",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Cores",
+              "More Cores from clears and extra rewards."
+            ],
+            [
+              "Entry levels and clear Gold",
+              "Adjusted for some end content; exact figures not included."
+            ],
+            [
+              "7th and subsequent characters",
+              "Character-bound Gold after all six designated Gold earners complete their weekly Gold rewards."
+            ],
+            [
+              "Free extra rewards",
+              "Removed."
+            ],
+            [
+              "Unique materials from existing end content",
+              "Removed and replaced with Part 2 Growth Material Exchange Tokens."
+            ],
+            [
+              "PC Bang premium",
+              "Additional extra-rewards chance benefit removed."
+            ]
+          ]
+        ],
+        [
+          "Legacy Legion and Kazeros Raid rewards",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "First Clear Reward",
+              "Items no longer used in Part 2 removed from the reward."
+            ],
+            [
+              "Cards",
+              "Final-gate card rewards retained."
+            ],
+            [
+              "Honor rewards",
+              "Awarded on the final gate of the difficulty that grants the honor reward."
+            ],
+            [
+              "Honing materials / Cores",
+              "No longer awarded."
+            ],
+            [
+              "Loot Auction / extra rewards",
+              "No longer provided."
+            ]
+          ]
+        ],
+        [
+          "Abyss Dungeon reward changes",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Ancient Elveria – Oreha’s Well",
+              "All rewards removed."
+            ],
+            [
+              "Kayangel / Ivory Tower of Chaos",
+              "Region card packs and honor rewards remain obtainable."
+            ]
+          ]
+        ],
+        [
+          "Daily content and expiring resources",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Ebony Cube entry tickets",
+              "1st–5th Forbidden and 1st–4th Unlock tickets removed and replaced with Part 2 Growth Material Exchange Tokens."
+            ],
+            [
+              "Aura of Resonance / Rest Bonus",
+              "Accumulated amounts and related items removed without replacement."
+            ],
+            [
+              "Recovery Elixirs",
+              "Use Aura of Resonance and Rest Bonus Recovery Elixirs before maintenance."
+            ],
+            [
+              "Sand of Trials",
+              "Use up through Haal’s Hourglass before maintenance; unused sand removed without replacement."
+            ],
+            [
+              "New Rest Bonus",
+              "The new Part 2 system provides Rest Bonus in a new form."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "life",
       "11. Horizontal progression and economy",
-      "Trade Skills, sailing, stronghold, pets, and the player economy are being simplified. Direct player-to-player item trading uses a trust system, with additional Pheon fees possible for insufficient trust.",
+      "Trade Skills, sailing, the Roster Stronghold, pets and the economy are reworked. The detailed tables below preserve the replacement and removal distinctions in the supplied developer-note excerpts.",
       [
         [
           "Trade Skills",
@@ -676,7 +891,238 @@
           "Replaced by card effects"
         ]
       ],
-      []
+      [
+        [
+          "Trade Skill progression and materials",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Unified Trade Skill level",
+              "XP from all six activities is added together to determine the new level."
+            ],
+            [
+              "Foraging / Logging / Mining / Hunting / Fishing / Excavating",
+              "All activities award Crystals of Life."
+            ],
+            [
+              "Skills and minigames",
+              "Some removed as part of simplification."
+            ],
+            [
+              "Life Energy",
+              "Consumption adjusted for each Trade Skill."
+            ],
+            [
+              "Crafting recipes",
+              "Some Trade Skill material recipes removed."
+            ],
+            [
+              "Trade Skill tiers",
+              "Removed; regular gatherables become Crystals of Life, Stronghold farm gatherables become bound Crystals of Life."
+            ],
+            [
+              "Tier research costs",
+              "Refunded."
+            ],
+            [
+              "Existing Trade Skill materials",
+              "Removed; eligible materials replaced with Crystals of Life according to per-material Market conversion criteria."
+            ]
+          ]
+        ],
+        [
+          "Trade Skill tool and item compensation",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Legendary / Relic tools",
+              "Replaced with Gold according to replacement criteria, limited to one per eligible item; duplicates meeting the same payout criteria are not compensated."
+            ],
+            [
+              "Below-Legendary tools",
+              "Replaced with Crystals of Life of the same bound status."
+            ],
+            [
+              "Tool Crafting Kits / Restoration Kits / Crafting Parts",
+              "Replaced with Crystals of Life of the same bound status."
+            ],
+            [
+              "Trade Skill charms and charm chests",
+              "Replaced with new cards of the same grade; charm effects move to Trade Skill card-set collection effects."
+            ],
+            [
+              "Other obsolete Trade Skill items",
+              "Eligible items replaced with Crystals of Life; items not designated for replacement are removed."
+            ]
+          ]
+        ],
+        [
+          "Sailing rework",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Crew members",
+              "Same-named crew members consolidated; unified rarity determined by the number of rarities owned."
+            ],
+            [
+              "Example: Cals",
+              "Epic + Legendary + Relic owned → unified Relic Cals; two of these owned → unified Legendary Cals."
+            ],
+            [
+              "Crew Application Forms",
+              "Existing forms replaced with new upgrade forms. Same-name forms upgrade crew members that have not reached maximum rarity."
+            ],
+            [
+              "Hazardous Waters",
+              "Kelp Beds removed; locations in Sea of Gienah and Sea of Procyon adjusted."
+            ],
+            [
+              "Ship Parts",
+              "Epic parts renamed Ship Parts and changed to Rare; lower-rarity parts replaced at a set ratio."
+            ],
+            [
+              "Pirate Coins",
+              "Removed and replaced with Ocean Coins at a set ratio."
+            ],
+            [
+              "Sailing Co-op Quests",
+              "Gold rewards removed."
+            ]
+          ]
+        ],
+        [
+          "Roster Stronghold and pets",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Lab and research",
+              "Removed; former research effects and unlocked functions become available through Roster Stronghold Level."
+            ],
+            [
+              "Special dispatch missions / Training Camp",
+              "Removed."
+            ],
+            [
+              "Chef’s Kitchen",
+              "North Kurzan feast and barbecue menus removed."
+            ],
+            [
+              "Pet specialties",
+              "Stronghold farm-related effects adjusted."
+            ],
+            [
+              "Pet Proficiency",
+              "Removed; pets can be upgraded immediately from pet storage if the required Pet Growth Token is held."
+            ],
+            [
+              "Pet Ranch / Cookie Workshop",
+              "Removed."
+            ],
+            [
+              "Pet Proficiency Potion from returning a pet",
+              "Replaced with Pet Growth Token."
+            ],
+            [
+              "Obsolete ranch and workshop items",
+              "Removed or replaced depending on item type."
+            ],
+            [
+              "Jelly Cookie exchange rewards",
+              "Available through another shop for Adventurer’s Seals."
+            ]
+          ]
+        ],
+        [
+          "Trust, Market and trading",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Mail / personal trades",
+              "Trust used; Trust assigned to an item may vary with Market prices."
+            ],
+            [
+              "Insufficient Trust",
+              "Sending Gold or items accumulates negative Trust equal to the shortfall."
+            ],
+            [
+              "Additional fee",
+              "Below a threshold, Pheons are charged on top of the existing Gold fee. Once charged, restore Trust to 0 or above to stop the fee."
+            ],
+            [
+              "New accounts",
+              "Additional Pheon fee applies immediately if Trust is insufficient; lifted by obtaining Trust above a threshold or registering STOVE mobile OTP."
+            ],
+            [
+              "Auction House",
+              "No longer used; gems become tradable on the Market."
+            ],
+            [
+              "Existing listings",
+              "All Market and Auction House listings cancelled at Part 2 update; depending on item type, returned by mail as replacement items or removed without replacement."
+            ]
+          ]
+        ],
+        [
+          "Guilds, achievements, special gear and maps",
+          [
+            "System / item",
+            "Part 2 change"
+          ],
+          [
+            [
+              "Guild activity points",
+              "Earning method retained; reward structure reworked."
+            ],
+            [
+              "Character-held Sylmael Bloodstones",
+              "Removed and replaced with Silver at a set ratio."
+            ],
+            [
+              "Guild-held Bloodstones",
+              "Removed without replacement; distribute to members before maintenance."
+            ],
+            [
+              "Legacy achievements",
+              "Achievements no longer completable become Legacy; rank XP remains counted, and previously excluded Legacy rank XP is restored."
+            ],
+            [
+              "Hero’s Crest",
+              "Removed; grade determines the insignia and title awarded."
+            ],
+            [
+              "Charm / Compass",
+              "Removed; replaced with cards according to grade; existing effects move to new card-set collection effects."
+            ],
+            [
+              "Regular Secret Maps",
+              "Removed and replaced with Part 2 Growth Material Exchange Tokens based on obtainable item value."
+            ],
+            [
+              "Trade Skill Secret Maps",
+              "Removed and replaced with Crystals of Life based on obtainable Trade Skill item value and map tier."
+            ],
+            [
+              "Jumping Style Support",
+              "Ends; apply unused Style Support before maintenance."
+            ]
+          ]
+        ]
+      ]
     ],
     [
       "checklist",
@@ -730,9 +1176,9 @@
     "Exchange eligible leftover T3 honing materials (destruction/guardian stones, leapstones, etc.) at the Honing Material Exchange NPC for T4 materials before maintenance. Honor Shards and shard pouches convert to silver instead.",
     "Fuse leftover T3 damage and cooldown gems at Lv. 1–2 up to at least Lv. 3 before maintenance; otherwise they are deleted without replacement.",
     "Check every character's T4 bracelets. Prioritize Ancient bracelets with any two of Crit / Spec / Swift + 3 open roll lines (DPS), or Spec + Swift + 3 open lines (support). Roll promising unrolled bracelets; compare against your current best using the Section 6 tier tables. Relic and partially rolled bracelets may also qualify. Keep your strongest eligible bracelet until conversion; only one scroll per character.",
-    "Use Aura of Resonance recovery potions and consume existing Aura of Resonance through eligible content before maintenance. Remaining aura and recovery potions are deleted, not compensated.",
-    "Use Rest Bonus recovery potions and consume existing rest bonus by running eligible daily content before maintenance. Old rest bonus and recovery potions do not carry over.",
-    "Spend all Sand of Trials by running the Haal’s Haal’s Hourglass content before maintenance; unused sand is deleted without replacement.",
+    "Use Aura of Resonance Recovery Elixirs and consume existing Aura of Resonance through eligible content before maintenance. Remaining aura and recovery potions are deleted, not compensated.",
+    "Use Rest Bonus Recovery Elixirs and consume existing rest bonus by running eligible daily content before maintenance. Old rest bonus and recovery potions do not carry over.",
+    "Spend all Sand of Trials by running the Haal’s Hourglass content before maintenance; unused sand is deleted without replacement.",
     "Guild officers: distribute the guild's remaining guild Bloodstones to members before maintenance. Undistributed guild Bloodstones disappear; character-held Sylmael Bloodstones convert to silver at an announced rate.",
     "Apply any unused Jumping Growth / Powerpass style support to the intended character before maintenance; the style-support feature ends."
   ],
@@ -764,6 +1210,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Removed the public terminology glossary while retaining terminology choices; expanded Quality compensation, combat, Trade Skills, sailing, content, Stronghold, pet, trading and other system details from supplied developer-note excerpts.",
     "25 Nov 2026 · Standardized English terminology using the supplied Korean–English glossary, renamed provisional item and slot labels, and added a searchable terminology reference. Gameplay figures unchanged.",
     "25 Nov 2026 · Added the DPS and support valid-engraving lists and all seven Ability Stone transfer outcomes in Section 7, transcribed from the supplied English reference image.",
     "25 Nov 2026 · Expanded preparation checklist, added DPS and support bracelet effect tiers and three-open-line rolling priorities, and clarified that exact Seal Scroll grade scoring is not published in the accessible notice.",
@@ -1834,846 +2281,5 @@
   "braceletSource": {
     "label": "Korean notice repost (November 25, 2026) · published DPS/support roll tiers and preparation guidance",
     "url": "https://gamebit.co.kr/posts/patch-a59448052e808755af268d543fdce93a"
-  },
-  "glossaryNote": "Terminology supplied by a reader for consistency across the English guide. Working = no confirmed Western client name; literal/unchecked = descriptive translation or unverified client spelling. Established = identified as official or established in the supplied glossary, not independently verified here. The glossary is a language reference, not an announcement of additional gameplay changes or Western release plans.",
-  "glossary": [
-    {
-      "category": "General & equipment",
-      "terms": [
-        [
-          "2부",
-          "Part 2",
-          "Established",
-          "Smilegate's overhaul name"
-        ],
-        [
-          "교체 지급",
-          "Replaced with / given as replacement",
-          "Literal",
-          "Old item removed, new item issued in its place"
-        ],
-        [
-          "이관",
-          "Transfer",
-          "Literal",
-          ""
-        ],
-        [
-          "2부 성장 재료 교환용 토큰",
-          "Part 2 Growth Material Exchange Token",
-          "Working",
-          "New item"
-        ],
-        [
-          "완갑",
-          "Vambrace",
-          "Working",
-          "New slot"
-        ],
-        [
-          "허리띠",
-          "Belt",
-          "Working",
-          "New slot"
-        ],
-        [
-          "성물",
-          "Holy Relic",
-          "Working",
-          "New slot"
-        ],
-        [
-          "인장",
-          "Seal",
-          "Working",
-          "New slot"
-        ],
-        [
-          "보구",
-          "Treasures",
-          "Working",
-          "Holy Relic + Seal group"
-        ],
-        [
-          "재련",
-          "Honing",
-          "Established",
-          ""
-        ],
-        [
-          "상급 재련",
-          "Advanced Honing",
-          "Established",
-          ""
-        ],
-        [
-          "특수 재련",
-          "Special Honing",
-          "Established",
-          ""
-        ],
-        [
-          "재련 단계",
-          "Honing stage",
-          "Established",
-          "25단계 = Stage 25"
-        ],
-        [
-          "연마",
-          "Polish",
-          "Working",
-          "Existing accessory polishing; working name for new gear system"
-        ],
-        [
-          "연마 단계",
-          "Polish level",
-          "Working",
-          ""
-        ],
-        [
-          "등급",
-          "Rarity / grade",
-          "Literal",
-          "Gear rarity; scroll grade"
-        ],
-        [
-          "일반 / 고급 / 희귀 / 영웅 / 전설 / 유물 / 고대",
-          "Common / Uncommon / Rare / Epic / Legendary / Relic / Ancient",
-          "Established",
-          ""
-        ],
-        [
-          "초과 / 이하",
-          "Above / Up to",
-          "Literal",
-          "Lower bound exclusive; upper bound inclusive"
-        ]
-      ]
-    },
-    {
-      "category": "Materials & Sidereal",
-      "terms": [
-        [
-          "명예의 파편",
-          "Honor Shards",
-          "Established",
-          ""
-        ],
-        [
-          "운명의 파편",
-          "Destiny Shards",
-          "Established",
-          ""
-        ],
-        [
-          "돌파석",
-          "Leapstone",
-          "Established",
-          ""
-        ],
-        [
-          "융화 재료",
-          "Fusion Material",
-          "Established",
-          ""
-        ],
-        [
-          "야금술 / 재봉술",
-          "Metallurgy / Tailoring",
-          "Established",
-          ""
-        ],
-        [
-          "숨결",
-          "Breath",
-          "Established",
-          ""
-        ],
-        [
-          "장인의 기운",
-          "Artisan’s Energy",
-          "Established",
-          ""
-        ],
-        [
-          "실링",
-          "Silver",
-          "Established",
-          ""
-        ],
-        [
-          "순환 돌파석",
-          "Circulation Leapstone",
-          "Working",
-          ""
-        ],
-        [
-          "전이 돌파석",
-          "Transition Leapstone",
-          "Working",
-          ""
-        ],
-        [
-          "에스더 무기",
-          "Sidereal weapon",
-          "Established",
-          ""
-        ],
-        [
-          "에스더의 기운",
-          "Sidereal Energy",
-          "Established",
-          ""
-        ],
-        [
-          "엘라 부여 단계",
-          "Ella infusion stage",
-          "Working",
-          ""
-        ],
-        [
-          "에스더 변환",
-          "Sidereal Conversion",
-          "Working",
-          ""
-        ],
-        [
-          "로맨틱 재료 키트",
-          "Romantic Material Kit",
-          "Working",
-          ""
-        ]
-      ]
-    },
-    {
-      "category": "Accessories, engravings & gems",
-      "terms": [
-        [
-          "마력 주입 주문서",
-          "Mana Infusion Scroll",
-          "Working",
-          ""
-        ],
-        [
-          "인장 마력 주입 주문서",
-          "Seal Mana Infusion Scroll",
-          "Working",
-          ""
-        ],
-        [
-          "유효 옵션",
-          "Valid options",
-          "Literal",
-          ""
-        ],
-        [
-          "상 / 중 / 하",
-          "High / Mid / Low",
-          "Literal",
-          "Accessory roll grades"
-        ],
-        [
-          "딜러 / 서포터",
-          "DPS / Support",
-          "Established",
-          ""
-        ],
-        [
-          "영롱한 보석 파편",
-          "Radiant Gem Fragment",
-          "Working",
-          ""
-        ],
-        [
-          "초월의 가루",
-          "Transcendence Powder",
-          "Working",
-          ""
-        ],
-        [
-          "거룩한 초월의 가루",
-          "Holy Transcendence Powder",
-          "Working",
-          ""
-        ],
-        [
-          "낙인력",
-          "Brand Power",
-          "Established",
-          ""
-        ],
-        [
-          "아군 공격력 강화 효과",
-          "Ally Attack Power Enhancement Effect",
-          "Established",
-          ""
-        ],
-        [
-          "아군 피해량 강화 효과",
-          "Ally Damage Enhancement Effect",
-          "Established",
-          ""
-        ],
-        [
-          "무력화",
-          "Stagger",
-          "Established",
-          ""
-        ],
-        [
-          "세공",
-          "Faceting",
-          "Established",
-          ""
-        ],
-        [
-          "활성화 포인트",
-          "Activation points",
-          "Established",
-          ""
-        ],
-        [
-          "각인 슬롯 업그레이드",
-          "Engraving Slot Upgrade",
-          "Working",
-          ""
-        ],
-        [
-          "속전속결 / 구슬동자 / 전문의",
-          "All-Out Attack / Drops of Ether / Expert",
-          "Established",
-          "Western engraving names"
-        ],
-        [
-          "비상의 돌 각인 지정 키트",
-          "Soaring Stone Engraving Designation Kit",
-          "Working",
-          ""
-        ],
-        [
-          "멸화 / 홍염",
-          "Annihilation / Crimson Flame",
-          "Established",
-          "Tier 3 gems"
-        ],
-        [
-          "겁화 / 작열",
-          "Doomfire / Blazing",
-          "Established",
-          "Tier 4 gems"
-        ],
-        [
-          "광휘의 보석",
-          "Radiance Gem",
-          "Working",
-          ""
-        ],
-        [
-          "성휘의 보석",
-          "Sacred Radiance Gem",
-          "Working",
-          ""
-        ]
-      ]
-    },
-    {
-      "category": "Combat & storage",
-      "terms": [
-        [
-          "원정대",
-          "Roster",
-          "Established",
-          ""
-        ],
-        [
-          "재료 저장소",
-          "Material Storage",
-          "Established",
-          ""
-        ],
-        [
-          "통합 보관함",
-          "Shared storage",
-          "Literal",
-          ""
-        ],
-        [
-          "제압 / 인내 / 숙련",
-          "Domination / Endurance / Expertise",
-          "Established",
-          ""
-        ],
-        [
-          "치명 / 특화 / 신속",
-          "Crit / Specialization / Swiftness",
-          "Established",
-          ""
-        ],
-        [
-          "기량",
-          "Prowess",
-          "Working",
-          "New stat"
-        ],
-        [
-          "전투 스타일",
-          "Combat style",
-          "Literal",
-          ""
-        ],
-        [
-          "진화 / 깨달음 / 도약",
-          "Evolution / Enlightenment / Leap",
-          "Established",
-          ""
-        ],
-        [
-          "카르마",
-          "Karma",
-          "Established",
-          ""
-        ],
-        [
-          "초각성 스킬",
-          "Super Awakening skill",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "스킬 룬",
-          "Skill Rune",
-          "Established",
-          ""
-        ],
-        [
-          "환수사",
-          "Wildsoul",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "차원술사",
-          "Chronomancer",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "가디언나이트",
-          "Guardian Knight",
-          "Supplied choice",
-          ""
-        ]
-      ]
-    },
-    {
-      "category": "Trade Skills & sailing",
-      "terms": [
-        [
-          "생활",
-          "Trade Skill",
-          "Established",
-          ""
-        ],
-        [
-          "식물채집 / 벌목 / 채광 / 수렵 / 낚시 / 고고학",
-          "Foraging / Logging / Mining / Hunting / Fishing / Excavating",
-          "Established",
-          ""
-        ],
-        [
-          "생명의 기운",
-          "Life Energy",
-          "Established",
-          ""
-        ],
-        [
-          "생명의 결정",
-          "Crystal of Life",
-          "Working",
-          ""
-        ],
-        [
-          "선원",
-          "Crew member",
-          "Established",
-          ""
-        ],
-        [
-          "선원지원서",
-          "Crew Application Form",
-          "Established",
-          ""
-        ],
-        [
-          "위험 해역",
-          "Hazardous Waters",
-          "Established",
-          ""
-        ],
-        [
-          "수초 해역",
-          "Kelp Beds",
-          "Established",
-          ""
-        ],
-        [
-          "해적 주화",
-          "Pirate Coin",
-          "Established",
-          ""
-        ],
-        [
-          "대양의 주화",
-          "Ocean Coin",
-          "Working",
-          ""
-        ],
-        [
-          "칼스",
-          "Cals",
-          "Working",
-          ""
-        ]
-      ]
-    },
-    {
-      "category": "Raids & activities",
-      "terms": [
-        [
-          "엔드 콘텐츠",
-          "End content",
-          "Literal",
-          ""
-        ],
-        [
-          "보상 더보기",
-          "Extra rewards",
-          "Literal",
-          ""
-        ],
-        [
-          "전리품 경매",
-          "Loot Auction",
-          "Established",
-          ""
-        ],
-        [
-          "캐릭터 귀속 골드",
-          "Character-bound Gold",
-          "Established",
-          ""
-        ],
-        [
-          "고통의 마녀, 세르카",
-          "Witch of Agony, Serca",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "죽음의 계율자, 벨가르딘",
-          "Precept-Keeper of Death, Belgardin",
-          "Working",
-          "Epithet"
-        ],
-        [
-          "지평의 성당",
-          "Cathedral of the Horizon",
-          "Working",
-          ""
-        ],
-        [
-          "발탄 ~ 카멘",
-          "Valtan – Thaemine",
-          "Established",
-          ""
-        ],
-        [
-          "서막 ~ 종막",
-          "Overture – Denouement",
-          "Established",
-          ""
-        ],
-        [
-          "카양겔",
-          "Kayangel",
-          "Established",
-          ""
-        ],
-        [
-          "혼돈의 상아탑",
-          "Ivory Tower of Chaos",
-          "Established",
-          ""
-        ],
-        [
-          "고대 유적 엘베리아 ~ 오레하의 우물",
-          "Ancient Elveria – Oreha’s Well",
-          "Established",
-          ""
-        ],
-        [
-          "명예 보상 / 명예 요소",
-          "Honor rewards / honor items",
-          "Literal",
-          "Prestige rewards such as titles"
-        ],
-        [
-          "혼돈의 균열",
-          "Chaos Rift",
-          "Established",
-          ""
-        ],
-        [
-          "할의 모래시계",
-          "Haal’s Hourglass",
-          "Established",
-          ""
-        ],
-        [
-          "에브니 큐브",
-          "Ebony Cube",
-          "Established",
-          ""
-        ],
-        [
-          "태초의 섬",
-          "Origin Island",
-          "Established",
-          ""
-        ],
-        [
-          "공명의 기운",
-          "Aura of Resonance",
-          "Established",
-          ""
-        ],
-        [
-          "휴식 보너스",
-          "Rest Bonus",
-          "Established",
-          ""
-        ],
-        [
-          "시련의 모래",
-          "Sand of Trials",
-          "Working",
-          ""
-        ],
-        [
-          "금제 / 해금",
-          "Forbidden / Unlock",
-          "Supplied choice",
-          "Cube tickets"
-        ]
-      ]
-    },
-    {
-      "category": "Stronghold, economy & roster",
-      "terms": [
-        [
-          "원정대 영지",
-          "Roster Stronghold",
-          "Established",
-          ""
-        ],
-        [
-          "연구소",
-          "Lab",
-          "Established",
-          ""
-        ],
-        [
-          "파견 의뢰소",
-          "Dispatch Station",
-          "Established",
-          ""
-        ],
-        [
-          "펫 쉼터",
-          "Pet Ranch",
-          "Established",
-          ""
-        ],
-        [
-          "쿠키 공방",
-          "Cookie Workshop",
-          "Literal/unchecked",
-          ""
-        ],
-        [
-          "젤리 쿠키",
-          "Jelly Cookies",
-          "Literal/unchecked",
-          ""
-        ],
-        [
-          "펫 숙련도",
-          "Pet Proficiency",
-          "Literal/unchecked",
-          ""
-        ],
-        [
-          "펫 성장의 증표",
-          "Pet Growth Token",
-          "Literal/unchecked",
-          ""
-        ],
-        [
-          "훈련소",
-          "Training Camp",
-          "Literal/unchecked",
-          ""
-        ],
-        [
-          "모험의 인장",
-          "Adventurer’s Seal",
-          "Established",
-          ""
-        ],
-        [
-          "대표 효과",
-          "Signature Effect",
-          "Working",
-          "New card effect type"
-        ],
-        [
-          "신뢰도",
-          "Trust",
-          "Established",
-          ""
-        ],
-        [
-          "페온",
-          "Pheon",
-          "Established",
-          ""
-        ],
-        [
-          "거래소",
-          "Market",
-          "Established",
-          ""
-        ],
-        [
-          "경매장",
-          "Auction House",
-          "Established",
-          ""
-        ],
-        [
-          "실마엘 혈석",
-          "Sylmael Bloodstone",
-          "Established",
-          ""
-        ],
-        [
-          "유산 업적",
-          "Legacy achievement",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "용사의 문장",
-          "Hero’s Crest",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "비밀지도",
-          "Secret Map",
-          "Established",
-          ""
-        ],
-        [
-          "휘장",
-          "Insignia",
-          "Literal",
-          ""
-        ],
-        [
-          "점핑",
-          "Jumping",
-          "Literal",
-          "Western equivalent: Powerpass"
-        ],
-        [
-          "스타일 지원",
-          "Style Support",
-          "Literal",
-          ""
-        ],
-        [
-          "PC방",
-          "PC Bang",
-          "Established",
-          ""
-        ]
-      ]
-    },
-    {
-      "category": "Packages, cosmetics & pets",
-      "terms": [
-        [
-          "변화의 시작 패키지",
-          "Start of Change Package",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "8주년 변화 / 8주년 시작",
-          "8th Anniversary Change / 8th Anniversary Start",
-          "Supplied choice",
-          "Two designs"
-        ],
-        [
-          "로열 크리스탈",
-          "Royal Crystal",
-          "Established",
-          ""
-        ],
-        [
-          "챔피언의 만찬석",
-          "Champion’s Banquet Seat",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "미니미 펫",
-          "Minime Pet",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "신입사원",
-          "New Hire",
-          "Supplied choice",
-          ""
-        ],
-        [
-          "밤이 / 봄이 / 설이 / 별이 / 율이",
-          "Bami / Bomi / Seori / Byeori / Yuri",
-          "Romanized",
-          ""
-        ],
-        [
-          "찰칵콩 / 스마일콩 / 브이콩 / 위잉콩 / 반짝콩",
-          "Chalkak-kong / Smile-kong / V-kong / Wiing-kong / Banjjak-kong",
-          "Romanized",
-          ""
-        ],
-        [
-          "8주년 무기 선택 상자",
-          "8th Anniversary Weapon Selection Chest",
-          "Supplied choice",
-          "Banner text"
-        ],
-        [
-          "신화의 사막 무기 선택 상자",
-          "Desert of Myth Weapon Selection Chest",
-          "Supplied choice",
-          "Underlying page text differs; possibly an older leftover label"
-        ]
-      ]
-    }
-  ]
+  }
 }
