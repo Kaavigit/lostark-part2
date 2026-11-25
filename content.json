@@ -2,7 +2,7 @@
   "sections": [
     [
       "overview",
-      "1. Biggest changes at a glance",
+      "1. Biggest changes & progression roadmap",
       "The Korean November 25 pre-announcement describes a forthcoming overhaul, not an update already applied to Western servers. Character power moves toward equipment slots and roster-wide systems. November 25 transfer rules take precedence over earlier livestream reporting.",
       [
         [
@@ -76,7 +76,7 @@
     ],
     [
       "equipment",
-      "2. New equipment layout",
+      "2. Equipment layout & progression",
       "16 slots: two weapons, six armor slots, two Treasures and six accessories. New equipment is not destructible, sellable or tradable. New gear and accessories grant weapon power, vitality, physical/magical defense and main stats. Item-level replacement and slot Honing are separate.",
       [
         [
@@ -1213,6 +1213,19 @@
               "Will be exchangeable for Silver through a shop."
             ]
           ]
+        ],
+        [
+          "Future progression (earlier plan)",
+          [
+            "System",
+            "Planned change"
+          ],
+          [
+            [
+              "Engraving Slot Upgrades",
+              "Guaranteed upgrades using farmable scrolls, up to level 7."
+            ]
+          ]
         ]
       ]
     ],
@@ -1284,6 +1297,23 @@
               "T4 Lv. 8 Radiance Gem from Paradise content",
               "New non-tradable T4 Lv. 8 Radiance Gem",
               "New tradable T4 Lv. 7 Radiance Gem (can be fused)"
+            ]
+          ]
+        ],
+        [
+          "Earlier gem roadmap",
+          [
+            "System",
+            "Planned change"
+          ],
+          [
+            [
+              "Sacred Radiance Gems",
+              "Earlier discussion targeted level 2 initially; final maximum and rollout not confirmed by the November 25 conversion notice."
+            ],
+            [
+              "Possible gem effects",
+              "Stagger for damage gems and attack speed for cooldown gems were being considered, not confirmed."
             ]
           ]
         ]
@@ -1414,12 +1444,29 @@
               "Removed; currency spent unlocking presets is refunded."
             ]
           ]
+        ],
+        [
+          "Rune removal: earlier design goals",
+          [
+            "System",
+            "Planned compensation"
+          ],
+          [
+            [
+              "Wealth / Focus",
+              "More identity generation and lower mana costs planned."
+            ],
+            [
+              "Overwhelm / Galewind",
+              "Alternative effects considered; final values and implementation pending."
+            ]
+          ]
         ]
       ]
     ],
     [
       "raids",
-      "10. Raids, gold and daily content",
+      "10. Raids, Gold & Combat Power",
       "The end content lineup and rewards change. After all six designated Gold earners have earned their weekly Gold rewards, additional characters can earn Character-bound Gold by clearing end content. Free extra rewards are removed.",
       [
         [
@@ -1486,6 +1533,10 @@
             [
               "PC Bang premium",
               "Additional extra-rewards chance benefit removed."
+            ],
+            [
+              "Raid eligibility (earlier plan)",
+              "Both item level and Combat Power; exact thresholds not announced."
             ]
           ]
         ],
@@ -1858,6 +1909,23 @@
               "Ends; apply unused Style Support before maintenance."
             ]
           ]
+        ],
+        [
+          "Trust System: potential economic impact (speculation)",
+          [
+            "Potential effect",
+            "What it could mean"
+          ],
+          [
+            [
+              "Multi-account farming / RMT / bots",
+              "Pheon fees on transfers below the applicable Trust threshold could reduce profitability of funneling Gold and items between accounts."
+            ],
+            [
+              "Legitimate transfers",
+              "May also become more expensive. Actual impact depends on thresholds, recovery and fees."
+            ]
+          ]
         ]
       ]
     ],
@@ -1948,6 +2016,7 @@
     ]
   },
   "history": [
+    "25 Nov 2026 · Added compact progression and balance roadmaps from the earlier translated developer discussion, Combat Power and speculative roster strategy, Trust implications and grouped guide navigation. November 25 conversion rules retained.",
     "25 Nov 2026 · Added homepage countdowns for LOA ON Winter (December 19, Korea calendar date) and the start of 2027 as a clearly labeled reference for the Smilegate Western publishing transition. Exact takeover date and showcase start time remain pending. Added official source links and Western account-transfer guidance.",
     "25 Nov 2026 · Published the LoA Update Hub layout, with dedicated Part 2 and balance pages, a two-patch comparison, older patch archive, prominent multi-crit reference and shared revision history.",
     "25 Nov 2026 · Audited all guide sections against accessible notice reproductions and supplied sources. Corrected Sidereal replacement levels, added full refunds and standard gear ranges, slot inheritance, accessory valid options, unused stone compensation, gem preset rules and November 20 support fixes. Added source links and review date.",
@@ -3359,5 +3428,98 @@
       "T4 Ancient",
       3
     ]
-  ]
+  ],
+  "earlyNotes": {
+    "source": "Earlier November 18 translated developer discussion (supplied by reader). Design intentions, not final rules; November 25 transfer notice takes priority.",
+    "progression": [
+      [
+        "Short term",
+        "3–4 months",
+        "Gear farming • Polish • Ancient option rolls",
+        "Efficient early gains; gear intended to last about a year."
+      ],
+      [
+        "Mid term",
+        "Yearly expansions",
+        "Slot Honing • Mana Infusion rank • Engraving Slot Upgrades",
+        "Gradual upgrades, pity systems and catch-up improvements."
+      ],
+      [
+        "Long term",
+        "Long-lasting",
+        "Mana Infusion options • Gems",
+        "Accessible initial gains; perfect upgrades intended to be expensive."
+      ]
+    ],
+    "gear": [
+      [
+        "Item level",
+        "Farm gear → obtain duplicates → Polish",
+        "100% success; +5 item levels per Polish, up to five upgrades in the earlier plan. Ancient gear unlocks options."
+      ],
+      [
+        "Combat Power",
+        "Hone equipment slots → increase slot power",
+        "Honing remains when replacing gear; does not raise item level."
+      ]
+    ],
+    "seasons": [
+      [
+        "Summer",
+        "8 weapon / armor slots"
+      ],
+      [
+        "Winter",
+        "8 Treasure / accessory slots"
+      ]
+    ],
+    "infusion": [
+      [
+        "Rank",
+        "Initial planned maximum: 7. Rank increases option potency."
+      ],
+      [
+        "Options",
+        "Long-term rerolls with rarer materials; exact mechanics pending."
+      ]
+    ],
+    "cp": [
+      [
+        "Raid entry",
+        "Item level + Combat Power"
+      ],
+      [
+        "Rewards",
+        "Combat Power taken into account; exact scaling unknown."
+      ],
+      [
+        "CP scoring",
+        "Planned equal engraving CP, smaller DPS/support gap and reduced inflated CP from sources such as Paradise Orbs and gems."
+      ]
+    ],
+    "roster": [
+      [
+        "6 lower characters",
+        "Potential unbound Gold earners"
+      ],
+      [
+        "6 stronger characters",
+        "Potential Character-bound Gold earners"
+      ]
+    ],
+    "balance": [
+      [
+        "November 18",
+        "First stage: multi-crit and initial class/support adjustments."
+      ],
+      [
+        "After LOA ON",
+        "Second stage planned with Prowess and Rune removal; raise support floor and lower ceiling. Attack Power Debuff effects such as Courageous Tune planned to affect only own party."
+      ],
+      [
+        "Future raids",
+        "Balance before raid release; focus on latest raid rather than latest three. Address support Specialization/identity differences over time."
+      ]
+    ]
+  }
 }
