@@ -2016,6 +2016,7 @@
     ]
   },
   "history": [
+    "27 Nov 2026 · Sorted equipment conversion tables and gain chart highest-first. Both tables show levels 1730 and above by default, with lower ranges in expandable sections. All conversion values preserved.",
     "27 Nov 2026 · Improved individual gear conversion calculator: standard T4 five-level steps by default, optional intermediate whole levels from Advanced Honing, and rejection of fractional T4 character-average inputs. Conversion ranges unchanged.",
     "25 Nov 2026 · Updated the Smilegate Western takeover countdown to the community-supplied estimate of January 20, 2027. Midnight UTC is a placeholder; official date and time remain unconfirmed.",
     "25 Nov 2026 · Added compact progression and balance roadmaps from the earlier translated developer discussion, Combat Power and speculative roster strategy, Trust implications and grouped guide navigation. November 25 conversion rules retained.",
