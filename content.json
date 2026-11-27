@@ -2016,6 +2016,7 @@
     ]
   },
   "history": [
+    "27 Nov 2026 · Improved individual gear conversion calculator: standard T4 five-level steps by default, optional intermediate whole levels from Advanced Honing, and rejection of fractional T4 character-average inputs. Conversion ranges unchanged.",
     "25 Nov 2026 · Updated the Smilegate Western takeover countdown to the community-supplied estimate of January 20, 2027. Midnight UTC is a placeholder; official date and time remain unconfirmed.",
     "25 Nov 2026 · Added compact progression and balance roadmaps from the earlier translated developer discussion, Combat Power and speculative roster strategy, Trust implications and grouped guide navigation. November 25 conversion rules retained.",
     "25 Nov 2026 · Added homepage countdowns for LOA ON Winter (December 19, Korea calendar date) and the start of 2027 as a clearly labeled reference for the Smilegate Western publishing transition. Exact takeover date and showcase start time remain pending. Added official source links and Western account-transfer guidance.",
